@@ -27,6 +27,7 @@ Static design mockups for review, made before any real build work starts.
 
 ## Design references
 
+- Method: Dr. Max Gerson's original method (primary sources: *A Cancer Therapy: Results of Fifty Cases*, 1958; *Meine Diät*, 4th ed. 1930; his articles and lectures)
 - Look and feel: the current gerson.hu (cream and sand, leaf green, lotus mark, Barlow typeface)
 - Structure of the Sessions block ("what's included" plus admission details): borrowed from the
   [Health Institute de Tijuana](https://gerson.org/health-institute-de-tijuana/) page, not its look
