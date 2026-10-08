@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Gerson Europe Website Concept</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--cream:#FFF6E3;--sand:#FDE4AD;--leaf:#6E9E1E;--leaf-bright:#86BC25;--leaf-deep:#2F4A1A;--lotus:#D9A86A;--carrot:#E07A2E;--ink:#2B2A26;--muted:#6B675E;--line:#EADBB8;--white:#FFFDF8}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{width:1680px;background:#F3E9D2;font:15px/1.55 Inter,sans-serif;color:var(--ink);padding:56px 64px 64px}
+  .serif,h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:500}
+  .head{display:flex;justify-content:space-between;align-items:end;margin-bottom:36px}
+  .head .l{display:flex;gap:18px;align-items:center}
+  .head img{width:64px}
+  .head h1{font-size:40px;color:var(--leaf-deep);line-height:1.05}
+  .head p{color:var(--muted);font-size:15px;margin-top:4px}
+  .swatches{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)}
+  .sw{width:34px;height:34px;border-radius:10px;border:1px solid rgba(0,0,0,.08)}
+  .top{display:grid;grid-template-columns:1104px 1fr;gap:44px;align-items:start}
+  .browser{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 40px 80px -40px rgba(60,45,10,.55),0 0 0 1px rgba(0,0,0,.06)}
+  .bar{height:40px;background:#EFE8D8;display:flex;align-items:center;gap:8px;padding:0 16px}
+  .bar i{width:12px;height:12px;border-radius:50%;background:#E3D6B8}
+  .url{margin-left:18px;background:#FFFDF8;border-radius:8px;height:24px;flex:1;max-width:520px;font-size:12.5px;color:#7a7466;display:flex;align-items:center;padding:0 12px;gap:6px}
+  .viewport{width:1104px;height:706px;overflow:hidden;position:relative}
+  .viewport iframe{width:1280px;height:880px;border:0;transform:scale(.8625);transform-origin:0 0}
+  .label{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--leaf);margin-bottom:12px}
+  .label b{width:22px;height:22px;border-radius:50%;background:var(--leaf);color:#fff;display:grid;place-items:center;font-size:11px;letter-spacing:0}
+
+  /* phone */
+  .phone{width:340px;height:700px;border-radius:46px;background:#1d1d1b;padding:12px;box-shadow:0 40px 80px -40px rgba(60,45,10,.6);margin:0 auto}
+  .screen{width:100%;height:100%;border-radius:36px;background:var(--cream);overflow:hidden;position:relative}
+  .notch{width:110px;height:28px;background:#1d1d1b;border-radius:20px;position:absolute;left:50%;top:8px;transform:translateX(-50%)}
+  .m-status{height:44px}
+  .m-nav{display:flex;justify-content:space-between;align-items:center;padding:6px 18px 12px;border-bottom:1px solid var(--line)}
+  .m-nav .b{display:flex;gap:8px;align-items:center;font-family:Fraunces,serif;font-weight:600;color:var(--leaf-deep);font-size:15px}
+  .m-nav img{width:30px}
+  .burger{width:22px;height:14px;border-top:2px solid var(--leaf-deep);border-bottom:2px solid var(--leaf-deep);position:relative}
+  .burger:after{content:"";position:absolute;left:0;right:0;top:4px;border-top:2px solid var(--leaf-deep)}
+  .m-body{padding:18px 18px}
+  .m-prog{display:flex;gap:6px;margin-bottom:6px}.m-prog i{flex:1;height:4px;border-radius:9px;background:#EFE5CF}.m-prog i.on{background:var(--leaf-bright)}
+  .m-step{font-size:11px;color:var(--muted);margin-bottom:14px}
+  .m-body h3{font-size:22px;color:var(--leaf-deep);line-height:1.15;margin-bottom:6px}
+  .m-body p{font-size:12.5px;color:var(--muted);margin-bottom:14px}
+  .m-opt{background:var(--white);border:1.5px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:10px;font-size:13.5px;font-weight:600}
+  .m-opt small{display:block;font-weight:400;color:var(--muted);font-size:11.5px}
+  .m-opt.on{border-color:var(--leaf);background:#F3F8E8;color:var(--leaf-deep)}
+  .m-opt.us{border-style:dashed}
+  .m-btn{background:var(--leaf);color:#fff;border-radius:999px;text-align:center;padding:12px;font-weight:600;font-size:14px;margin-top:14px}
+  .m-foot{font-size:10.5px;color:#9a948a;text-align:center;margin-top:12px}
+  .cap{font-size:13px;color:var(--muted);text-align:center;margin-top:16px}
+
+  /* lower row */
+  .row{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:28px;margin-top:44px}
+  .card{background:var(--white);border-radius:24px;padding:30px 32px;border:1px solid var(--line);box-shadow:0 24px 50px -40px rgba(60,45,10,.5)}
+  .card h2{font-size:25px;color:var(--leaf-deep);line-height:1.15;margin-bottom:10px}
+  .card > p{color:var(--muted);font-size:14.5px}
+
+  /* cms */
+  .cms{margin-top:20px;border:1px solid #E6E1D6;border-radius:14px;overflow:hidden;background:#fff;font-size:13px}
+  .cms-top{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;background:#F7F5F0;border-bottom:1px solid #E6E1D6}
+  .cms-top b{font-size:13px}
+  .pub{background:var(--leaf);color:#fff;border-radius:8px;padding:6px 14px;font-weight:600;font-size:12.5px}
+  .cms-body{display:grid;grid-template-columns:120px 1fr}
+  .cms-side{background:#FBFAF7;border-right:1px solid #EEE;padding:12px 10px;font-size:12.5px;color:#666}
+  .cms-side div{padding:6px 8px;border-radius:6px;margin-bottom:2px}.cms-side .on{background:#EEF5DF;color:var(--leaf-deep);font-weight:600}
+  .cms-main{padding:14px 16px}
+  .tabs{display:flex;gap:6px;margin-bottom:12px}.tabs span{font-size:11.5px;padding:4px 10px;border-radius:6px;background:#F2F0EA;color:#666;font-weight:600}.tabs span.on{background:var(--leaf-deep);color:#fff}
+  .f-l{font-size:11px;font-weight:600;color:#777;margin-bottom:4px}
+  .f-i{border:1px solid #E3DED3;border-radius:8px;padding:8px 10px;margin-bottom:10px;color:#333}
+  .f-img{display:flex;gap:10px;align-items:center;border:1.5px dashed #D9D2C0;border-radius:8px;padding:8px;margin-bottom:10px;color:#777;font-size:12px}
+  .f-img img{width:52px;height:36px;object-fit:cover;border-radius:5px}
+  .rt{border:1px solid #E3DED3;border-radius:8px;overflow:hidden}
+  .rt-bar{background:#FAF9F6;border-bottom:1px solid #EEE;padding:5px 10px;font-size:12px;color:#777;letter-spacing:.2em;font-weight:700}
+  .rt p{padding:8px 10px;color:#444;font-size:12.5px;line-height:1.5}
+
+  ul.ticks{list-style:none;margin-top:16px}
+  ul.ticks li{display:flex;gap:12px;padding:10px 0;border-top:1px solid var(--line);font-size:14px}
+  ul.ticks li:first-child{border-top:0}
+  ul.ticks li .t{width:22px;height:22px;border-radius:50%;background:#EEF5DF;color:var(--leaf);display:grid;place-items:center;font-weight:700;font-size:12px;flex:none;margin-top:1px}
+  ul.ticks b{display:block;font-weight:600}
+  ul.ticks span{color:var(--muted);font-size:13px}
+
+  /* routing diagram */
+  .flow{margin-top:18px}
+  .node{border-radius:14px;padding:12px 14px;font-size:13.5px;font-weight:600;text-align:center}
+  .n1{background:#F6EEDC;border:1px solid var(--line)}
+  .n2{background:var(--white);border:1.5px solid var(--leaf-deep);color:var(--leaf-deep);width:220px;margin:0 auto}
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .n3{background:#EEF5DF;border:1.5px solid var(--leaf-bright);color:var(--leaf-deep)}
+  .n4{background:#F7F3EA;border:1.5px dashed #BDB3A0;color:#5f594d}
+  .node small{display:block;font-weight:400;font-size:12px;color:var(--muted);margin-top:2px}
+  .arrow{height:22px;display:flex;justify-content:center}
+  .arrow:before{content:"";width:2px;background:#CDBF9E}
+  .forks{display:grid;grid-template-columns:1fr 1fr;height:24px;position:relative}
+  .forks:before{content:"";position:absolute;left:25%;right:25%;top:0;border-top:2px solid #CDBF9E}
+  .forks i{border-left:2px solid #CDBF9E;margin-left:50%}
+
+  .host{margin-top:28px;background:var(--leaf-deep);color:#E8EDDA;border-radius:24px;padding:30px 36px;display:grid;grid-template-columns:1.1fr 2fr;gap:40px;align-items:center}
+  .host h2{color:#fff;font-size:27px;line-height:1.15}
+  .host .eyebrow{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--leaf-bright)}
+  .stack{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .stack div{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:16px 18px}
+  .stack b{display:block;color:#fff;font-size:15px}
+  .stack small{display:block;color:var(--leaf-bright);font-size:11.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+  .stack span{font-size:13px;color:#C6CEB2;line-height:1.45;display:block;margin-top:4px}
+</style>
+</head>
+<body>
+
+<div class="head">
+  <div class="l"><img src="assets/logo.png" alt=""><div><h1>Gerson Institute Europe: a new website</h1><p>Design concept for review · Same warm colours as today, made clearer, calmer and easier to keep up to date</p></div></div>
+  <div class="swatches"><span>Palette from today's site</span><span class="sw" style="background:#FFF6E3"></span><span class="sw" style="background:#FDE4AD"></span><span class="sw" style="background:#86BC25"></span><span class="sw" style="background:#2F4A1A"></span><span class="sw" style="background:#D9A86A"></span><span class="sw" style="background:#E07A2E"></span></div>
+</div>
+
+<div class="top">
+  <div>
+    <div class="label"><b>1</b>Home page · desktop</div>
+    <div class="browser">
+      <div class="bar"><i></i><i></i><i></i><div class="url">🔒 gerson.hu/en</div></div>
+      <div class="viewport"><iframe src="home.html" scrolling="no"></iframe></div>
+    </div>
+  </div>
+  <div>
+    <div class="label"><b>2</b>Inquiry form · mobile</div>
+    <div class="phone"><div class="screen"><div class="notch"></div>
+      <div class="m-status"></div>
+      <div class="m-nav"><div class="b"><img src="assets/logo.png" alt="">Gerson Europe</div><div class="burger"></div></div>
+      <div class="m-body">
+        <div class="m-prog"><i class="on"></i><i></i><i></i><i></i></div>
+        <div class="m-step">Step 1 of 4 · Where are you?</div>
+        <h3>Where do you live?</h3>
+        <p>The Gerson Therapy is organised by region, so we'll connect you with the right centre.</p>
+        <div class="m-opt on">Europe<small>→ Gerson Institute Europe</small></div>
+        <div class="m-opt">Asia or Africa<small>→ Gerson Institute Europe</small></div>
+        <div class="m-opt us">North, Central or South America<small>→ forwarded to the Gerson Institute, San Diego</small></div>
+        <div class="m-btn">Continue →</div>
+        <div class="m-foot">About 3 minutes · GDPR-compliant · No spam</div>
+      </div>
+    </div></div>
+    <p class="cap">Four short steps instead of one long form.<br>Inquiries from the Americas are passed on to San Diego automatically.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="card">
+    <div class="label"><b>3</b>Editing</div>
+    <h2>Adding a recipe or new session dates takes minutes</h2>
+    <p>A simple editor with no code and no plugins to update. Fill in the boxes, add a photo, press Publish. Each language has its own tab.</p>
+    <div class="cms">
+      <div class="cms-top"><b>Recipes › New recipe</b><span class="pub">Publish</span></div>
+      <div class="cms-body">
+        <div class="cms-side"><div>Pages</div><div>Sessions</div><div class="on">Recipes</div><div>Myths &amp; facts</div><div>Team</div><div>Inquiries</div></div>
+        <div class="cms-main">
+          <div class="tabs"><span class="on">English</span><span>Magyar</span><span>Deutsch</span></div>
+          <div class="f-l">Title</div><div class="f-i">Hippocrates soup, step by step</div>
+          <div class="f-img"><img src="assets/Gerson-salad.jpg" alt="">Cover photo · drag &amp; drop</div>
+          <div class="rt"><div class="rt-bar">B &nbsp;I &nbsp;H2 &nbsp;• &nbsp;🔗 &nbsp;📷</div><p>This classic soup is part of the daily routine. You'll need celery root, leeks, parsley root, tomatoes…</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="label"><b>4</b>Being found on Google</div>
+    <h2>Built so the accurate version is the one people find</h2>
+    <ul class="ticks">
+      <li><span class="t">✓</span><div><b>“Myths &amp; facts” library</b><span>One page per common question, each citing the original Gerson books</span></div></li>
+      <li><span class="t">✓</span><div><b>Proper pages in every language</b><span>EN · HU · DE (and more), each with its own address, so Google shows the right one in each country</span></div></li>
+      <li><span class="t">✓</span><div><b>Google understands who you are</b><span>Structured data marks the organisation, sessions, FAQs and recipes</span></div></li>
+      <li><span class="t">✓</span><div><b>Very fast</b><span>Plain pages load in under a second on a phone, which Google rewards</span></div></li>
+      <li><span class="t">✓</span><div><b>Old links keep working</b><span>Every current gerson.hu address redirects to its new page</span></div></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="label"><b>5</b>Where each inquiry goes</div>
+    <h2>Every inquiry reaches the right centre</h2>
+    <div class="flow">
+      <div class="node n1">Visitor sends an inquiry<small>from anywhere in the world</small></div>
+      <div class="arrow"></div>
+      <div class="node n2">Which country?</div>
+      <div class="forks"><i></i><i></i></div>
+      <div class="split">
+        <div class="node n3">Europe, Asia, Africa<small>Email to your inbox + saved in a list you can view</small></div>
+        <div class="node n4">The Americas<small>Friendly hand-off to the Gerson Institute, San Diego</small></div>
+      </div>
+    </div>
+    <p style="margin-top:18px;font-size:13.5px;color:var(--muted)">The visitor gets an instant confirmation email in their language. Health details are only asked for if they choose to share them, with explicit GDPR consent.</p>
+  </div>
+</div>
+
+<div class="host">
+  <div><span class="eyebrow">Recommended setup</span><h2>A fast, modern site, with no WordPress to maintain</h2><p style="margin-top:10px;font-size:14px;color:#C6CEB2">About €0–10 a month to run, plus the domain you already own.</p></div>
+  <div class="stack">
+    <div><small>Website</small><b>Astro</b><span>Builds plain, fast HTML pages. Nothing to patch or hack.</span></div>
+    <div><small>Editor</small><b>Sveltia / Decap CMS</b><span>The friendly editor shown above, at gerson.hu/admin</span></div>
+    <div><small>Hosting</small><b>Cloudflare Pages</b><span>Free, fast across Europe, Asia and Africa, with automatic SSL</span></div>
+    <div><small>Inquiries</small><b>Form → email</b><span>A small Cloudflare function. Data can be stored in the EU only.</span></div>
+  </div>
+</div>
+
+</body>
+</html>
