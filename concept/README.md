@@ -8,6 +8,7 @@ Static design mockups for review, made before any real build work starts.
 - `board.html`: one-page overview (home page, mobile inquiry form, editor, SEO, inquiry routing, hosting)
 - `DESIGN-NOTES.md`: why each section looks the way it does, what was left out, and the open questions
 - `concept-board.jpg`, `homepage-full.jpg`, `homepage-full-hu.jpg`, `page-sessions.png`, `page-article.png`: images to share
+- `scroll-demo-hu.mp4`: 40-second screen recording of the Hungarian home page, showing the motion
 - `assets/`: shared styles, the motion layer (`motion.css`, `motion.js`), local fonts (Barlow and Fraunces, SIL Open Font License)
 - `assets/photos/`: photos from the current gerson.hu media library, resized
 
