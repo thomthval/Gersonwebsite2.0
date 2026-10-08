@@ -2,10 +2,27 @@
 
 Static design mockups for review, made before any real build work starts.
 
-- `concept-board.jpg`: one-page overview to share (home page, mobile inquiry form, editor, SEO, inquiry routing, hosting)
-- `homepage-full.jpg`: the full home page, top to bottom
-- `home.html` / `board.html`: the HTML source of the mockups (open in a browser)
-- `assets/`: images taken from the current gerson.hu site
+- `index.html`: start page of the clickable mockup (open this first)
+- `home.html`, `sessions.html`, `myths-juice.html`: the mockup pages, linked to each other
+- `board.html`: one-page overview (home page, mobile inquiry form, editor, SEO, inquiry routing, hosting)
+- `concept-board.jpg`, `homepage-full.jpg`, `page-sessions.png`, `page-article.png`: images to share
+- `assets/`: shared stylesheet, local fonts (Barlow and Fraunces, SIL Open Font License), images from the current gerson.hu site
+
+## Browse it offline
+
+1. Download the branch (GitHub → Code → Download ZIP) or clone it.
+2. Open `concept/index.html` in any browser (double-click it).
+3. Click through the pages. Fonts and images are stored locally, so no internet is needed.
+
+The mockup is built for a computer screen (1280 px wide). The finished site will also adapt to phones.
+
+## Share an online preview (Cloudflare Pages)
+
+1. In Cloudflare: Workers & Pages → Create → Pages → Connect to Git → choose this repository.
+2. Branch: `claude/gerson-therapy-website-hz5bdu`. Framework preset: None. Build command: leave empty. Build output directory: `concept`.
+3. Deploy. The preview gets a free address like `gerson-concept.pages.dev`.
+
+`_headers`, `robots.txt` and a `noindex` tag on every page keep the preview out of Google.
 
 ## Proposed stack
 
@@ -34,7 +51,8 @@ Static design mockups for review, made before any real build work starts.
 
 ## To confirm before building
 
-- Placeholders: phone number, address, the "what a one-week session includes" list, length, languages and pricing
+- Placeholders: phone number, address, session dates, the "what's included" list, the day-by-day week, length, languages and pricing
+- Article wording, especially the "What the research says" section
 - A higher-resolution logo file (the current one is 109×109 px)
 - Accreditation wording, agreed with the Gerson Institute
 - Which languages go live first (EN / HU / DE proposed)
