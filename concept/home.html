@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Gerson Institute Europe — The Gerson Therapy, the Charlotte Gerson way</title>
-<meta name="description" content="The accredited Gerson centre for Europe, Asia and Africa. One-week residential sessions and online guidance, following the Gerson Therapy as taught by Charlotte Gerson.">
+<meta name="description" content="The accredited Gerson centre for Europe, Asia and Africa. A complementary, personalised Gerson lifestyle programme, as taught by Charlotte Gerson, in cooperation with conventional medical care.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --cream:#FFF6E3;      /* current site background, softened */
@@ -24,7 +24,7 @@
     --white:#FFFDF8;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--cream);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif;width:1280px}
+  body{background:var(--cream);color:var(--ink);font:16.5px/1.6 Barlow,system-ui,sans-serif;width:1280px}
   h1,h2,h3,.serif{font-family:Fraunces,Georgia,serif;font-weight:500;letter-spacing:-.01em}
   a{color:inherit;text-decoration:none}
   .wrap{width:1160px;margin:0 auto}
@@ -43,7 +43,7 @@
   nav .wrap{display:flex;align-items:center;justify-content:space-between;height:88px}
   .brand{display:flex;align-items:center;gap:14px}
   .brand img{width:54px;height:54px}
-  .brand b{font-family:Fraunces,serif;font-weight:600;font-size:21px;color:var(--leaf-deep);display:block;line-height:1.1}
+  .brand b{font-family:Barlow,sans-serif;font-weight:500;font-size:25px;color:var(--leaf-bright);display:block;line-height:1.1}
   .brand small{font-size:12px;color:var(--muted);letter-spacing:.04em}
   .menu{display:flex;gap:30px;font-size:15px;font-weight:500;color:#3d3b35}
   .menu .act{color:var(--leaf)}
@@ -83,6 +83,32 @@
   .sec-head h2{font-size:42px;line-height:1.1;color:var(--leaf-deep);margin-top:10px;max-width:640px}
   .sec-head p{max-width:420px;color:var(--muted)}
 
+  /* principles */
+  .principles{padding:84px 0 70px;text-align:center}
+  .lotus-mark{width:150px;display:block;margin:0 auto 14px}
+  .p-head h2{font-size:42px;line-height:1.1;color:var(--leaf-deep);margin:10px 0 10px}
+  .p-head p{color:var(--muted);margin-bottom:44px}
+  .pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:left}
+  .pr{display:flex;gap:18px;background:var(--white);border:1px solid var(--line);border-radius:22px;padding:26px 26px}
+  .pr h3{font-size:20px;line-height:1.2;color:var(--leaf-deep);margin-bottom:6px}
+  .pr p{font-size:15px;color:var(--muted)}
+
+  /* sessions */
+  .sessions .wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+  .sessions h2{font-size:40px;line-height:1.1;color:var(--leaf-deep);margin:10px 0 18px}
+  .s-img{position:relative;height:560px;border-radius:30px;overflow:hidden;box-shadow:0 30px 60px -34px rgba(60,50,20,.5)}
+  .s-img img{width:100%;height:100%;object-fit:cover}
+  .s-badge{position:absolute;left:22px;bottom:22px;background:var(--white);border-radius:16px;padding:14px 18px;font-size:14px;color:var(--muted)}
+  .s-badge b{display:block;color:var(--leaf-deep);font-size:16px}
+  .incl{list-style:none}
+  .incl li{padding:9px 0 9px 32px;position:relative;border-bottom:1px solid var(--line);font-size:16px}
+  .incl li:before{content:"✓";position:absolute;left:0;top:9px;width:20px;height:20px;border-radius:50%;background:#EEF5DF;color:var(--leaf);font-size:12px;font-weight:700;display:grid;place-items:center}
+  .adm{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+  .adm div{background:var(--sand-soft);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+  .adm small{display:block;font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--lotus)}
+  .adm b{display:block;font-size:18px;color:var(--leaf-deep)}
+  .adm span{font-size:13px;color:var(--muted)}
+
   /* pillars */
   .pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
   .pillar{background:var(--white);border:1px solid var(--line);border-radius:22px;padding:28px 24px}
@@ -97,7 +123,7 @@
   .charlotte h2{font-size:40px;line-height:1.12;margin:12px 0 18px}
   .charlotte p{color:#D6D9C6}
   .quote{font-family:Fraunces,serif;font-style:italic;font-size:25px;line-height:1.4;border-left:3px solid var(--lotus);padding-left:26px;color:#FFF6E3}
-  .quote small{display:block;font-family:Inter;font-style:normal;font-size:13px;color:#B9C1A6;margin-top:14px;letter-spacing:.03em}
+  .quote small{display:block;font-family:Barlow;font-style:normal;font-size:13px;color:#B9C1A6;margin-top:14px;letter-spacing:.03em}
   .books{background:rgba(255,246,227,.06);border:1px solid rgba(255,255,255,.14);border-radius:24px;padding:30px 32px}
   .books h4{font-family:Fraunces,serif;font-weight:500;font-size:22px;color:#FFF6E3;margin-bottom:18px}
   .book{display:flex;gap:16px;align-items:center;padding:14px 0;border-top:1px solid rgba(255,255,255,.1)}
@@ -167,7 +193,7 @@
 <body>
 
 <div class="topbar"><div class="wrap">
-  <div>Accredited Gerson centre for <b>Europe, Asia &amp; Africa</b> · In the Americas? Visit the Gerson Institute, San Diego →</div>
+  <div>Accredited Gerson centre for <b>Europe, Asia &amp; Africa</b> · In the Americas? Visit the Health Institute de Tijuana, Mexico →</div>
   <div class="langs">+36 &nbsp;·&nbsp; info@gerson.hu <span class="on">EN</span><span>HU</span><span>DE</span><span>FR</span></div>
 </div></div>
 
@@ -183,9 +209,9 @@
     <div>
       <span class="eyebrow">Gerson Therapy · Europe, Asia &amp; Africa</span>
       <h1>A whole-body lifestyle, taught <em>the way Charlotte Gerson</em> taught it.</h1>
-      <p class="lead">One-week residential sessions and ongoing online guidance from the accredited Gerson centre that serves Europe, Asia and Africa.</p>
+      <p class="lead">A complementary, personalised programme that works alongside your conventional medical care. One-week sessions and online guidance from the accredited Gerson centre for Europe, Asia and Africa.</p>
       <div class="ctas"><a class="btn btn-primary">Start your inquiry →</a><a class="btn btn-ghost">What is the Gerson Therapy?</a></div>
-      <div class="note"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6E9E1E" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Personal reply within 2 working days · in English, Hungarian or German</div>
+      <div class="note"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6E9E1E" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Every inquiry is answered personally from info@gerson.hu</div>
     </div>
     <div class="hero-art">
       <div class="ph a"><img src="assets/Gerson-salad.jpg" alt=""></div>
@@ -193,7 +219,7 @@
       <div class="route">
         <h4>Where are you based?</h4>
         <div class="opt on">Europe, Asia or Africa <small>→ Gerson Europe</small></div>
-        <div class="opt">North or South America <small>→ San Diego</small></div>
+        <div class="opt">North or South America <small>→ Tijuana, Mexico</small></div>
       </div>
     </div>
   </div>
@@ -206,7 +232,20 @@
   <div><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></span><p><b>Three continents</b><span>Europe · Asia · Africa</span></p></div>
 </div></div>
 
-<section><div class="wrap">
+<section class="principles"><div class="wrap">
+  <img class="lotus-mark" src="assets/Hezagolo-wbg.png" alt="">
+  <div class="p-head"><span class="eyebrow">Our principles</span><h2>Six commitments behind everything we do</h2><p>They shape every session, every article on this site and every answer we give.</p></div>
+  <div class="pgrid">
+    <div class="pr"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span><div><h3>Complementary, not alternative</h3><p>The Gerson lifestyle is offered alongside the care your doctors recommend, never as a replacement for it.</p></div></div>
+    <div class="pr"><span class="ic"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M9 8h7M9 12h5"/></svg></span><div><h3>Evidence-informed, not promise-driven</h3><p>We explain what is known, cite our sources and never promise outcomes.</p></div></div>
+    <div class="pr"><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></span><div><h3>Personalised, not one-size-fits-all</h3><p>Every programme is adapted to the person's health, circumstances and everyday life.</p></div></div>
+    <div class="pr"><span class="ic"><svg viewBox="0 0 24 24"><path d="M8 12h8"/><path d="M7 7H5a5 5 0 0 0 0 10h2M17 7h2a5 5 0 0 1 0 10h-2"/></svg></span><div><h3>In cooperation with conventional medical care</h3><p>We encourage you to keep your doctors informed and involved at every step.</p></div></div>
+    <div class="pr"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 21C7 17 3 13.5 3 9a4.5 4.5 0 0 1 9-1 4.5 4.5 0 0 1 9 1c0 4.5-4 8-9 12z"/></svg></span><div><h3>Focused on the whole person and lifestyle</h3><p>Food, rest, daily rhythm and emotional wellbeing, not a single symptom.</p></div></div>
+    <div class="pr"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><div><h3>Safety and transparency first</h3><p>Clear information about what the programme involves, what it costs and when it may not be suitable.</p></div></div>
+  </div>
+</div></section>
+
+<section style="padding-top:20px"><div class="wrap">
   <div class="sec-head">
     <div><span class="eyebrow">The Gerson Therapy</span><h2>Not a juice cleanse. A complete, structured way of living.</h2></div>
     <p>Dr. Max Gerson developed the therapy in the 1920s–50s. These are its foundations, explained in plain language, with sources for every claim.</p>
@@ -239,6 +278,29 @@
   </div>
 </div></div>
 
+<section class="sessions"><div class="wrap">
+  <div class="s-img"><img src="assets/Office.png" alt="" style="object-position:85% 50%"><div class="s-badge"><b>Next sessions</b>Dates on request · info@gerson.hu</div></div>
+  <div>
+    <span class="eyebrow">One-week sessions</span>
+    <h2>What a one-week session includes</h2>
+    <ul class="incl">
+      <li>An introductory call before you arrive</li>
+      <li>A personal plan, built around your health background</li>
+      <li>All Gerson meals and fresh juices during the week</li>
+      <li>Hands-on classes: juicing, cooking, the daily routine</li>
+      <li>Setting up at home: equipment, shopping, schedule</li>
+      <li>Materials to take home, in your language</li>
+      <li>Follow-up online guidance after the session</li>
+    </ul>
+    <div class="adm">
+      <div><small>Length</small><b>7 days</b><span>+ online follow-up</span></div>
+      <div><small>Languages</small><b>HU · EN · DE</b><span>more on request</span></div>
+      <div><small>Pricing</small><b>On request</b><span>clear, written quote</span></div>
+    </div>
+    <div style="margin-top:28px;display:flex;gap:14px"><a class="btn btn-primary">Ask about dates →</a><a class="btn btn-ghost">Online guidance</a></div>
+  </div>
+</div></section>
+
 <section><div class="wrap">
   <div class="sec-head">
     <div><span class="eyebrow">Myths &amp; facts</span><h2>A lot is said about Gerson. Here's what the sources actually say.</h2></div>
@@ -251,9 +313,9 @@
     <div class="myth"><div class="m"><span class="tag no">Common claim</span><p>“Every programme called ‘Gerson’ follows the same protocol.”</p></div>
       <div class="f"><span class="tag yes">What the sources say</span><p>Many programmes use the name. Accredited centres work to the protocol and training set by the Gerson Institute.</p>
       <div class="src"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span>Gerson Institute — licensing &amp; accreditation</span></div></div></div>
-    <div class="myth"><div class="m"><span class="tag no">Common claim</span><p>“You can safely start it on your own from a video.”</p></div>
-      <div class="f"><span class="tag yes">What the sources say</span><p>The therapy is demanding. Charlotte Gerson stressed proper training and support. It should never replace your doctor.</p>
-      <div class="src"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/></svg><span>Gerson, C. &amp; Walker, M. — <i>The Gerson Therapy</i></span></div></div></div>
+    <div class="myth"><div class="m"><span class="tag no">Common claim</span><p>“Choosing Gerson means giving up your doctor.”</p></div>
+      <div class="f"><span class="tag yes">How we work</span><p>Our programme is complementary. It runs alongside conventional medical care, and we encourage you to keep your doctors informed and involved.</p>
+      <div class="src"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span>Gerson Institute Europe — our six principles</span></div></div></div>
   </div>
 </div></section>
 
@@ -263,7 +325,7 @@
     <h2 style="font-size:42px;line-height:1.1;color:var(--leaf-deep);margin-top:10px">From first question to your own kitchen.</h2>
     <div class="steps">
       <div class="step"><span class="n">1</span><div><h4>Send a short inquiry</h4><p>Four quick steps, about 3 minutes. Nothing is shared outside our team.</p></div></div>
-      <div class="step"><span class="n">2</span><div><h4>A personal reply</h4><p>A colleague answers within 2 working days and suggests a call.</p></div></div>
+      <div class="step"><span class="n">2</span><div><h4>A personal reply</h4><p>A colleague replies personally from info@gerson.hu and suggests a call.</p></div></div>
       <div class="step"><span class="n">3</span><div><h4>One-week session or online guidance</h4><p>Learn the daily routine hands-on, with dates that suit you.</p></div></div>
       <div class="step" style="border:0"><span class="n">4</span><div><h4>Ongoing support at home</h4><p>Check-ins, recipes and answers while the lifestyle becomes routine.</p></div></div>
     </div>
@@ -278,7 +340,7 @@
       <div><label>Country</label><div class="field filled">Germany <span>▾</span></div></div>
       <div><label>Preferred language</label><div class="field filled">Deutsch <span>▾</span></div></div>
     </div>
-    <div class="hint">✓ Germany is served by Gerson Institute Europe. (Choosing a country in the Americas forwards you to the Gerson Institute in San Diego.)</div>
+    <div class="hint">✓ Germany is served by Gerson Institute Europe, so your inquiry goes straight to info@gerson.hu. Countries in the Americas are referred to the Health Institute de Tijuana, Mexico.</div>
     <label>What would you like to know? <span style="font-weight:400;color:#9a948a">(optional)</span></label>
     <div class="field" style="height:74px">Session dates, preparing at home, current health situation…</div>
     <div class="consent"><span class="box">✓</span>I agree that Gerson Institute Europe may store this information to answer my inquiry (GDPR). No data is shared with third parties.</div>
@@ -300,12 +362,12 @@
 
 <footer><div class="wrap">
   <div class="grid">
-    <div><div class="brand"><img src="assets/logo.png" alt="" style="background:#FFF6E3;border-radius:50%;padding:4px"><div><b style="color:#fff">Gerson Institute Europe</b><small style="color:#A9B296">Gerson Intézet Európa Kft.</small></div></div><p style="margin-top:18px;max-width:320px">The accredited Gerson centre for Europe, Asia and Africa. In the Americas, please contact the Gerson Institute in San Diego.</p></div>
+    <div><div class="brand"><img src="assets/logo.png" alt="" style="background:#FFF6E3;border-radius:50%;padding:4px"><div><b style="color:#fff;font-size:22px">Gerson Institute Europe</b><small style="color:#A9B296">Gerson Intézet Európa Kft.</small></div></div><p style="margin-top:18px;max-width:320px">The accredited Gerson centre for Europe, Asia and Africa. In the Americas, please contact the Health Institute de Tijuana, Mexico.</p></div>
     <div><h5>The therapy</h5><ul><li>What is it?</li><li>Charlotte Gerson's method</li><li>Myths &amp; facts</li><li>Recipes</li></ul></div>
     <div><h5>Work with us</h5><ul><li>One-week sessions</li><li>Online guidance</li><li>Start an inquiry</li><li>FAQ</li></ul></div>
     <div><h5>Contact</h5><ul><li>info@gerson.hu</li><li>+36 …</li><li>Budapest, Hungary</li><li>EN · HU · DE · FR</li></ul></div>
   </div>
-  <div class="disc">Disclaimer: Gerson Institute Europe is not a medical institution. Information on this website is for educational purposes only and is not a substitute for advice from a doctor or other qualified professional. Results depend on many factors, including a person's current state of health. · © 2026 Gerson Intézet Európa Kft. · Privacy · Cookies · Impressum</div>
+  <div class="disc">Disclaimer: Gerson Institute Europe is not a medical institution. Our programme is complementary to, and never a replacement for, conventional medical care. Information on this website is for educational purposes only and is not a substitute for advice from a doctor or other qualified professional. Results depend on many factors, including a person's current state of health. · © 2026 Gerson Intézet Európa Kft. · Privacy · Cookies · Impressum</div>
 </div></footer>
 
 </body>

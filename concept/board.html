@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>Gerson Europe Website Concept</title>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{--cream:#FFF6E3;--sand:#FDE4AD;--leaf:#6E9E1E;--leaf-bright:#86BC25;--leaf-deep:#2F4A1A;--lotus:#D9A86A;--carrot:#E07A2E;--ink:#2B2A26;--muted:#6B675E;--line:#EADBB8;--white:#FFFDF8}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{width:1680px;background:#F3E9D2;font:15px/1.55 Inter,sans-serif;color:var(--ink);padding:56px 64px 64px}
+  body{width:1680px;background:#F3E9D2;font:15.5px/1.55 Barlow,sans-serif;color:var(--ink);padding:56px 64px 64px}
   .serif,h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:500}
   .head{display:flex;justify-content:space-between;align-items:end;margin-bottom:36px}
   .head .l{display:flex;gap:18px;align-items:center}
@@ -32,7 +32,7 @@
   .notch{width:110px;height:28px;background:#1d1d1b;border-radius:20px;position:absolute;left:50%;top:8px;transform:translateX(-50%)}
   .m-status{height:44px}
   .m-nav{display:flex;justify-content:space-between;align-items:center;padding:6px 18px 12px;border-bottom:1px solid var(--line)}
-  .m-nav .b{display:flex;gap:8px;align-items:center;font-family:Fraunces,serif;font-weight:600;color:var(--leaf-deep);font-size:15px}
+  .m-nav .b{display:flex;gap:8px;align-items:center;font-family:Barlow,sans-serif;font-weight:500;color:var(--leaf-bright);font-size:17px}
   .m-nav img{width:30px}
   .burger{width:22px;height:14px;border-top:2px solid var(--leaf-deep);border-bottom:2px solid var(--leaf-deep);position:relative}
   .burger:after{content:"";position:absolute;left:0;right:0;top:4px;border-top:2px solid var(--leaf-deep)}
@@ -49,8 +49,17 @@
   .m-foot{font-size:10.5px;color:#9a948a;text-align:center;margin-top:12px}
   .cap{font-size:13px;color:var(--muted);text-align:center;margin-top:16px}
 
+  /* principles strip */
+  .princ{margin-top:44px;background:var(--white);border:1px solid var(--line);border-radius:24px;padding:28px 32px;display:grid;grid-template-columns:300px 1fr 96px;gap:32px;align-items:center;box-shadow:0 24px 50px -40px rgba(60,45,10,.5)}
+  .princ h2{font-size:24px;color:var(--leaf-deep);line-height:1.15}
+  .princ .label{margin-bottom:8px}
+  .pg{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .pg div{display:flex;gap:12px;align-items:center;background:#FBF3E1;border:1px solid var(--line);border-radius:14px;padding:12px 16px}
+  .pg i{font-style:normal;font-family:Fraunces,serif;font-weight:600;color:var(--lotus);font-size:15px}
+  .pg b{font-weight:600;font-size:15px;line-height:1.25;color:var(--leaf-deep)}
+  .princ img{width:96px}
   /* lower row */
-  .row{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:28px;margin-top:44px}
+  .row{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:28px;margin-top:28px}
   .card{background:var(--white);border-radius:24px;padding:30px 32px;border:1px solid var(--line);box-shadow:0 24px 50px -40px rgba(60,45,10,.5)}
   .card h2{font-size:25px;color:var(--leaf-deep);line-height:1.15;margin-bottom:10px}
   .card > p{color:var(--muted);font-size:14.5px}
@@ -108,7 +117,7 @@
 <body>
 
 <div class="head">
-  <div class="l"><img src="assets/logo.png" alt=""><div><h1>Gerson Institute Europe: a new website</h1><p>Design concept for review · Same warm colours as today, made clearer, calmer and easier to keep up to date</p></div></div>
+  <div class="l"><img src="assets/logo.png" alt=""><div><h1>Gerson Institute Europe: a new website</h1><p>Design concept for review · Same warm colours, font and lotus as today's site, made clearer, calmer and easier to keep up to date</p></div></div>
   <div class="swatches"><span>Palette from today's site</span><span class="sw" style="background:#FFF6E3"></span><span class="sw" style="background:#FDE4AD"></span><span class="sw" style="background:#86BC25"></span><span class="sw" style="background:#2F4A1A"></span><span class="sw" style="background:#D9A86A"></span><span class="sw" style="background:#E07A2E"></span></div>
 </div>
 
@@ -132,18 +141,31 @@
         <p>The Gerson Therapy is organised by region, so we'll connect you with the right centre.</p>
         <div class="m-opt on">Europe<small>→ Gerson Institute Europe</small></div>
         <div class="m-opt">Asia or Africa<small>→ Gerson Institute Europe</small></div>
-        <div class="m-opt us">North, Central or South America<small>→ forwarded to the Gerson Institute, San Diego</small></div>
+        <div class="m-opt us">North, Central or South America<small>→ referred to the Health Institute de Tijuana, Mexico</small></div>
         <div class="m-btn">Continue →</div>
         <div class="m-foot">About 3 minutes · GDPR-compliant · No spam</div>
       </div>
     </div></div>
-    <p class="cap">Four short steps instead of one long form.<br>Inquiries from the Americas are passed on to San Diego automatically.</p>
+    <p class="cap">Four short steps instead of one long form.<br>All inquiries go to info@gerson.hu. The Americas are referred to Tijuana, Mexico.</p>
   </div>
+</div>
+
+<div class="princ">
+  <div class="pl"><div class="label"><b>3</b>Our six principles</div><h2>On the home page, and behind every article</h2></div>
+  <div class="pg">
+    <div><i>01</i><b>Complementary, not alternative</b></div>
+    <div><i>02</i><b>Evidence-informed, not promise-driven</b></div>
+    <div><i>03</i><b>Personalised, not one-size-fits-all</b></div>
+    <div><i>04</i><b>In cooperation with conventional medical care</b></div>
+    <div><i>05</i><b>Focused on the whole person and lifestyle</b></div>
+    <div><i>06</i><b>Safety and transparency first</b></div>
+  </div>
+  <img src="assets/Hezagolo-wbg.png" alt="">
 </div>
 
 <div class="row">
   <div class="card">
-    <div class="label"><b>3</b>Editing</div>
+    <div class="label"><b>4</b>Editing</div>
     <h2>Adding a recipe or new session dates takes minutes</h2>
     <p>A simple editor with no code and no plugins to update. Fill in the boxes, add a photo, press Publish. Each language has its own tab.</p>
     <div class="cms">
@@ -161,7 +183,7 @@
   </div>
 
   <div class="card">
-    <div class="label"><b>4</b>Being found on Google</div>
+    <div class="label"><b>5</b>Being found on Google</div>
     <h2>Built so the accurate version is the one people find</h2>
     <ul class="ticks">
       <li><span class="t">✓</span><div><b>“Myths &amp; facts” library</b><span>One page per common question, each citing the original Gerson books</span></div></li>
@@ -173,7 +195,7 @@
   </div>
 
   <div class="card">
-    <div class="label"><b>5</b>Where each inquiry goes</div>
+    <div class="label"><b>6</b>Where each inquiry goes</div>
     <h2>Every inquiry reaches the right centre</h2>
     <div class="flow">
       <div class="node n1">Visitor sends an inquiry<small>from anywhere in the world</small></div>
@@ -181,8 +203,8 @@
       <div class="node n2">Which country?</div>
       <div class="forks"><i></i><i></i></div>
       <div class="split">
-        <div class="node n3">Europe, Asia, Africa<small>Email to your inbox + saved in a list you can view</small></div>
-        <div class="node n4">The Americas<small>Friendly hand-off to the Gerson Institute, San Diego</small></div>
+        <div class="node n3">Europe, Asia, Africa<small>Email to info@gerson.hu + saved in a list you can view</small></div>
+        <div class="node n4">The Americas<small>Friendly referral to the Health Institute de Tijuana, Mexico</small></div>
       </div>
     </div>
     <p style="margin-top:18px;font-size:13.5px;color:var(--muted)">The visitor gets an instant confirmation email in their language. Health details are only asked for if they choose to share them, with explicit GDPR consent.</p>
