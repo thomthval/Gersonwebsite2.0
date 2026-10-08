@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Séjours d'une semaine · Gerson Institute Europe</title>
+<meta content="Découvrez en pratique la méthode originale du Dr Max Gerson lors d'un séjour d'une semaine, suivi d'un accompagnement en ligne. Dates, contenu et demande : info@gerson.hu." name="description"/>
+<meta content="noindex, nofollow" name="robots"/>
+<link href="../assets/fonts.css" rel="stylesheet"/>
+<link href="../assets/site.css" rel="stylesheet"/>
+<link href="../assets/motion.css" rel="stylesheet"/>
+<style>
+  .crumbs{font-size:14px;color:var(--muted);padding:28px 0 0}
+  .crumbs a{color:var(--leaf)}
+  .s-hero{padding:30px 0 80px}
+  .s-hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}
+  :lang(de) .s-hero h1,:lang(fr) .s-hero h1{font-size:48px}
+  .s-hero h1{font-size:54px;line-height:1.06;color:var(--leaf-deep);margin:14px 0 20px}
+  .s-hero .lead{font-size:19.5px;color:var(--muted);max-width:540px}
+  .s-hero .ctas{display:flex;gap:14px;margin-top:30px}
+  .s-photo{height:440px;border-radius:30px;overflow:hidden;position:relative;box-shadow:0 30px 60px -34px rgba(60,50,20,.5)}
+  .s-photo img{width:100%;height:100%;object-fit:cover}
+  .s-photo img.lotus{position:absolute;right:22px;top:22px;width:96px;height:auto;background:rgba(255,246,227,.92);border-radius:18px;padding:10px 12px}
+  .quick{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:var(--white);border:1px solid var(--line);border-radius:22px;margin-top:-30px;position:relative}
+  .quick div{padding:22px 26px;border-left:1px solid var(--line)}
+  .quick div:first-child{border:0}
+  .quick small{display:block;font-size:11.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--lotus)}
+  .quick b{display:block;font-size:20px;color:var(--leaf-deep);margin-top:2px}
+  .quick span{font-size:14px;color:var(--muted)}
+  .h2{font-size:40px;line-height:1.1;color:var(--leaf-deep);margin:10px 0 14px}
+  .sub{color:var(--muted);max-width:620px}
+  .dates{margin-top:30px;background:var(--white);border:1px solid var(--line);border-radius:22px;overflow:hidden}
+  .drow{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 190px;align-items:center;padding:18px 26px;border-top:1px solid var(--line);font-size:16px}
+  .drow:first-child{border:0;background:#FBF3E1;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:12px 26px}
+  .drow b{font-family:Fraunces,serif;font-weight:500;font-size:21px;color:var(--leaf-deep)}
+  .pill{display:inline-block;font-size:13px;font-weight:600;padding:4px 10px;border-radius:999px}
+  .pill.ok{background:#E3EFCC;color:#3F6612}.pill.few{background:#FBE3CC;color:#9A4E12}
+  .drow .btn{padding:10px 16px;font-size:14px;justify-content:center}
+  .ex{display:inline-block;font-family:Barlow,sans-serif;font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:#F6DCCB;color:#A3501B;padding:3px 8px;border-radius:6px;margin-left:10px;vertical-align:middle}
+  .inc-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;margin-top:30px}
+  .inc{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+  .inc li{padding:13px 0 13px 34px;position:relative;border-bottom:1px solid var(--line);font-size:16.5px}
+  .inc li:before{content:"✓";position:absolute;left:0;top:13px;width:22px;height:22px;border-radius:50%;background:#EEF5DF;color:var(--leaf);font-size:12px;font-weight:700;display:grid;place-items:center}
+  .adm{display:flex;flex-direction:column;gap:12px}
+  .adm div{background:var(--sand-soft);border:1px solid var(--line);border-radius:18px;padding:16px 20px}
+  .adm small{display:block;font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--lotus)}
+  .adm b{display:block;font-size:18px;color:var(--leaf-deep)}
+  .adm span{font-size:14px;color:var(--muted)}
+  .week{background:var(--sand-soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .days{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;margin-top:34px}
+  .day{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:18px 16px;min-height:200px}
+  .day i{font-style:normal;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--lotus)}
+  .day h4{font-family:Fraunces,serif;font-weight:500;font-size:18px;line-height:1.2;color:var(--leaf-deep);margin:8px 0 8px}
+  .day p{font-size:14px;color:var(--muted);line-height:1.5}
+  .day.on{background:var(--leaf-deep);border-color:var(--leaf-deep)}
+  .day.on h4{color:#fff}.day.on p{color:#C9CFB6}.day.on i{color:var(--leaf-bright)}
+  .online{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+  .ocards{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .ocards div{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:20px}
+  .ocards b{display:block;color:var(--leaf-deep);font-size:17px;margin:10px 0 4px}
+  .ocards p{font-size:14.5px;color:var(--muted)}
+  .faq{max-width:900px;margin:30px auto 0}
+  .q{background:var(--white);border:1px solid var(--line);border-radius:18px;margin-bottom:12px;padding:20px 26px}
+  .q h4{display:flex;justify-content:space-between;font-size:18px;font-weight:600;color:var(--ink)}
+  .q h4 span{color:var(--leaf);font-size:22px;line-height:1}
+  .q p{margin-top:10px;color:var(--muted);font-size:16px;max-width:760px}
+  .inc-photos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
+  .inc-photos figure{margin:0;height:220px;border-radius:22px;overflow:hidden;position:relative}
+  .inc-photos img{width:100%;height:100%;object-fit:cover}
+  .inc-photos figcaption{position:absolute;left:14px;bottom:14px;background:rgba(255,253,248,.92);border-radius:999px;padding:7px 14px;font-size:13px;font-weight:600;color:var(--leaf-deep)}
+  .day{transition:background .6s,border-color .6s,transform .6s}
+  .day.lit{background:var(--leaf-deep);border-color:var(--leaf-deep);transform:translateY(-4px)}
+  .day.lit h4{color:#fff}.day.lit p{color:#C9CFB6}.day.lit i{color:var(--leaf-bright)}
+  .day h4,.day p,.day i{transition:color .6s}
+  details.q summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-size:18px;font-weight:600;color:var(--ink)}
+  details.q summary::-webkit-details-marker{display:none}
+  details.q summary:after{content:"+";color:var(--leaf);font-size:24px;line-height:1;transition:transform .3s}
+  details.q[open] summary:after{content:"−"}
+  details.q[open] p{animation:fadein .5s ease}
+  @keyframes fadein{from{opacity:0;transform:translateY(-6px)}}
+  .cta{margin:0 60px 90px;background:var(--leaf-deep);border-radius:36px;padding:64px 80px;display:flex;justify-content:space-between;align-items:center;color:#D3D9C2}
+  .cta h2{font-size:40px;color:#fff;line-height:1.1;margin-bottom:10px}
+  .cta .btn-ghost{border-color:#D3D9C2;color:#fff}
+  .menu{gap:22px;font-size:15.5px}
+  nav .brand b{font-size:23px}
+  :lang(de) .menu,:lang(fr) .menu{gap:18px}
+  .sw{display:flex;gap:2px;background:var(--white);border:1px solid var(--line);border-radius:999px;padding:3px;margin-right:12px}
+  .sw a{font-size:12.5px;font-weight:700;letter-spacing:.04em;padding:6px 9px;border-radius:999px;color:var(--muted)}
+  .sw a.on{background:var(--leaf-deep);color:#fff}
+  .nav-r{display:flex;align-items:center}
+</style>
+</head>
+<body>
+<div class="progress"></div>
+<div class="topbar"><div class="wrap">
+<div>Le premier centre Gerson accrédité en Europe · pour <b>l'Europe, l'Asie et l'Afrique</b> · <a href="https://gerson.org/health-institute-de-tijuana/" style="text-decoration:underline;text-underline-offset:3px">Vous vivez aux Amériques ? Voir le Health Institute de Tijuana, Mexique →</a></div>
+<div class="langs"><a href="tel:+36306426291">+36 30 642 6291</a>  ·  <a href="mailto:info@gerson.hu">info@gerson.hu</a></div>
+</div></div>
+<nav><div class="wrap">
+<a class="brand" href="home.html"><img alt="" src="../assets/logo.png"/><div><b>Gerson Institute Europe</b><small>La méthode originale du Dr Max Gerson</small></div></a>
+<div class="menu"><a href="home.html#therapy">La thérapie</a><a class="act" href="sessions.html">Séjours</a><a href="home.html#team">Notre équipe</a><a href="myths-juice.html">Mythes et réalités</a><a href="home.html#journal">Journal</a></div>
+<div class="nav-r"><div class="sw"><a href="../sessions.html">EN</a><a href="../hu/sessions.html">HU</a><a href="../de/sessions.html">DE</a><a class="on" href="sessions.html">FR</a></div><a class="btn btn-primary" href="home.html#inquiry" style="padding:12px 20px">Faire une demande</a></div>
+</div></nav>
+<header class="s-hero">
+<div class="wrap"><div class="crumbs" style="grid-column:1/-1;padding:0"><a href="home.html">Accueil</a> › Séjours</div></div>
+<div class="wrap" style="margin-top:20px">
+<div>
+<span class="eyebrow" data-reveal="fade">Séjours d'une semaine</span>
+<h1 data-split="">Apprenez l'hygiène de vie Gerson en pratique, en une semaine.</h1>
+<p class="lead" data-reveal="" style="--d:450ms">Un petit groupe, un cadre calme et un rythme quotidien clair. Vous apprenez la méthode originale du Dr Gerson en la pratiquant, et rentrez chez vous prêt à continuer, en parallèle de votre propre suivi médical.</p>
+<div class="ctas" data-reveal="" style="--d:600ms"><a class="btn btn-primary" href="#dates">Demander les dates →</a><a class="btn btn-ghost" href="#week">La semaine jour après jour</a></div>
+</div>
+<div class="s-photo kenburns" data-reveal="zoom" style="--d:200ms"><img alt="La maison de Pilisborosjenő où se déroulent les séjours" src="../assets/photos/house-front.jpg"/><img alt="" class="lotus" src="../assets/Hezagolo-wbg.png"/></div>
+</div>
+</header>
+<div class="wrap">
+<div class="quick" data-stagger="100">
+<div><small>Durée</small><b>7 jours</b><span>De l'arrivée au départ</span></div>
+<div><small>Lieu</small><b>Pilisborosjenő</b><span>Aux portes de Budapest</span></div>
+<div><small>Langues</small><b>HU · EN · DE</b><span>Autres sur demande</span></div>
+<div><small>Ensuite</small><b>Accompagnement en ligne</b><span>Un soutien à la maison</span></div>
+</div>
+</div>
+<section id="dates"><div class="wrap">
+<div data-reveal=""><span class="eyebrow">Dates</span>
+<h2 class="h2">Prochains séjours <span class="ex">Dates d'exemple</span></h2>
+<p class="sub">Les nouvelles dates sont ajoutées ici dès qu'elles sont confirmées. Renseignez-vous sur une date et nous vous répondrons personnellement depuis info@gerson.hu.</p></div>
+<div class="dates" data-stagger="110">
+<div class="drow"><span>Séjour</span><span>Durée</span><span>Langue</span><span>Places</span><span></span></div>
+<div class="drow"><b>Mars 2027</b><span>7 jours</span><span>hongrois · anglais</span><span><span class="pill ok">Places disponibles</span></span><a class="btn btn-primary" href="home.html#inquiry">Me renseigner sur cette date</a></div>
+<div class="drow"><b>Mai 2027</b><span>7 jours</span><span>allemand · anglais</span><span><span class="pill few">Il reste peu de places</span></span><a class="btn btn-primary" href="home.html#inquiry">Me renseigner sur cette date</a></div>
+<div class="drow"><b>Septembre 2027</b><span>7 jours</span><span>hongrois · anglais</span><span><span class="pill ok">Places disponibles</span></span><a class="btn btn-primary" href="home.html#inquiry">Me renseigner sur cette date</a></div>
+</div>
+</div></section>
+<section style="padding-top:0"><div class="wrap">
+<div data-reveal=""><span class="eyebrow">Ce qui est inclus</span>
+<h2 class="h2">Tout ce qu'il faut pour commencer à la maison</h2></div>
+<div class="inc-grid">
+<ul class="inc" data-stagger="60">
+<li>Un entretien préalable avant votre arrivée</li>
+<li>Un examen individuel de votre situation par notre équipe</li>
+<li>Un programme personnel, construit selon votre situation de santé</li>
+<li>Tous les repas Gerson et les jus frais pendant la semaine</li>
+<li>Ateliers pratiques : jus et cuisine</li>
+<li>La routine quotidienne complète, pratiquée ensemble</li>
+<li>S'organiser à la maison : équipement, courses, emploi du temps</li>
+<li>Des conseils pour garder votre médecin impliqué</li>
+<li>Des documents à emporter, dans votre langue</li>
+<li>Un suivi en ligne après le séjour</li>
+</ul>
+<div class="adm" data-stagger="120">
+<div><small>Tarif</small><b>Sur demande</b><span>Un devis clair et écrit avant la réservation</span></div>
+<div><small>Avant de venir</small><b>Entretien préalable</b><span>Pour vérifier que le séjour vous convient</span></div>
+<div><small>Suivi médical</small><b>Aux côtés de votre médecin</b><span>Complémentaire, jamais un remplacement</span></div>
+</div>
+</div>
+<div class="inc-photos" data-stagger="120">
+<figure class="zoom"><img alt="Une chambre d'hôtes" src="../assets/photos/room-4.jpg"/><figcaption>Des chambres lumineuses</figcaption></figure>
+<figure class="zoom"><img alt="Le déjeuner préparé pour le groupe" src="../assets/photos/salad-bowls.jpg"/><figcaption>Tous les repas et les jus</figcaption></figure>
+<figure class="zoom"><img alt="Le jardin et l'étang" src="../assets/photos/garden-pond.jpg"/><figcaption>Du temps au jardin</figcaption></figure>
+</div>
+</div></section>
+<section class="week" id="week"><div class="wrap">
+<div data-reveal=""><span class="eyebrow">La semaine jour après jour</span>
+<h2 class="h2">À quoi ressemblent les sept jours <span class="ex">Exemple</span></h2>
+<p class="sub">Chaque jour suit le rythme de la méthode, si bien qu'en fin de semaine il vous est déjà familier. Faites défiler : la semaine se déroule.</p></div>
+<div class="days" data-fill="">
+<div class="day on" data-step=""><i>Jour 1</i><h4>Arrivée et accueil</h4><p>Rencontre avec l'équipe et le groupe. Votre premier repas Gerson et vos premiers jus.</p></div>
+<div class="day" data-step=""><i>Jour 2</i><h4>Les jus</h4><p>Choisir les produits, utiliser l'extracteur, organiser les horaires de la journée.</p></div>
+<div class="day" data-step=""><i>Jour 3</i><h4>La cuisine</h4><p>Cuisine sans sel, soupe d'Hippocrate et un menu complet pour la journée.</p></div>
+<div class="day" data-step=""><i>Jour 4</i><h4>Routines quotidiennes</h4><p>Routines de détoxification et compléments, tels que décrits par le Dr Gerson.</p></div>
+<div class="day" data-step=""><i>Jour 5</i><h4>L'organisation à la maison</h4><p>Équipement, listes de courses, fournisseurs et planning de la semaine.</p></div>
+<div class="day" data-step=""><i>Jour 6</i><h4>Travailler avec votre médecin</h4><p>Comment partager votre programme et garder votre suivi médical impliqué.</p></div>
+<div class="day" data-step=""><i>Jour 7</i><h4>Bilan et départ</h4><p>Questions, votre plan de suivi et les dates des rendez-vous en ligne.</p></div>
+</div>
+</div></section>
+<section id="online"><div class="wrap online">
+<div data-reveal="left"><span class="eyebrow">Accompagnement en ligne</span><h2 class="h2">Vous ne pouvez pas vous déplacer, ou vous êtes déjà rentré ?</h2><p class="sub">L'accompagnement en ligne vous soutient après un séjour, ou vous aide à vous y préparer. Il est personnel, par appel vidéo ou par e-mail, dans votre langue.</p><div style="margin-top:26px"><a class="btn btn-ghost" href="home.html#inquiry">Me renseigner sur l'accompagnement en ligne</a></div></div>
+<div class="ocards" data-stagger="110">
+<div><span class="ic"><svg viewbox="0 0 24 24"><rect height="13" rx="2" width="20" x="2" y="4"></rect><path d="M8 21h8M12 17v4"></path></svg></span><b>Rendez-vous vidéo</b><p>Des appels réguliers pour ajuster votre routine.</p></div>
+<div><span class="ic"><svg viewbox="0 0 24 24"><path d="M4 4h16v16H4z"></path><path d="m4 4 8 8 8-8"></path></svg></span><b>Questions par e-mail</b><p>Les réponses de nos collègues depuis info@gerson.hu.</p></div>
+<div><span class="ic"><svg viewbox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"></path></svg></span><b>Recettes et guides</b><p>Des documents à imprimer pour chaque étape.</p></div>
+<div><span class="ic"><svg viewbox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c3 2 9 2 12 0v-5"></path></svg></span><b>Cours Gerson en ligne</b><p>Les bases de la méthode, pas à pas, depuis chez vous.</p></div>
+</div>
+</div></section>
+<section id="faq" style="padding-top:0"><div class="wrap">
+<div data-reveal="" style="text-align:center"><span class="eyebrow">Questions</span><h2 class="h2">Avant de nous écrire</h2></div>
+<div class="faq" data-stagger="80">
+<details class="q" open=""><summary>Puis-je poursuivre mon traitement médical actuel ?</summary><p>Oui. Notre programme est complémentaire et ne remplace jamais le suivi médical conventionnel. Nous vous encourageons à tenir vos médecins informés et impliqués, et le séjour vous explique comment le faire.</p></details>
+<details class="q"><summary>Le séjour convient-il à tout le monde ?</summary><p>Pas toujours. Avant chaque séjour, nous examinons la situation de chaque personne individuellement, et nous vous dirons honnêtement si le séjour ou la thérapie ne vous convient pas.</p></details>
+<details class="q"><summary>Combien de temps suit-on la thérapie Gerson à la maison ?</summary><p>C'est un engagement de long terme, souvent deux ans ou plus, selon la personne. Le séjour vous apprend à continuer chez vous, et notre accompagnement en ligne vous soutient tout au long du chemin.</p></details>
+<details class="q"><summary>Un proche ou un aidant peut-il m'accompagner ?</summary><p>Demandez-nous. Un proche qui comprend la routine quotidienne facilite beaucoup la vie à la maison ; nous discuterons volontiers des possibilités avec vous.</p></details>
+<details class="q"><summary>Dois-je parler hongrois ?</summary><p>Non. Les séjours se déroulent en hongrois, en anglais ou en allemand, et d'autres langues sont envisageables.</p></details>
+<details class="q"><summary>Combien coûte un séjour ?</summary><p>Avant toute réservation, nous vous envoyons un devis clair et écrit, pour que vous sachiez exactement ce qui est inclus.</p></details>
+</div>
+</div></section>
+<div class="cta" data-reveal="zoom">
+<div><h2>Prêt à demander une date ?</h2><p>Chaque demande reçoit une réponse personnelle depuis info@gerson.hu.</p></div>
+<div style="display:flex;gap:14px"><a class="btn btn-primary" href="home.html#inquiry">Faire une demande →</a><a class="btn btn-ghost" href="mailto:info@gerson.hu">Nous écrire</a></div>
+</div>
+<footer><div class="wrap">
+<div class="grid">
+<div><div class="brand"><img alt="" src="../assets/logo.png" style="background:#FFF6E3;border-radius:50%;padding:4px"/><div><b style="color:#fff;font-size:22px">Gerson Institute Europe</b><small style="color:#A9B296">Gerson Intézet Európa Kft.</small></div></div><p style="margin-top:18px;max-width:320px">Le premier centre Gerson accrédité en Europe, pour l'Europe, l'Asie et l'Afrique. Aux Amériques, merci de contacter le Health Institute de Tijuana, au Mexique.</p></div>
+<div><h5>La thérapie</h5><ul><li><a href="home.html#therapy">Qu'est-ce que c'est ?</a></li><li><a href="home.html#approach">La méthode originale du Dr Gerson</a></li><li><a href="myths-juice.html">Mythes et réalités</a></li><li><a href="home.html#journal">Recettes</a></li></ul></div>
+<div><h5>Avec nous</h5><ul><li><a href="sessions.html">Séjours d'une semaine</a></li><li><a href="sessions.html#online">Accompagnement en ligne</a></li><li><a href="home.html#team">Notre équipe</a></li><li><a href="sessions.html#faq">Questions fréquentes</a></li></ul></div>
+<div><h5>Contact</h5><ul><li><a href="mailto:info@gerson.hu">info@gerson.hu</a></li><li><a href="tel:+36306426291">+36 30 642 6291</a></li><li>1022 Budapest, Bogár utca 22/C</li><li>En semaine de 10 h à 15 h (heure d'Europe centrale)</li></ul></div>
+</div>
+<div class="disc">Avertissement : Gerson Institute Europe n'est pas un établissement médical. Notre programme complète le suivi médical conventionnel et ne le remplace jamais. Les informations de ce site sont fournies à titre éducatif uniquement et ne remplacent pas l'avis d'un médecin ou d'un autre professionnel qualifié. Les résultats dépendent de nombreux facteurs, notamment de l'état de santé actuel de la personne. · © 2026 Gerson Intézet Európa Kft. · Confidentialité · Cookies · Mentions légales</div>
+</div></footer>
+<script src="../assets/motion.js"></script>
+</body>
+</html>

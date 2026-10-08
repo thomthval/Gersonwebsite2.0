@@ -3,16 +3,21 @@
 Static design mockups for review, made before any real build work starts.
 
 - `index.html`: start page of the clickable mockup (open this first)
-- `home.html`, `sessions.html`, `myths-juice.html`: the mockup pages, linked to each other
+- `home.html`, `sessions.html`, `myths-juice.html`: the English pages, linked to each other
+- `hu/`, `de/`, `fr/`: the same pages in Hungarian, German and French (generated, see below)
 - `board.html`: one-page overview (home page, mobile inquiry form, editor, SEO, inquiry routing, hosting)
-- `concept-board.jpg`, `homepage-full.jpg`, `page-sessions.png`, `page-article.png`: images to share
-- `assets/`: shared stylesheet, local fonts (Barlow and Fraunces, SIL Open Font License), images from the current gerson.hu site
+- `DESIGN-NOTES.md`: why each section looks the way it does, what was left out, and the open questions
+- `concept-board.jpg`, `homepage-full.jpg`, `homepage-full-hu.jpg`, `page-sessions.png`, `page-article.png`: images to share
+- `assets/`: shared styles, the motion layer (`motion.css`, `motion.js`), local fonts (Barlow and Fraunces, SIL Open Font License)
+- `assets/photos/`: photos from the current gerson.hu media library, resized
 
 ## Browse it offline
 
 1. Download the branch (GitHub → Code → Download ZIP) or clone it.
 2. Open `concept/index.html` in any browser (double-click it).
-3. Click through the pages. Fonts and images are stored locally, so no internet is needed.
+3. Click through the pages and switch languages with EN · HU · DE · FR in the menu. Fonts and images are stored locally, so no internet is needed.
+
+Scroll slowly to see the motion. Add `?static` to a page address to switch all animation off (used for the screenshots).
 
 The mockup is built for a computer screen (1280 px wide). The finished site will also adapt to phones.
 
@@ -23,6 +28,15 @@ The mockup is built for a computer screen (1280 px wide). The finished site will
 3. Deploy. The preview gets a free address like `gerson-concept.pages.dev`.
 
 `_headers`, `robots.txt` and a `noindex` tag on every page keep the preview out of Google.
+
+## Translations
+
+English is the source. `i18n/translations.txt` holds the Hungarian, German and French text, one block per sentence.
+
+    python3 tools/i18n.py check   # sentences that still need a translation
+    python3 tools/i18n.py build   # regenerate hu/, de/ and fr/
+
+After changing an English sentence, run `check`, add the new translation, then run `build`. The script needs `beautifulsoup4`.
 
 ## Proposed stack
 
@@ -51,9 +65,4 @@ The mockup is built for a computer screen (1280 px wide). The finished site will
 
 ## To confirm before building
 
-- Placeholders: phone number, address, session dates, the "what's included" list, the day-by-day week, length, languages and pricing
-- Article wording, especially the "What the research says" section
-- A higher-resolution logo file (the current one is 109×109 px)
-- Accreditation wording, agreed with the Gerson Institute
-- Which languages go live first (EN / HU / DE proposed)
-- Recent photos of the centre, team and sessions
+See the "Open questions" list in `DESIGN-NOTES.md`.

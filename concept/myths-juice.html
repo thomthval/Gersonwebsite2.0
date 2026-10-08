@@ -8,6 +8,7 @@
 <meta name="robots" content="noindex, nofollow">
 <link rel="stylesheet" href="assets/fonts.css">
 <link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/motion.css">
 <style>
   .crumbs{font-size:14px;color:var(--muted);padding:28px 0 0}
   .crumbs a{color:var(--leaf)}
@@ -20,7 +21,7 @@
   .a-meta .dot{width:4px;height:4px;border-radius:50%;background:#CDBF9E}
   .a-meta .lang b{color:var(--leaf);font-weight:600}
   .a-cover{height:320px;border-radius:28px;overflow:hidden;box-shadow:0 30px 60px -36px rgba(60,50,20,.5)}
-  .a-cover img{width:100%;height:100%;object-fit:cover;object-position:50% 60%}
+  .a-cover img{width:100%;height:100%;object-fit:cover;object-position:50% 45%}
   .a-grid{display:grid;grid-template-columns:1fr 340px;gap:72px;padding:56px 0 90px}
   .prose{font-size:18.5px;line-height:1.75;color:#3a3832;max-width:740px}
   .prose h2{font-size:32px;line-height:1.15;color:var(--leaf-deep);margin:46px 0 14px}
@@ -58,46 +59,54 @@
   .ask small{display:block;text-align:center;margin-top:10px;font-size:13px;color:#B9C1A6}
   .related{background:var(--sand-soft);border-top:1px solid var(--line);padding:76px 0 90px}
   .related h2{font-size:34px;color:var(--leaf-deep);margin-bottom:28px}
+  .menu{gap:22px;font-size:15.5px}
+  nav .brand b{font-size:23px}
+  :lang(de) .menu,:lang(fr) .menu{gap:18px}
+  .sw{display:flex;gap:2px;background:var(--white);border:1px solid var(--line);border-radius:999px;padding:3px;margin-right:12px}
+  .sw a{font-size:12.5px;font-weight:700;letter-spacing:.04em;padding:6px 9px;border-radius:999px;color:var(--muted)}
+  .sw a.on{background:var(--leaf-deep);color:#fff}
+  .nav-r{display:flex;align-items:center}
 </style>
 </head>
 <body>
+<div class="progress"></div>
 
 <div class="topbar"><div class="wrap">
-  <div>Accredited Gerson centre for <b>Europe, Asia &amp; Africa</b> · <a href="https://gerson.org/health-institute-de-tijuana/" style="text-decoration:underline;text-underline-offset:3px">In the Americas? Visit the Health Institute de Tijuana, Mexico →</a></div>
-  <div class="langs">+36 &nbsp;·&nbsp; info@gerson.hu <span class="on">EN</span><span>HU</span><span>DE</span><span>FR</span></div>
+  <div>The first accredited Gerson centre in Europe · serving <b>Europe, Asia &amp; Africa</b> · <a href="https://gerson.org/health-institute-de-tijuana/" style="text-decoration:underline;text-underline-offset:3px">In the Americas? Visit the Health Institute de Tijuana, Mexico →</a></div>
+  <div class="langs"><a href="tel:+36306426291">+36 30 642 6291</a> &nbsp;·&nbsp; <a href="mailto:info@gerson.hu">info@gerson.hu</a></div>
 </div></div>
 
 <nav><div class="wrap">
   <a class="brand" href="home.html"><img src="assets/logo.png" alt=""><div><b>Gerson Institute Europe</b><small>Dr. Max Gerson's original method</small></div></a>
-  <div class="menu"><a href="home.html#therapy">The Therapy</a><a href="sessions.html">Sessions</a><a href="myths-juice.html" class="act">Myths &amp; Facts</a><a href="home.html#journal">Recipes &amp; Journal</a><a href="home.html#approach">About us</a><a href="home.html#inquiry">Contact</a></div>
-  <a class="btn btn-primary" style="padding:12px 20px" href="home.html#inquiry">Start an inquiry</a>
+  <div class="menu"><a href="home.html#therapy">The Therapy</a><a href="sessions.html">Sessions</a><a href="home.html#team">Our team</a><a href="myths-juice.html" class="act">Myths &amp; Facts</a><a href="home.html#journal">Journal</a></div>
+  <div class="nav-r"><div class="sw"><a class="on" href="myths-juice.html">EN</a><a href="hu/myths-juice.html">HU</a><a href="de/myths-juice.html">DE</a><a href="fr/myths-juice.html">FR</a></div><a class="btn btn-primary" style="padding:12px 20px" href="home.html#inquiry">Start an inquiry</a></div>
 </div></nav>
 
 <div class="wrap">
   <div class="crumbs"><a href="home.html">Home</a> &nbsp;›&nbsp; <a href="home.html#myths">Myths &amp; facts</a> &nbsp;›&nbsp; Is the Gerson Therapy just juicing?</div>
   <header class="a-head">
-    <span class="eyebrow">Myths &amp; facts · The method</span>
-    <h1>Is the Gerson Therapy just juicing?</h1>
-    <p class="lead">Fresh juices are the best-known part of Dr. Max Gerson's method, which is why the whole therapy is often reduced to them. Here is what he actually described.</p>
-    <div class="a-meta">
+    <span class="eyebrow" data-reveal="fade">Myths &amp; facts · The method</span>
+    <h1 data-split>Is the Gerson Therapy just juicing?</h1>
+    <p class="lead" data-reveal style="--d:400ms">Fresh juices are the best-known part of Dr. Max Gerson's method, which is why the whole therapy is often reduced to them. Here is what he actually described.</p>
+    <div class="a-meta" data-reveal style="--d:550ms">
       <span class="who"><img src="assets/logo.png" alt="">Reviewed by the Gerson Institute Europe team</span>
       <span class="dot"></span><span>Updated 8 October 2026</span>
       <span class="dot"></span><span>6 min read</span>
       <span class="dot"></span><span class="lang">Also in <b>Magyar</b> · <b>Deutsch</b></span>
     </div>
   </header>
-  <div class="a-cover"><img src="assets/Gerson-salad.jpg" alt="A bowl of fresh organic salad"></div>
+  <div class="a-cover kenburns" data-reveal="zoom"><img src="assets/photos/salad-bowl.jpg" alt="A bowl of fresh organic salad"></div>
 
   <div class="a-grid">
     <article class="prose">
-      <div class="short"><small>The short answer</small><p>No. Fresh juices are an important part of Dr. Gerson's original method, but only one part. His therapy is a complete daily programme: organic, salt-free plant-based meals, freshly pressed juices throughout the day, detoxification routines, specific supplements and rest, followed with qualified guidance and alongside conventional medical care.</p></div>
+      <div class="short" data-reveal><small>The short answer</small><p>No. Fresh juices are an important part of Dr. Gerson's original method, but only one part. His therapy is a complete daily programme: organic, salt-free plant-based meals, freshly pressed juices throughout the day, detoxification routines, specific supplements and rest, followed with qualified guidance and alongside conventional medical care.</p></div>
 
-      <h2 id="where">Where the idea comes from</h2>
+      <h2 id="where" data-reveal>Where the idea comes from</h2>
       <p>Glasses of bright carrot and apple juice are the image most people associate with the Gerson name. Online, that picture has turned into “Gerson juicing”: a few days of juice as a cleanse. That is not the method Dr. Gerson developed.</p>
 
-      <h2 id="described">What Dr. Gerson actually described</h2>
+      <h2 id="described" data-reveal>What Dr. Gerson actually described</h2>
       <p>Dr. Gerson first developed his dietary approach in Germany in the 1920s.<sup>[2][3]</sup> In <i>A Cancer Therapy: Results of Fifty Cases</i> (1958) he set out a structured daily regimen in which juice is one element among several.<sup>[1]</sup> The main parts are:</p>
-      <ul class="parts">
+      <ul class="parts" data-stagger="100">
         <li><b>Organic, salt-free meals</b><span>Three plant-based meals a day, freshly prepared</span></li>
         <li><b>Fresh-pressed juices</b><span>Made throughout the day and drunk straight away, not stored</span></li>
         <li><b>Detoxification routines</b><span>Practical routines that support the body's own elimination</span></li>
@@ -105,15 +114,15 @@
       </ul>
       <p>Each part depends on the others. Taking only the juices out of the programme leaves something that is no longer the Gerson Therapy.</p>
 
-      <h2 id="cleanse">Why it is not a “cleanse”</h2>
+      <h2 id="cleanse" data-reveal>Why it is not a “cleanse”</h2>
       <p>A cleanse is usually short and done alone. Dr. Gerson's method is a lifestyle followed over a long period, with a strict daily structure, and it is demanding for the person and their family. That is why we teach it hands-on, in one-week sessions, and keep supporting people once they are home.</p>
 
-      <div class="callout"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span><div><b>Complementary, not alternative</b><p>If you are considering the Gerson Therapy, please talk to your doctor first. Our programme works alongside conventional medical care, and we encourage you to keep your doctors informed and involved.</p></div></div>
+      <div class="callout" data-reveal="zoom"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span><div><b>Complementary, not alternative</b><p>If you are considering the Gerson Therapy, please talk to your doctor first. Our programme works alongside conventional medical care, and we encourage you to keep your doctors informed and involved.</p></div></div>
 
-      <h2 id="research">What the research says</h2>
+      <h2 id="research" data-reveal>What the research says</h2>
       <p class="research">Scientific research on the Gerson Therapy is limited, and it has not been tested in large controlled clinical trials.<sup>[3]</sup> We say this openly because we believe people deserve clear information, not promises.</p>
 
-      <h2 id="you">What this means for you</h2>
+      <h2 id="you" data-reveal>What this means for you</h2>
       <p>If you are interested in the Gerson lifestyle, start with the whole picture: what a normal day looks like, what equipment you need, and how it fits with your medical care. That is exactly what our one-week sessions cover.</p>
 
       <div class="sources" id="sources">
@@ -126,7 +135,7 @@
       </div>
     </article>
 
-    <aside class="side">
+    <aside class="side" data-stagger="140">
       <div class="sbox toc"><h4>On this page</h4>
         <a class="on" href="#where">Where the idea comes from</a><a href="#described">What Dr. Gerson described</a><a href="#cleanse">Why it is not a cleanse</a><a href="#research">What the research says</a><a href="#you">What this means for you</a><a href="#sources">Sources</a>
       </div>
@@ -142,23 +151,24 @@
 </div>
 
 <section class="related"><div class="wrap">
-  <h2>Keep reading</h2>
-  <div class="cards">
-    <div class="card"><div class="img" style="background-image:url(assets/Gerson.png);background-position:80% 50%"></div><div class="b"><span class="cat">Myths &amp; facts</span><h3><a href="home.html#approach">The original Gerson method, and how later versions differ</a></h3><p>Why versions differ, and why we follow Dr. Gerson's own writing.</p><div class="meta">8 min read · with sources</div></div></div>
-    <div class="card"><div class="img" style="background-image:url(assets/Gerson-salad.jpg)"></div><div class="b"><span class="cat">Recipe</span><h3>Hippocrates soup, step by step</h3><p>The classic Gerson soup with a printable shopping list.</p><div class="meta">6 min read · English · Magyar · Deutsch</div></div></div>
-    <div class="card"><div class="img" style="background-image:url(assets/Office.png);background-position:85% 50%"></div><div class="b"><span class="cat">Myths &amp; facts</span><h3>Does choosing Gerson mean giving up your doctor?</h3><p>How our programme works alongside conventional care.</p><div class="meta">4 min read · with sources</div></div></div>
+  <h2 data-reveal>Keep reading</h2>
+  <div class="cards" data-stagger="120">
+    <div class="card lift"><div class="zoom"><div class="img" style="background-image:url(assets/photos/max-gerson.jpg);background-position:50% 25%"></div></div><div class="b"><span class="cat">Myths &amp; facts</span><h3><a href="home.html#approach">The original Gerson method, and how later versions differ</a></h3><p>Why versions differ, and why we follow Dr. Gerson's own writing.</p><div class="meta">8 min read · with sources</div></div></div>
+    <div class="card lift"><div class="zoom"><div class="img" style="background-image:url(assets/photos/stuffed-peppers.jpg)"></div></div><div class="b"><span class="cat">Recipe</span><h3>Gerson stuffed peppers, step by step</h3><p>A favourite from our kitchen, with a printable shopping list.</p><div class="meta">6 min read · English · Magyar · Deutsch</div></div></div>
+    <div class="card lift"><div class="zoom"><div class="img" style="background-image:url(assets/photos/garden-flowers.jpg)"></div></div><div class="b"><span class="cat">Myths &amp; facts</span><h3>Does choosing Gerson mean giving up your doctor?</h3><p>How our programme works alongside conventional care.</p><div class="meta">4 min read · with sources</div></div></div>
   </div>
 </div></section>
 
 <footer><div class="wrap">
   <div class="grid">
-    <div><div class="brand"><img src="assets/logo.png" alt="" style="background:#FFF6E3;border-radius:50%;padding:4px"><div><b style="color:#fff;font-size:22px">Gerson Institute Europe</b><small style="color:#A9B296">Gerson Intézet Európa Kft.</small></div></div><p style="margin-top:18px;max-width:320px">The accredited Gerson centre for Europe, Asia and Africa. In the Americas, please contact the Health Institute de Tijuana, Mexico.</p></div>
+    <div><div class="brand"><img src="assets/logo.png" alt="" style="background:#FFF6E3;border-radius:50%;padding:4px"><div><b style="color:#fff;font-size:22px">Gerson Institute Europe</b><small style="color:#A9B296">Gerson Intézet Európa Kft.</small></div></div><p style="margin-top:18px;max-width:320px">The first accredited Gerson centre in Europe, serving Europe, Asia and Africa. In the Americas, please contact the Health Institute de Tijuana, Mexico.</p></div>
     <div><h5>The therapy</h5><ul><li><a href="home.html#therapy">What is it?</a></li><li><a href="home.html#approach">Dr. Gerson's original method</a></li><li><a href="myths-juice.html">Myths &amp; facts</a></li><li><a href="home.html#journal">Recipes</a></li></ul></div>
-    <div><h5>Work with us</h5><ul><li><a href="sessions.html">One-week sessions</a></li><li><a href="sessions.html#online">Online guidance</a></li><li><a href="home.html#inquiry">Start an inquiry</a></li><li><a href="sessions.html#faq">FAQ</a></li></ul></div>
-    <div><h5>Contact</h5><ul><li><a href="mailto:info@gerson.hu">info@gerson.hu</a></li><li>+36 …</li><li>Budapest, Hungary</li><li>EN · HU · DE · FR</li></ul></div>
+    <div><h5>Work with us</h5><ul><li><a href="sessions.html">One-week sessions</a></li><li><a href="sessions.html#online">Online guidance</a></li><li><a href="home.html#team">Our team</a></li><li><a href="sessions.html#faq">FAQ</a></li></ul></div>
+    <div><h5>Contact</h5><ul><li><a href="mailto:info@gerson.hu">info@gerson.hu</a></li><li><a href="tel:+36306426291">+36 30 642 6291</a></li><li>1022 Budapest, Bogár utca 22/C</li><li>Weekdays 10:00–15:00 (CET)</li></ul></div>
   </div>
   <div class="disc">Disclaimer: Gerson Institute Europe is not a medical institution. Our programme is complementary to, and never a replacement for, conventional medical care. Information on this website is for educational purposes only and is not a substitute for advice from a doctor or other qualified professional. Results depend on many factors, including a person's current state of health. · © 2026 Gerson Intézet Európa Kft. · Privacy · Cookies · Impressum</div>
 </div></footer>
 
+<script src="assets/motion.js"></script>
 </body>
 </html>

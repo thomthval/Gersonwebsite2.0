@@ -1,0 +1,2037 @@
+# Translations for the mockup: Hungarian (hu), German (de), French (fr).
+# Each [id] is a short hash of the English text (see tools/i18n.py). "same" keeps the English.
+
+# ---------- index (preview hub) ----------
+[ef286c4]
+hu: Gerson Intézet Európa · Weboldal-terv előnézet
+de: Gerson Institute Europe · Vorschau des Website-Konzepts
+fr: Gerson Institute Europe · Aperçu du projet de site
+
+[eda06e8]
+hu: Weboldal-terv előnézet
+de: Vorschau des Website-Konzepts
+fr: Aperçu du projet de site
+
+[987bcc2]
+hu: Gerson Intézet Európa · látványterv véleményezésre, nem az élő oldal
+de: Gerson Institute Europe · Entwurf zur Ansicht, nicht die echte Website
+fr: Gerson Institute Europe · maquette à valider, pas le site en ligne
+
+[a87ed67]
+hu: <b>Használat:</b> kattintson az egyik oldalra, majd a menüvel és a gombokkal lépkedjen tovább. Az oldalak tetején lévő nyelvválasztóval válthat nyelvet. Az oldalak számítógép-képernyőre készültek; a kész honlap mobilon is jól fog működni. A „Példa” jelölésű szövegek helykitöltők, ezeket még egyeztetni kell.
+de: <b>So funktioniert es:</b> Klicken Sie auf eine Seite und bewegen Sie sich dann über das Menü und die Schaltflächen weiter. Mit der Sprachauswahl oben auf jeder Seite wechseln Sie die Sprache. Die Seiten sind für einen Computerbildschirm gestaltet; die fertige Website funktioniert auch auf dem Handy. Mit „Beispiel“ markierte Texte sind Platzhalter, die noch abgestimmt werden.
+fr: <b>Mode d'emploi :</b> cliquez sur une page, puis naviguez avec le menu et les boutons. Le sélecteur en haut de chaque page change la langue. Les pages sont conçues pour un écran d'ordinateur ; le site final s'adaptera aussi aux téléphones. Les textes marqués « Exemple » sont provisoires et restent à valider.
+
+[9521dba]
+hu: Főoldal
+de: Startseite
+fr: Page d'accueil
+
+[d846298]
+hu: Fontos tudnivaló, alapelvek, egy Gerson-nap, csapatunk, a ház, a turnusok és az érdeklődési űrlap
+de: Wichtiger Hinweis, Grundsätze, ein Gerson-Tag, unser Team, das Haus, die Kurswochen und das Anfrageformular
+fr: La note importante, nos principes, une journée Gerson, notre équipe, la maison, les séjours et le formulaire de demande
+
+[c631472]
+hu: Egyhetes turnusok
+de: Einwöchige Kurswochen
+fr: Séjours d'une semaine
+
+[a14a2ba]
+hu: Időpontok, mit tartalmaz, a hét napról napra, online tanácsadás és kérdések
+de: Termine, Leistungen, die Woche Tag für Tag, Online-Begleitung und Fragen
+fr: Dates, ce qui est inclus, la semaine jour après jour, accompagnement en ligne et questions
+
+[50c2d37]
+hu: Tévhitek és tények cikk
+de: Artikel „Mythen &amp; Fakten“
+fr: Article « Mythes et réalités »
+
+[d0d8191]
+hu: „Csak gyümölcslevekről szól a Gerson-terápia?” – forrásokkal
+de: „Ist die Gerson-Therapie nur Saftfasten?“ – mit Quellen
+fr: « La thérapie Gerson, est-ce seulement des jus ? », avec sources
+
+[5f5e1ca]
+hu: A koncepció áttekintése
+de: Konzeptübersicht
+fr: Vue d'ensemble du projet
+
+[6e356e8]
+hu: Mobilos űrlap, szerkesztőfelület, Google, az érdeklődések útja és a tárhely (angolul)
+de: Mobiles Formular, Redaktionsoberfläche, Google, Weg der Anfragen und Hosting (auf Englisch)
+fr: Formulaire mobile, éditeur, Google, parcours des demandes et hébergement (en anglais)
+
+# ---------- shared header, footer, alt texts ----------
+[07cbe1c]
+hu: Gerson Intézet Európa — A Gerson-terápia, Dr. Max Gerson eredeti módszere szerint
+de: Gerson Institute Europe — Die Gerson-Therapie nach der Originalmethode von Dr. Max Gerson
+fr: Gerson Institute Europe — La thérapie Gerson selon la méthode originale du Dr Max Gerson
+
+[21961ac]
+hu: Európa első akkreditált Gerson-központja, 2009 óta. Kiegészítő, személyre szabott Gerson-életmódprogram Dr. Max Gerson eredeti módszere szerint, a hagyományos orvosi ellátással együttműködve.
+de: Das erste akkreditierte Gerson-Zentrum in Europa, seit 2009. Ein ergänzendes, persönlich abgestimmtes Gerson-Lebensstilprogramm nach der Originalmethode von Dr. Max Gerson, in Zusammenarbeit mit der schulmedizinischen Versorgung.
+fr: Le premier centre Gerson accrédité en Europe, depuis 2009. Un programme d'hygiène de vie Gerson complémentaire et personnalisé, fidèle à la méthode originale du Dr Max Gerson, en coopération avec le suivi médical conventionnel.
+
+[d8654c7]
+hu: A Gerson Intézet Európa háza és kertje Pilisborosjenőn, naplementekor
+de: Haus und Garten von Gerson Institute Europe in Pilisborosjenő bei Sonnenuntergang
+fr: La maison et le jardin de Gerson Institute Europe à Pilisborosjenő, au coucher du soleil
+
+[ac40ebf]
+hu: Frissen préselt sárgarépa- és almalé
+de: Frisch gepresste Karotten- und Apfelsäfte
+fr: Jus de carotte et de pomme fraîchement pressés
+
+[633db5e]
+same
+
+[9bfe08e]
+same
+
+[4d97b2b]
+same
+
+[ff21d53]
+same
+
+[5d5bd2a]
+hu: A ház és a kert
+de: Haus und Garten
+fr: La maison et le jardin
+
+[30a8f68]
+hu: A tó
+de: Der Teich
+fr: L'étang
+
+[bae6478]
+hu: Egy vendégszoba
+de: Ein Gästezimmer
+fr: Une chambre d'hôtes
+
+[7bd90d9]
+hu: A csoportnak készített saláta
+de: Ein für die Gruppe zubereiteter Salat
+fr: Une salade préparée pour le groupe
+
+[b5f5793]
+hu: A falut körülvevő hegyek
+de: Die Hügel rund um das Dorf
+fr: Les collines autour du village
+
+[b87c597]
+hu: Résztvevők közös tornája egy turnus alatt
+de: Teilnehmende bei gemeinsamer Bewegung während einer Kurswoche
+fr: Des participants font de l'exercice ensemble pendant un séjour
+
+[4079fd2]
+hu: Egykori résztvevők, családtagok és a csapat a 10. évfordulón
+de: Ehemalige Teilnehmende, Familien und das Team beim 10-jährigen Jubiläum
+fr: Anciens participants, familles et équipe lors du 10e anniversaire
+
+[68d2b26]
+hu: Európa első akkreditált Gerson-központja · <b>Európa, Ázsia és Afrika</b> érdeklődőinek · <a href="https://gerson.org/health-institute-de-tijuana/" style="text-decoration:underline;text-underline-offset:3px">Amerikában él? Keresse a Health Institute de Tijuanát (Mexikó) →</a>
+de: Das erste akkreditierte Gerson-Zentrum in Europa · für <b>Europa, Asien &amp; Afrika</b> · <a href="https://gerson.org/health-institute-de-tijuana/" style="text-decoration:underline;text-underline-offset:3px">Sie leben in Amerika? Zum Health Institute de Tijuana, Mexiko →</a>
+fr: Le premier centre Gerson accrédité en Europe · pour <b>l'Europe, l'Asie et l'Afrique</b> · <a href="https://gerson.org/health-institute-de-tijuana/" style="text-decoration:underline;text-underline-offset:3px">Vous vivez aux Amériques ? Voir le Health Institute de Tijuana, Mexique →</a>
+
+[29478ab]
+same
+
+[6c0fa34]
+hu: Gerson Intézet Európa
+de: Gerson Institute Europe
+fr: Gerson Institute Europe
+
+[9b84cde]
+hu: Dr. Max Gerson eredeti módszere
+de: Die Originalmethode von Dr. Max Gerson
+fr: La méthode originale du Dr Max Gerson
+
+[6d58342]
+hu: A terápia
+de: Die Therapie
+fr: La thérapie
+
+[e11e37a]
+hu: Turnusok
+de: Kurswochen
+fr: Séjours
+
+[a85b85e]
+hu: Csapatunk
+de: Unser Team
+fr: Notre équipe
+
+[17e06e0]
+hu: Tévhitek és tények
+de: Mythen &amp; Fakten
+fr: Mythes et réalités
+
+[57d7f74]
+hu: Magazin
+de: Magazin
+fr: Journal
+
+[301ceb9]
+hu: Érdeklődöm
+de: Anfrage senden
+fr: Faire une demande
+
+# ---------- home: hero ----------
+[2871085]
+hu: Gerson-terápia · Európa, Ázsia és Afrika · 2009 óta
+de: Gerson-Therapie · Europa, Asien &amp; Afrika · seit 2009
+fr: Thérapie Gerson · Europe, Asie et Afrique · depuis 2009
+
+[4df3c39]
+hu: Az egész embert szolgáló életmód, <em>Dr. Max Gerson</em> eredeti módszere szerint.
+de: Ein Lebensstil für den ganzen Menschen, treu der Originalmethode von <em>Dr. Max Gerson</em>.
+fr: Une hygiène de vie pour toute la personne, fidèle à la méthode originale du <em>Dr Max Gerson</em>.
+
+[bf383b7]
+hu: Kiegészítő, személyre szabott program, amely az Ön hagyományos orvosi kezelése mellett működik. Egyhetes bentlakásos turnusok és online tanácsadás Európa első akkreditált Gerson-központjától.
+de: Ein ergänzendes, persönlich abgestimmtes Programm, das Ihre schulmedizinische Behandlung begleitet. Einwöchige Kurswochen mit Unterkunft und Online-Begleitung vom ersten akkreditierten Gerson-Zentrum in Europa.
+fr: Un programme complémentaire et personnalisé, qui accompagne votre suivi médical conventionnel. Des séjours résidentiels d'une semaine et un accompagnement en ligne, par le premier centre Gerson accrédité en Europe.
+
+[ebac2bf]
+hu: Érdeklődés indítása →
+de: Anfrage starten →
+fr: Commencer ma demande →
+
+[031c43f]
+hu: Mi a Gerson-terápia?
+de: Was ist die Gerson-Therapie?
+fr: Qu'est-ce que la thérapie Gerson ?
+
+[66ffde5]
+hu: Minden megkeresésre személyesen válaszolunk az info@gerson.hu címről
+de: Jede Anfrage wird persönlich von info@gerson.hu beantwortet
+fr: Chaque demande reçoit une réponse personnelle depuis info@gerson.hu
+
+[441d53e]
+hu: <i>📍</i>Pilisborosjenő, közvetlenül Budapest mellett
+de: <i>📍</i>Pilisborosjenő, direkt vor den Toren Budapests
+fr: <i>📍</i>Pilisborosjenő, aux portes de Budapest
+
+[ef2694f]
+hu: Hol él?
+de: Wo leben Sie?
+fr: Où vivez-vous ?
+
+[d20f199]
+hu: Európában, Ázsiában vagy Afrikában <small>→ Gerson Európa</small>
+de: Europa, Asien oder Afrika <small>→ Gerson Europe</small>
+fr: Europe, Asie ou Afrique <small>→ Gerson Europe</small>
+
+[84cd080]
+hu: Észak- vagy Dél-Amerikában <small>→ Tijuana, Mexikó</small>
+de: Nord- oder Südamerika <small>→ Tijuana, Mexiko</small>
+fr: Amérique du Nord ou du Sud <small>→ Tijuana, Mexique</small>
+
+[c133ab9]
+hu: alapítás éve – olyanok alapították, akik saját életükből ismerik a terápiát
+de: gegründet in Ungarn von Menschen, die die Therapie aus eigenem Erleben kennen
+fr: fondé en Hongrie par des personnes qui connaissent la thérapie par leur propre expérience
+
+[efc920c]
+hu: Az első
+de: Das 1.
+fr: Le 1er
+
+[2cab1c8]
+hu: akkreditált Gerson-központ Európában
+de: akkreditierte Gerson-Zentrum in Europa
+fr: centre Gerson accrédité en Europe
+
+[a73c55f]
+hu: év Gerson-tapasztalat – ennyi szakmai vezetőnk gyakorlata
+de: Jahre Gerson-Erfahrung unserer fachlichen Leiterin
+fr: années d'expérience Gerson pour notre responsable thérapeutique
+
+[e362a6e]
+hu: kontinens: Európa, Ázsia és Afrika
+de: Kontinente: Europa, Asien und Afrika
+fr: continents : Europe, Asie et Afrique
+
+# ---------- home: care note ----------
+[6e133e4]
+hu: Mielőtt továbbolvas
+de: Bevor Sie weiterlesen
+fr: Avant de poursuivre
+
+[6ebf8f1]
+hu: A kemoterápia alternatíváját keresi?
+de: Sie suchen eine Alternative zur Chemotherapie?
+fr: Vous cherchez une alternative à la chimiothérapie ?
+
+[1db42c1]
+hu: Kérjük, először ezt olvassa el.
+de: Bitte lesen Sie zuerst dies.
+fr: Merci de lire ceci d'abord.
+
+[a385b63]
+hu: Sokan egy nehéz diagnózis után találnak ránk, abban a reményben, hogy a kemoterápia vagy más orvosi kezelés helyett választhatnak valamit. Megértjük ezt a vágyat, és komolyan vesszük. A Gerson-terápia azonban, ahogyan mi alkalmazzuk, nem helyettesíti az orvosi kezelést. Kiegészítő életmódprogram, amelyet az orvosai által javasolt ellátás mellett követhet.
+de: Viele Menschen finden nach einer schweren Diagnose zu uns, in der Hoffnung auf eine Alternative zur Chemotherapie oder zu einer anderen medizinischen Behandlung. Wir verstehen diesen Wunsch und nehmen ihn ernst. Doch die Gerson-Therapie, wie wir sie anwenden, ist keine Alternative zur medizinischen Behandlung. Sie ist ein ergänzendes Lebensstilprogramm, das Sie begleitend zu der von Ihren Ärztinnen und Ärzten empfohlenen Behandlung durchführen.
+fr: Beaucoup de personnes nous trouvent après un diagnostic difficile, en espérant une alternative à la chimiothérapie ou à un autre traitement médical. Nous comprenons ce souhait et le prenons au sérieux. Mais la thérapie Gerson, telle que nous la pratiquons, n'est pas une alternative au traitement médical. C'est un programme d'hygiène de vie complémentaire, suivi en parallèle des soins recommandés par vos médecins.
+
+[7f4d6b6]
+hu: <i>✓</i>Kérjük, soha ne hagyjon abba és ne utasítson vissza orvosai által javasolt kezelést azért, amit itt olvas.
+de: <i>✓</i>Bitte brechen Sie nie eine von Ihren Ärzten empfohlene Behandlung ab oder lehnen sie ab, nur wegen etwas, das Sie hier lesen.
+fr: <i>✓</i>N'arrêtez et ne refusez jamais un traitement recommandé par vos médecins à cause de ce que vous lisez ici.
+
+[014d73a]
+hu: <i>✓</i>Először beszéljen az orvosaival, és tartsa őket folyamatosan tájékoztatva.
+de: <i>✓</i>Sprechen Sie zuerst mit Ihren Ärzten und halten Sie sie stets informiert und eingebunden.
+fr: <i>✓</i>Parlez d'abord à vos médecins, et tenez-les informés et impliqués.
+
+[83bdf52]
+hu: <i>✓</i>Ezután beszéljen velünk: őszintén elmondjuk, hogyan illeszthető a Gerson-életmód az Ön kezelése mellé.
+de: <i>✓</i>Dann sprechen Sie mit uns: Wir erklären Ihnen ehrlich, wie sich der Gerson-Lebensstil mit Ihrer Behandlung vereinbaren lässt.
+fr: <i>✓</i>Ensuite, parlez-nous : nous vous expliquerons honnêtement comment l'hygiène de vie Gerson peut s'intégrer à vos soins.
+
+[880ddb3]
+hu: Beszéljünk →
+de: Sprechen Sie mit uns →
+fr: Parlons-en →
+
+[b541341]
+hu: Hat alapelvünk
+de: Unsere sechs Grundsätze
+fr: Nos six principes
+
+# ---------- home: principles ----------
+[7884a0c]
+hu: Alapelveink
+de: Unsere Grundsätze
+fr: Nos principes
+
+[6d22e12]
+hu: Hat vállalás mindenben, amit teszünk
+de: Sechs Verpflichtungen hinter allem, was wir tun
+fr: Six engagements derrière tout ce que nous faisons
+
+[47f11cc]
+hu: Ezek határozzák meg minden turnusunkat, minden cikkünket és minden válaszunkat.
+de: Sie prägen jede Kurswoche, jeden Artikel auf dieser Website und jede Antwort, die wir geben.
+fr: Ils guident chaque séjour, chaque article de ce site et chaque réponse que nous donnons.
+
+[96461ed]
+hu: Kiegészítő, nem alternatív
+de: Ergänzend, nicht alternativ
+fr: Complémentaire, pas alternatif
+
+[5ebc756]
+hu: A Gerson-életmódot az orvosai által javasolt ellátás mellé kínáljuk, soha nem helyette.
+de: Der Gerson-Lebensstil wird begleitend zu der von Ihren Ärzten empfohlenen Behandlung angeboten, niemals als Ersatz.
+fr: L'hygiène de vie Gerson est proposée en complément des soins recommandés par vos médecins, jamais à leur place.
+
+[6c2c631]
+hu: Tényekre épülő, nem ígéretekre
+de: Evidenzorientiert, nicht versprechensgetrieben
+fr: Fondé sur les connaissances, pas sur les promesses
+
+[4f3883d]
+hu: Elmondjuk, mi ismert, megnevezzük forrásainkat, és soha nem ígérünk eredményt.
+de: Wir erklären, was bekannt ist, nennen unsere Quellen und versprechen niemals Ergebnisse.
+fr: Nous expliquons ce que l'on sait, citons nos sources et ne promettons jamais de résultats.
+
+[4d87005]
+hu: Személyre szabott, nem sablonos
+de: Persönlich, nicht von der Stange
+fr: Personnalisé, pas standardisé
+
+[dc30108]
+hu: Minden programot az adott ember egészségi állapotához, körülményeihez és mindennapjaihoz igazítunk.
+de: Jedes Programm wird an die Gesundheit, die Lebensumstände und den Alltag des Menschen angepasst.
+fr: Chaque programme est adapté à la santé, à la situation et au quotidien de la personne.
+
+[90af3ee]
+hu: Együttműködésben a hagyományos orvosi ellátással
+de: In Zusammenarbeit mit der Schulmedizin
+fr: En coopération avec le suivi médical conventionnel
+
+[353d125]
+hu: Arra biztatjuk, hogy orvosait minden lépésről tájékoztassa, és vonja be őket.
+de: Wir ermutigen Sie, Ihre Ärzte bei jedem Schritt zu informieren und einzubeziehen.
+fr: Nous vous encourageons à tenir vos médecins informés et impliqués à chaque étape.
+
+[b57677c]
+hu: Az egész emberre és életmódjára figyel
+de: Der ganze Mensch und sein Lebensstil im Blick
+fr: Centré sur toute la personne et son mode de vie
+
+[e91bbb3]
+hu: Étkezés, pihenés, napi ritmus és lelki jóllét, nem egyetlen tünet.
+de: Ernährung, Ruhe, Tagesrhythmus und seelisches Wohlbefinden, nicht ein einzelnes Symptom.
+fr: L'alimentation, le repos, le rythme quotidien et le bien-être émotionnel, pas un seul symptôme.
+
+[658cf11]
+hu: A biztonság és az átláthatóság az első
+de: Sicherheit und Transparenz zuerst
+fr: La sécurité et la transparence avant tout
+
+[52b662a]
+hu: Világos tájékoztatás arról, mivel jár a program, mennyibe kerül, és mikor nem javasolt.
+de: Klare Informationen darüber, was das Programm umfasst, was es kostet und wann es möglicherweise nicht geeignet ist.
+fr: Des informations claires sur ce que comprend le programme, son coût et les cas où il ne convient pas.
+
+# ---------- home: the therapy ----------
+[8dd39a9]
+hu: A Gerson-terápia
+de: Die Gerson-Therapie
+fr: La thérapie Gerson
+
+[d445e26]
+hu: Nem léböjt. Teljes, jól felépített életmód.
+de: Keine Saftkur. Eine vollständige, klar strukturierte Lebensweise.
+fr: Pas une cure de jus. Un mode de vie complet et structuré.
+
+[7ccc938]
+hu: Az alapelv egyszerű: a szervezet feltáplálása és méregtelenítésének támogatása. Négy, egymással szorosan összefüggő rész működik együtt.
+de: Das Grundprinzip ist einfach: den Körper zu nähren und seine Entgiftung zu unterstützen. Vier eng miteinander verbundene Teile wirken zusammen.
+fr: Le principe de base est simple : nourrir le corps et soutenir sa détoxification. Quatre éléments étroitement liés agissent ensemble.
+
+[55e619e]
+hu: Bio, sómentes étrend
+de: Biologische, salzfreie Kost
+fr: Une alimentation bio et sans sel
+
+[5b1d3d3]
+hu: Friss saláták, zabkása, Hippokratész-leves, héjában sült burgonya és friss gyümölcs, mind bio és só nélkül elkészítve.
+de: Frische Salate, Haferbrei, Hippokrates-Suppe, Ofenkartoffeln und frisches Obst, alles biologisch und ohne Salz zubereitet.
+fr: Salades fraîches, porridge d'avoine, soupe d'Hippocrate, pommes de terre au four et fruits frais, le tout bio et préparé sans sel.
+
+[848e8f4]
+hu: Frissen préselt levek
+de: Frisch gepresste Säfte
+fr: Des jus fraîchement pressés
+
+[cbc030c]
+hu: Sárgarépa-, alma- és zöldlevél-levek, a nap folyamán frissen préselve és azonnal elfogyasztva.
+de: Karotten-, Apfel- und Grünblattsäfte, über den Tag frisch gepresst und sofort getrunken.
+fr: Jus de carotte, de pomme et de feuilles vertes, pressés tout au long de la journée et bus aussitôt.
+
+[1c8468d]
+hu: A méregtelenítés támogatása
+de: Unterstützung der Entgiftung
+fr: Soutenir la détoxification
+
+[c567b43]
+hu: Gyakorlati rutinok, amelyek támogatják a szervezet saját kiválasztását, lépésről lépésre megtanítva.
+de: Praktische Routinen, die die körpereigene Ausscheidung unterstützen, Schritt für Schritt vermittelt.
+fr: Des routines pratiques qui soutiennent l'élimination naturelle du corps, enseignées pas à pas.
+
+[a46ebce]
+hu: Útmutatás és ritmus
+de: Begleitung &amp; Rhythmus
+fr: Accompagnement et rythme
+
+[22a1ea5]
+hu: Étrend-kiegészítők a protokoll szerint, világos napirend és képzett csapat Ön mellett.
+de: Nahrungsergänzungen nach Protokoll, ein klarer Tagesablauf und ein geschultes Team an Ihrer Seite.
+fr: Des compléments selon le protocole, un emploi du temps clair et une équipe formée à vos côtés.
+
+# ---------- home: a Gerson day ----------
+[b8b66a2]
+hu: Egy nap a módszer ritmusában
+de: Ein Tag im Rhythmus der Methode
+fr: Une journée au rythme de la méthode
+
+[861c4ec]
+hu: Milyen egy Gerson-nap?
+de: So sieht ein Gerson-Tag aus
+fr: À quoi ressemble une journée Gerson
+
+[a926401]
+hu: A nap egyenletes ritmust követ. Görgessen tovább, és kibontakozik az első reggeli létől a korai lefekvésig.
+de: Der Tag folgt einem ruhigen Rhythmus. Scrollen Sie weiter, und er entfaltet sich, vom ersten Saft am Morgen bis zur frühen Nachtruhe.
+fr: La journée suit un rythme régulier. Faites défiler : elle se déroule, du premier jus du matin jusqu'au coucher tôt.
+
+[a0cf424]
+hu: Reggel
+de: Morgens
+fr: Le matin
+
+[00eb917]
+hu: Nyugodt kezdés
+de: Ein ruhiger Start
+fr: Un début en douceur
+
+[ca49b9b]
+hu: Reggelire zabkása és friss gyümölcs, és az első frissen préselt lé.
+de: Haferbrei und frisches Obst zum Frühstück und der erste frisch gepresste Saft.
+fr: Porridge d'avoine et fruits frais au petit-déjeuner, et le premier jus fraîchement pressé.
+
+[6a76cd5]
+hu: Óránként
+de: Jede Stunde
+fr: Toutes les heures
+
+[02b46cc]
+hu: Friss levek
+de: Frische Säfte
+fr: Des jus frais
+
+[e426f72]
+hu: Meghatározott összetételű, frissen készített lé, amelyet azonnal elfogyaszt.
+de: Ein frisch zubereiteter Saft in einer bestimmten Zusammensetzung, sofort getrunken.
+fr: Un jus préparé à la minute, selon une composition précise, et bu aussitôt.
+
+[886255b]
+hu: Délben
+de: Mittags
+fr: À midi
+
+[7fe6d4f]
+hu: Közös ebéd
+de: Gemeinsames Mittagessen
+fr: Le déjeuner ensemble
+
+[14c1c4b]
+hu: Hippokratész-leves, egy nagy tál friss saláta és héjában sült burgonya, mind sómentesen.
+de: Hippokrates-Suppe, ein großer frischer Salat und Ofenkartoffeln, alles salzfrei.
+fr: Soupe d'Hippocrate, une grande salade fraîche et des pommes de terre au four, le tout sans sel.
+
+[d682699]
+hu: Délután
+de: Nachmittags
+fr: L'après-midi
+
+[470b5d1]
+hu: Pihenés és rutinok
+de: Ruhe &amp; Routinen
+fr: Repos et routines
+
+[ba63082]
+hu: Pihenés, idő a kertben és a napi méregtelenítő rutinok.
+de: Ruhe, Zeit im Garten und die täglichen Entgiftungsroutinen.
+fr: Repos, temps au jardin et routines de détoxification quotidiennes.
+
+[6734e19]
+hu: Este
+de: Abends
+fr: Le soir
+
+[8777303]
+hu: Korai lefekvés
+de: Früh zur Ruhe
+fr: Un coucher tôt
+
+[c598608]
+hu: Vacsora, a nap utolsó leve és sok alvás.
+de: Abendessen, der letzte Saft des Tages und viel Schlaf.
+fr: Le dîner, le dernier jus de la journée et beaucoup de sommeil.
+
+[48f83c6]
+hu: Szemléltetés céljából egyszerűsítve. Minden terv személyre szabott, és egyénileg egyeztetjük.
+de: Zur Veranschaulichung vereinfacht. Jeder Plan ist persönlich und wird individuell abgestimmt.
+fr: Simplifié pour l'illustration. Chaque programme est personnel et convenu individuellement.
+
+# ---------- home: approach ----------
+[1cf159a]
+hu: Dr. Max Gerson, 1881–1959
+de: Dr. Max Gerson, 1881–1959
+fr: Dr Max Gerson, 1881–1959
+
+[f09011b]
+hu: Megközelítésünk
+de: Unser Ansatz
+fr: Notre approche
+
+[cedaab6]
+hu: Dr. Gerson eredeti módszerét követjük.
+de: Wir folgen der Originalmethode von Dr. Gerson.
+fr: Nous suivons la méthode originale du Dr Gerson.
+
+[56bdafe]
+hu: Dr. Max Gerson német orvos volt. Saját súlyos migrénjére keresve enyhülést, sómentes, növényi alapú étrendet dolgozott ki, és később azt látta, hogy más betegségekben szenvedő betegeinek is segít. Harminc év alatt ezt fejlesztette tovább az 1958-as könyvében leírt terápiává.
+de: Dr. Max Gerson war ein deutscher Arzt. Auf der Suche nach Linderung seiner eigenen schweren Migräne entwickelte er eine salzfreie, pflanzenbasierte Ernährung und sah später, dass sie auch Patienten mit anderen Erkrankungen half. Über 30 Jahre verfeinerte er sie zu der Therapie, die er 1958 in seinem Buch beschrieb.
+fr: Le Dr Max Gerson était un médecin allemand. Cherchant à soulager ses propres migraines sévères, il mit au point une alimentation sans sel, à base de végétaux, puis constata qu'elle aidait aussi des patients atteints d'autres maladies. En 30 ans, il l'affina pour en faire la thérapie décrite dans son livre de 1958.
+
+[3e40dc4]
+hu: Az évek során a Gerson család tagjai kissé eltérő módon vitték tovább munkáját. Központunk a forráshoz tér vissza: a terápiához úgy, ahogyan Dr. Max Gerson maga kidolgozta és leírta.
+de: Im Laufe der Jahre haben Mitglieder der Familie Gerson sein Werk jeweils etwas unterschiedlich weitergeführt. Unser Zentrum geht zurück zur Quelle: zur Therapie, wie Dr. Max Gerson selbst sie entwickelt und dokumentiert hat.
+fr: Au fil des années, les membres de la famille Gerson ont chacun prolongé son œuvre un peu différemment. Notre centre revient à la source : la thérapie telle que le Dr Max Gerson l'a lui-même conçue et documentée.
+
+[2cfbd82]
+hu: Elsődleges forrásaink
+de: Unsere Primärquellen
+fr: Nos sources primaires
+
+[c8ed686]
+same
+
+[c9ef1fc]
+hu: Dr. Max Gerson · 1958 (magyarul: Egy rákterápia – ötven eset eredményei)
+de: Dr. Max Gerson · 1958 (deutsch: Eine Krebstherapie – 50 Fälle)
+fr: Dr Max Gerson · 1958
+
+[a338107]
+same
+
+[0872172]
+hu: Dr. Max Gerson · első étrendi könyve, 4. kiadás, 1930
+de: Dr. Max Gerson · sein erstes Diätbuch, 4. Auflage 1930
+fr: Dr Max Gerson · son premier livre de diététique, 4e édition, 1930
+
+[517a01b]
+hu: Eredeti cikkek és előadások
+de: Originalartikel und Vorträge
+fr: Articles et conférences originaux
+
+[55cf68f]
+hu: Dr. Max Gerson · 1920-as–1950-es évek
+de: Dr. Max Gerson · 1920er–1950er Jahre
+fr: Dr Max Gerson · années 1920–1950
+
+[67831e4]
+hu: Ahol a későbbi könyvek eltérnek Dr. Gerson saját írásaitól, az eredetit követjük.
+de: Wo spätere Bücher von Dr. Gersons eigenen Schriften abweichen, folgen wir dem Original.
+fr: Lorsque des livres plus récents s'écartent des écrits du Dr Gerson, nous suivons l'original.
+
+[64683d9]
+hu: <b>1881</b>Megszületik Wongrowitzban, Németországban
+de: <b>1881</b>Geboren in Wongrowitz, Deutschland
+fr: <b>1881</b>Naissance à Wongrowitz, en Allemagne
+
+[ace9a53]
+hu: <b>1920-as évek</b>Migrénes étrendje, majd a tuberkulózis kezelése
+de: <b>1920er</b>Seine Diät gegen Migräne, dann gegen Tuberkulose
+fr: <b>Années 1920</b>Son régime contre la migraine, puis contre la tuberculose
+
+[48c5032]
+hu: <b>1938</b>Orvosi működési engedélyt kap New Yorkban
+de: <b>1938</b>Approbation als Arzt in New York
+fr: <b>1938</b>Autorisé à exercer la médecine à New York
+
+[c48f04b]
+hu: <b>1958</b>Megjelenik az „A Cancer Therapy” című könyve
+de: <b>1958</b>Veröffentlicht „A Cancer Therapy“
+fr: <b>1958</b>Publie « A Cancer Therapy »
+
+[8d3e447]
+hu: <b>2009</b>Megnyílik a Gerson Intézet Európa Magyarországon
+de: <b>2009</b>Gerson Institute Europe öffnet in Ungarn
+fr: <b>2009</b>Ouverture de Gerson Institute Europe en Hongrie
+
+[43a6b6f]
+hu: <b>Ma</b>Eredeti módszerét tanítjuk Európában, Ázsiában és Afrikában
+de: <b>Heute</b>Wir lehren seine Originalmethode in Europa, Asien &amp; Afrika
+fr: <b>Aujourd'hui</b>Nous enseignons sa méthode originale en Europe, en Asie et en Afrique
+
+# ---------- home: team ----------
+[b5a71a0]
+hu: Akikkel találkozni fog
+de: Die Menschen, die Sie kennenlernen
+fr: Les personnes que vous rencontrerez
+
+[0cd3f64]
+hu: Kis, tapasztalt csapat: terapeuták, ápolók és koordinátorok, akik közül sokan a megnyitás óta velünk dolgoznak.
+de: Ein kleines, erfahrenes Team aus Therapeutinnen, Pflegekräften und Koordinatorinnen, von denen viele seit der Eröffnung bei uns sind.
+fr: Une petite équipe expérimentée de thérapeutes, d'infirmières et de coordinatrices, dont beaucoup travaillent avec nous depuis l'ouverture.
+
+[ecc662a]
+hu: Társalapító · Szakmai vezető
+de: Mitgründerin · Fachliche Leitung
+fr: Cofondatrice · Responsable thérapeutique
+
+[a254396]
+hu: Dr. Nagy Melánia
+de: Dr. Melánia Nagy
+fr: Dr Melánia Nagy
+
+[08e2413]
+hu: Gerson-terapeuta
+de: Gerson-Therapeutin
+fr: Thérapeute Gerson
+
+[ca25e57]
+hu: Elsőként végezte el sikeresen a Gerson orvosképzés I–III. modulját
+de: Als Erste schloss sie die medizinische Gerson-Ausbildung, Module I–III, ab
+fr: La première à avoir suivi la formation médicale Gerson, modules I à III
+
+[1f1e5b6]
+hu: 2017 óta oktató a Gerson Intézet terapeutaképzésén
+de: Seit 2017 Ausbilderin in der Therapeutenausbildung des Gerson Institute
+fr: Formatrice dans la formation des thérapeutes du Gerson Institute depuis 2017
+
+[ba2dff9]
+hu: A Gerson Academy Board tagja
+de: Mitglied des Gerson Academy Board
+fr: Membre du Gerson Academy Board
+
+[e295c4a]
+hu: Több mint 20 év tapasztalat Gerson-terapeutaként
+de: Mehr als 20 Jahre Erfahrung als Gerson-Therapeutin
+fr: Plus de 20 ans d'expérience comme thérapeute Gerson
+
+[49c904f]
+hu: Az első kapcsolattartója
+de: Ihre erste Ansprechpartnerin
+fr: Votre premier contact
+
+[c9be291]
+hu: Borsa Noémi
+de: Noémi Borsa
+fr: Noémi Borsa
+
+[cd85452]
+hu: Irodavezető · Programszervező
+de: Büroleiterin · Programmkoordinatorin
+fr: Responsable du bureau · Coordinatrice des programmes
+
+[0fe1d51]
+hu: 2009 óta a Gerson Intézet Európa munkatársa
+de: Seit 2009 bei Gerson Institute Europe
+fr: Chez Gerson Institute Europe depuis 2009
+
+[18ab75b]
+hu: Ő szervezi az egyhetes turnusokat és az online programokat
+de: Koordiniert die Kurswochen und die Online-Programme
+fr: Coordonne les séjours d'une semaine et les programmes en ligne
+
+[55ab4bd]
+hu: 2007-ben elvégezte a Gerson alapképzést
+de: Absolvierte 2007 die Gerson-Grundausbildung
+fr: A suivi la formation de base Gerson en 2007
+
+[05e1137]
+hu: Geológus és geofizikus mérnök, közgazdász
+de: Geologin, Geophysik-Ingenieurin und Ökonomin
+fr: Géologue, ingénieure en géophysique et économiste
+
+[89fa480]
+hu: A Gerson Intézet Európát 2009-ben alapította <b>Beata Bishop</b> pszichoterapeuta, író, a Gerson Intézet európai nagykövete, és <b>Dr. Nagy Melánia</b>. Mindkét alapító saját életéből ismeri a Gerson-terápiát.
+de: Gerson Institute Europe wurde 2009 gegründet von <b>Beata Bishop</b>, Psychotherapeutin, Autorin und Europa-Botschafterin des Gerson Institute, und <b>Dr. Melánia Nagy</b>. Beide Gründerinnen kennen die Gerson-Therapie aus ihrem eigenen Leben.
+fr: Gerson Institute Europe a été fondé en 2009 par <b>Beata Bishop</b>, psychothérapeute, autrice et ambassadrice européenne du Gerson Institute, et le <b>Dr Melánia Nagy</b>. Les deux fondatrices connaissent la thérapie Gerson par leur propre vie.
+
+[ddad0c5]
+hu: Társalapító · Pszichoterapeuta
+de: Mitgründerin · Psychotherapeutin
+fr: Cofondatrice · Psychothérapeute
+
+[53fbaf4]
+hu: Péterné Oravecz Elvira
+de: Elvira Oravecz
+fr: Elvira Oravecz
+
+[5a7d22a]
+hu: Életmód-tanácsadó · Terapeuta
+de: Lebensstilberaterin · Therapeutin
+fr: Conseillère en hygiène de vie · Thérapeute
+
+[1f94803]
+hu: Weszely Katalin
+de: Katalin Weszely
+fr: Katalin Weszely
+
+[16c744c]
+hu: Terapeuta
+de: Therapeutin
+fr: Thérapeute
+
+[ae213d1]
+hu: Bujdosó Erzsébet
+de: Erzsébet Bujdosó
+fr: Erzsébet Bujdosó
+
+[7f5f3c3]
+hu: Ápoló
+de: Pflegefachfrau
+fr: Infirmière
+
+[ea68402]
+hu: Fekete Aranka
+de: Aranka Fekete
+fr: Aranka Fekete
+
+[909e506]
+hu: Csiki Edit
+de: Edit Csiki
+fr: Edit Csiki
+
+[6a02190]
+hu: Gazdasági ügyintéző
+de: Finanzverwaltung
+fr: Gestionnaire financière
+
+# ---------- home: the place ----------
+[3272622]
+hu: Ahol a turnusok zajlanak
+de: Wo die Kurswochen stattfinden
+fr: Là où se déroulent les séjours
+
+[e587b14]
+hu: Csendes ház és kert a Pilis lábánál
+de: Ein ruhiges Haus mit Garten am Rand des Pilis-Gebirges
+fr: Une maison paisible et son jardin au pied des collines du Pilis
+
+[a63fc88]
+hu: Egyhetes turnusaink Pilisborosjenőn, egy Budapest melletti kis faluban zajlanak, egy nagy kerttel, tóval és világos vendégszobákkal rendelkező házban.
+de: Unsere Kurswochen finden in Pilisborosjenő statt, einem kleinen Dorf direkt bei Budapest, in einem Haus mit großem Garten, einem Teich und hellen Gästezimmern.
+fr: Nos séjours d'une semaine ont lieu à Pilisborosjenő, un petit village aux portes de Budapest, dans une maison avec un grand jardin, un étang et des chambres lumineuses.
+
+[c63590b]
+hu: A kert
+de: Der Garten
+fr: Le jardin
+
+[47b80a1]
+hu: Vendégszobák
+de: Gästezimmer
+fr: Les chambres
+
+[55288f2]
+hu: Minden nap friss ételek
+de: Jeden Tag frisches Essen
+fr: Des repas frais chaque jour
+
+[fc433cd]
+hu: A Pilis
+de: Das Pilis-Gebirge
+fr: Les collines du Pilis
+
+[32b674c]
+hu: Családias ház, nem klinika
+de: Ein familiäres Haus, keine Klinik
+fr: Une maison familiale, pas une clinique
+
+[c97ca20]
+hu: Kert, tó és friss levegő
+de: Garten, Teich und frische Luft
+fr: Jardin, étang et air pur
+
+[7def2e2]
+hu: Frissen készült Gerson-ételek és -levek
+de: Frisch zubereitete Gerson-Mahlzeiten und -Säfte
+fr: Repas et jus Gerson préparés sur place
+
+[a48edcf]
+hu: Budapestről könnyen elérhető
+de: Von Budapest aus gut erreichbar
+fr: Facile d'accès depuis Budapest
+
+# ---------- home: sessions block ----------
+[828942a]
+hu: <b>Következő turnusok</b>Időpontok kérésre · info@gerson.hu
+de: <b>Nächste Kurswochen</b>Termine auf Anfrage · info@gerson.hu
+fr: <b>Prochains séjours</b>Dates sur demande · info@gerson.hu
+
+[ff6418c]
+hu: Mit tartalmaz egy egyhetes turnus?
+de: Was eine Kurswoche umfasst
+fr: Ce que comprend un séjour d'une semaine
+
+[f2b2cb0]
+hu: Bevezető beszélgetés és egyéni esetáttekintés
+de: Ein Vorgespräch und eine individuelle Fallbesprechung
+fr: Un entretien préalable et un examen individuel de votre situation
+
+[78536e9]
+hu: Személyre szabott terv, az Ön egészségi hátteréhez igazítva
+de: Ein persönlicher Plan, abgestimmt auf Ihre gesundheitliche Situation
+fr: Un programme personnel, construit selon votre situation de santé
+
+[12bfb1e]
+hu: Minden Gerson-étkezés és friss lé a hét során
+de: Alle Gerson-Mahlzeiten und frischen Säfte während der Woche
+fr: Tous les repas Gerson et les jus frais pendant la semaine
+
+[ab6fcf6]
+hu: Gyakorlati foglalkozások: lékészítés, főzés, a napi rutin
+de: Praxiskurse: Saftzubereitung, Kochen, der Tagesablauf
+fr: Ateliers pratiques : jus, cuisine, routine quotidienne
+
+[20c4c19]
+hu: Az otthoni berendezkedés: eszközök, bevásárlás, napirend
+de: Einrichtung zu Hause: Geräte, Einkauf, Tagesplan
+fr: S'organiser à la maison : équipement, courses, emploi du temps
+
+[a78dd8e]
+hu: Hazavihető anyagok, az Ön nyelvén
+de: Unterlagen für zu Hause, in Ihrer Sprache
+fr: Des documents à emporter, dans votre langue
+
+[40c2906]
+hu: Online utánkövetés a turnus után
+de: Online-Nachbetreuung nach der Kurswoche
+fr: Un suivi en ligne après le séjour
+
+[3bade34]
+hu: Időtartam
+de: Dauer
+fr: Durée
+
+[0a8dd6a]
+hu: 7 nap
+de: 7 Tage
+fr: 7 jours
+
+[2868971]
+hu: + online utánkövetés
+de: + Online-Nachbetreuung
+fr: + suivi en ligne
+
+[db07be1]
+hu: Nyelvek
+de: Sprachen
+fr: Langues
+
+[a7b619b]
+hu: HU · EN · DE
+de: DE · HU · EN
+fr: HU · EN · DE
+
+[d59fd81]
+hu: továbbiak kérésre
+de: weitere auf Anfrage
+fr: autres sur demande
+
+[a0d9bba]
+hu: Ár
+de: Preis
+fr: Tarif
+
+[04fcd2b]
+hu: Kérésre
+de: Auf Anfrage
+fr: Sur demande
+
+[da2049d]
+hu: egyértelmű, írásos ajánlat
+de: klares, schriftliches Angebot
+fr: devis clair et écrit
+
+[7fd50fd]
+hu: Időpontok érdekelnek →
+de: Nach Terminen fragen →
+fr: Demander les dates →
+
+[d09d131]
+hu: Online tanácsadás
+de: Online-Begleitung
+fr: Accompagnement en ligne
+
+# ---------- home: myths ----------
+[501ffa3]
+hu: Tévhitek és tények
+de: Mythen &amp; Fakten
+fr: Mythes et réalités
+
+[551fd73]
+hu: Sok mindent mondanak a Gersonról. Íme, mit mondanak valójában a források.
+de: Über Gerson wird viel erzählt. Das sagen die Quellen wirklich.
+fr: On dit beaucoup de choses sur Gerson. Voici ce que disent vraiment les sources.
+
+[1f2904d]
+hu: Minden cikk egy gyakori kérdésre válaszol, és az eredeti könyvekre hivatkozik, hogy a keresők és az olvasók elsőként a pontos változatot találják meg.
+de: Jeder Artikel beantwortet eine häufige Frage und zitiert die Originalbücher, damit Suchmaschinen und Leser zuerst die richtige Fassung finden.
+fr: Chaque article répond à une question fréquente et cite les livres originaux, pour que les moteurs de recherche et les lecteurs trouvent d'abord la version exacte.
+
+[31a7f13]
+hu: Gyakori állítás
+de: Häufige Behauptung
+fr: Idée reçue
+
+[d33bfef]
+hu: „A Gerson-terápia lényegében sok gyümölcslé ivása.”
+de: „Die Gerson-Therapie besteht im Grunde darin, viel Saft zu trinken.“
+fr: « La thérapie Gerson, c'est surtout boire beaucoup de jus. »
+
+[3e034a1]
+hu: Mit mondanak a források
+de: Was die Quellen sagen
+fr: Ce que disent les sources
+
+[9ff417a]
+hu: A levek csak egy részét adják egy teljes napi programnak, amely az étrendre, a méregtelenítésre, az étrend-kiegészítőkre és a pihenésre is kiterjed.
+de: Säfte sind nur ein Teil eines vollständigen Tagesprogramms, das auch Ernährung, Entgiftung, Nahrungsergänzung und Ruhe umfasst.
+fr: Les jus ne sont qu'une partie d'un programme quotidien complet, qui comprend aussi l'alimentation, la détoxification, les compléments et le repos.
+
+[3d63530]
+same
+
+[768b506]
+hu: Elolvasom a teljes választ →
+de: Die ganze Antwort lesen →
+fr: Lire la réponse complète →
+
+[24007f4]
+hu: „Minden »Gerson« nevű program ugyanazt a protokollt követi.”
+de: „Jedes Programm mit dem Namen ‚Gerson‘ folgt demselben Protokoll.“
+fr: « Tous les programmes appelés “Gerson” suivent le même protocole. »
+
+[f8b46d0]
+hu: Sok program használja a nevet. Az akkreditált központok a Gerson Intézet által meghatározott protokoll és képzés szerint dolgoznak.
+de: Viele Programme tragen den Namen. Akkreditierte Zentren arbeiten nach dem Protokoll und der Ausbildung des Gerson Institute.
+fr: Beaucoup de programmes utilisent ce nom. Les centres accrédités travaillent selon le protocole et la formation définis par le Gerson Institute.
+
+[07201cb]
+hu: Gerson Intézet — licencelés és akkreditáció
+de: Gerson Institute — Lizenzierung &amp; Akkreditierung
+fr: Gerson Institute — licences et accréditation
+
+[3ee0224]
+hu: „Aki a Gersont választja, lemond az orvosáról.”
+de: „Wer sich für Gerson entscheidet, verzichtet auf seinen Arzt.“
+fr: « Choisir Gerson, c'est renoncer à son médecin. »
+
+[fc03ef8]
+hu: Ahogyan mi dolgozunk
+de: So arbeiten wir
+fr: Notre façon de travailler
+
+[7a42528]
+hu: Programunk kiegészítő jellegű. A hagyományos orvosi ellátás mellett működik, és arra biztatjuk, hogy orvosait tartsa tájékoztatva és vonja be.
+de: Unser Programm ist ergänzend. Es läuft parallel zur schulmedizinischen Versorgung, und wir ermutigen Sie, Ihre Ärzte zu informieren und einzubeziehen.
+fr: Notre programme est complémentaire. Il se déroule en parallèle du suivi médical conventionnel, et nous vous encourageons à tenir vos médecins informés et impliqués.
+
+[43a9127]
+hu: Gerson Intézet Európa — hat alapelvünk
+de: Gerson Institute Europe — unsere sechs Grundsätze
+fr: Gerson Institute Europe — nos six principes
+
+# ---------- home: community ----------
+[aa8fffc]
+hu: Közösségünk
+de: Unsere Gemeinschaft
+fr: Notre communauté
+
+[0297ce8]
+hu: Tíz év együtt, és folytatjuk
+de: Zehn Jahre gemeinsam, und es geht weiter
+fr: Dix ans ensemble, et ce n'est qu'un début
+
+[2b185a6]
+hu: Egykori résztvevők, családok, barátok és csapatunk, a Gerson Intézet Európa 10. évfordulójának ünnepén.
+de: Ehemalige Teilnehmende, Familien, Freunde und unser Team feiern das 10-jährige Bestehen von Gerson Institute Europe.
+fr: Anciens participants, familles, amis et notre équipe, réunis pour les 10 ans de Gerson Institute Europe.
+
+# ---------- home: inquiry ----------
+[1dd6a17]
+hu: Hogyan működik?
+de: So funktioniert es
+fr: Comment ça marche
+
+[6bfc9d3]
+hu: Az első kérdéstől a saját konyhájáig.
+de: Von der ersten Frage bis in Ihre eigene Küche.
+fr: De la première question jusqu'à votre propre cuisine.
+
+[5941403]
+hu: Rövid érdeklődés küldése
+de: Eine kurze Anfrage senden
+fr: Envoyez une courte demande
+
+[0255daf]
+hu: Négy gyors lépés, körülbelül 3 perc. Semmit nem osztunk meg a csapatunkon kívül.
+de: Vier kurze Schritte, etwa 3 Minuten. Nichts verlässt unser Team.
+fr: Quatre étapes rapides, environ 3 minutes. Rien n'est partagé en dehors de notre équipe.
+
+[1063230]
+hu: Személyes válasz és esetáttekintés
+de: Eine persönliche Antwort und eine Fallbesprechung
+fr: Une réponse personnelle et un examen de votre situation
+
+[99da6e7]
+hu: Személyesen válaszolunk, beszélgetést javasolunk, és egyénileg áttekintjük a helyzetét.
+de: Wir antworten persönlich, schlagen ein Gespräch vor und betrachten Ihre Situation individuell.
+fr: Nous répondons personnellement, proposons un appel et examinons votre situation individuellement.
+
+[b936669]
+hu: Egyhetes turnus vagy online tanácsadás
+de: Kurswoche oder Online-Begleitung
+fr: Séjour d'une semaine ou accompagnement en ligne
+
+[094a50e]
+hu: A napi rutint a gyakorlatban tanulja meg, Önnek megfelelő időpontban.
+de: Sie lernen den Tagesablauf in der Praxis, zu Terminen, die Ihnen passen.
+fr: Apprenez la routine quotidienne en pratique, à des dates qui vous conviennent.
+
+[ba3fd00]
+hu: Folyamatos támogatás otthon
+de: Begleitung zu Hause
+fr: Un soutien continu à la maison
+
+[a1f9ec1]
+hu: Rendszeres egyeztetések, receptek és válaszok, amíg az életmód rutinná válik.
+de: Regelmäßige Gespräche, Rezepte und Antworten, bis der Lebensstil zur Routine wird.
+fr: Des points réguliers, des recettes et des réponses, jusqu'à ce que ce mode de vie devienne une routine.
+
+[2dba502]
+hu: Megkeresését Borsa Noémi olvassa
+de: Ihre Anfrage liest Noémi Borsa
+fr: Votre demande est lue par Noémi Borsa
+
+[c504cbc]
+hu: Programszervezőnk személyesen válaszol, magyarul, angolul vagy németül.
+de: Unsere Programmkoordinatorin antwortet persönlich, auf Ungarisch, Englisch oder Deutsch.
+fr: Notre coordinatrice des programmes répond personnellement, en hongrois, en anglais ou en allemand.
+
+[127140a]
+hu: <b>+36 30 642 6291</b>Hétköznap 10:00–15:00 (közép-európai idő)
+de: <b>+36 30 642 6291</b>Werktags 10:00–15:00 Uhr (MEZ)
+fr: <b>+36 30 642 6291</b>En semaine de 10 h à 15 h (heure d'Europe centrale)
+
+[ef81bfb]
+hu: <b>info@gerson.hu</b>Igyekszünk két munkanapon belül válaszolni
+de: <b>info@gerson.hu</b>Wir antworten in der Regel innerhalb von zwei Werktagen
+fr: <b>info@gerson.hu</b>Nous répondons en général sous deux jours ouvrés
+
+[fb2d7ea]
+hu: 2. lépés a 4-ből · Önről
+de: Schritt 2 von 4 · Über Sie
+fr: Étape 2 sur 4 · Vous concernant
+
+[e154dc8]
+hu: Kinek szól az érdeklődés?
+de: Für wen ist diese Anfrage?
+fr: Pour qui est cette demande ?
+
+[d75cd51]
+hu: Hogy a megfelelő emberekhez és a megfelelő információhoz irányíthassuk.
+de: Damit wir Sie an die richtigen Menschen und die richtigen Informationen verweisen können.
+fr: Pour vous orienter vers les bonnes personnes et les bonnes informations.
+
+[0337db3]
+hu: Saját magamnak<small>Fontolgatom a terápiát</small>
+de: Für mich selbst<small>Ich denke über die Therapie nach</small>
+fr: Pour moi-même<small>J'envisage la thérapie</small>
+
+[6125b2e]
+hu: Egy szerettemnek<small>Társ, szülő, gyermek, barát</small>
+de: Für einen nahestehenden Menschen<small>Partner, Eltern, Kind, Freund</small>
+fr: Pour un proche<small>Conjoint, parent, enfant, ami</small>
+
+[d523ebb]
+hu: Ország
+de: Land
+fr: Pays
+
+[31558c6]
+hu: Magyarország <span>▾</span>
+de: Deutschland <span>▾</span>
+fr: France <span>▾</span>
+
+[1c7b0d7]
+hu: Választott nyelv
+de: Bevorzugte Sprache
+fr: Langue souhaitée
+
+[ec1d901]
+hu: Magyar <span>▾</span>
+de: Deutsch <span>▾</span>
+fr: Français <span>▾</span>
+
+[a99781c]
+hu: ✓ Magyarország a Gerson Intézet Európához tartozik, így megkeresése egyenesen az info@gerson.hu címre érkezik. Az amerikai országokból érkező érdeklődőket a Health Institute de Tijuanához (Mexikó) irányítjuk.
+de: ✓ Deutschland wird von Gerson Institute Europe betreut, Ihre Anfrage geht also direkt an info@gerson.hu. Anfragen aus Ländern in Amerika werden an das Health Institute de Tijuana, Mexiko, weitergeleitet.
+fr: ✓ La France relève de Gerson Institute Europe : votre demande arrive donc directement à info@gerson.hu. Les demandes venant des Amériques sont orientées vers le Health Institute de Tijuana, au Mexique.
+
+[53be6d9]
+hu: Mit szeretne megtudni? <span style="font-weight:400;color:#9a948a">(nem kötelező)</span>
+de: Was möchten Sie wissen? <span style="font-weight:400;color:#9a948a">(optional)</span>
+fr: Que souhaitez-vous savoir ? <span style="font-weight:400;color:#9a948a">(facultatif)</span>
+
+[2a22241]
+hu: Turnusidőpontok, otthoni felkészülés, jelenlegi egészségi állapot…
+de: Termine, Vorbereitung zu Hause, aktuelle gesundheitliche Situation…
+fr: Dates des séjours, préparation à la maison, situation de santé actuelle…
+
+[ad10375]
+hu: <span class="box">✓</span>Hozzájárulok, hogy a Gerson Intézet Európa ezeket az adatokat megkeresésem megválaszolása céljából tárolja (GDPR). Adataimat harmadik félnek nem adják át.
+de: <span class="box">✓</span>Ich bin einverstanden, dass Gerson Institute Europe diese Angaben zur Beantwortung meiner Anfrage speichert (DSGVO). Es werden keine Daten an Dritte weitergegeben.
+fr: <span class="box">✓</span>J'accepte que Gerson Institute Europe conserve ces informations pour répondre à ma demande (RGPD). Aucune donnée n'est transmise à des tiers.
+
+[c32ae9f]
+hu: ← Vissza
+de: ← Zurück
+fr: ← Retour
+
+[6c447f2]
+hu: Tovább →
+de: Weiter →
+fr: Continuer →
+
+# ---------- home: journal ----------
+[65bcc7b]
+hu: Receptek és cikkek
+de: Rezepte &amp; Magazin
+fr: Recettes et journal
+
+[4966b50]
+hu: Gyakorlatias, őszinte olvasnivaló.
+de: Praktisch und ehrlich.
+fr: Des lectures pratiques et honnêtes.
+
+[ee670bc]
+hu: Receptek, turnusnaplók és világos magyarázatok, csapatunk tollából, több nyelven.
+de: Rezepte, Berichte aus den Kurswochen und klare Erklärungen, von unserem Team geschrieben und in mehreren Sprachen verfügbar.
+fr: Recettes, récits de séjours et explications claires, écrits par notre équipe et disponibles en plusieurs langues.
+
+[1dcda80]
+hu: Recept
+de: Rezept
+fr: Recette
+
+[f4a481f]
+hu: Gerson-féle töltött paprika, lépésről lépésre
+de: Gefüllte Paprika nach Gerson, Schritt für Schritt
+fr: Poivrons farcis façon Gerson, pas à pas
+
+[5eb1d61]
+hu: Konyhánk egyik kedvence, nyomtatható bevásárlólistával.
+de: Ein Lieblingsgericht aus unserer Küche, mit Einkaufsliste zum Ausdrucken.
+fr: Un plat préféré de notre cuisine, avec une liste de courses à imprimer.
+
+[b1e3e37]
+hu: 6 perc olvasás · magyar · angol · német
+de: 6 Min. Lesezeit · Deutsch · Englisch · Ungarisch
+fr: 6 min de lecture · français · anglais · hongrois
+
+[4320c75]
+hu: Az eredeti Gerson-módszer, és miben térnek el a későbbi változatok
+de: Die Original-Gerson-Methode und wie spätere Fassungen davon abweichen
+fr: La méthode Gerson originale, et en quoi les versions ultérieures diffèrent
+
+[0f9bd51]
+hu: Miért térnek el a változatok, és miért Dr. Gerson saját írásait követjük.
+de: Warum sich die Fassungen unterscheiden und warum wir Dr. Gersons eigenen Schriften folgen.
+fr: Pourquoi les versions diffèrent, et pourquoi nous suivons les écrits du Dr Gerson.
+
+[5e1bf3e]
+hu: 8 perc olvasás · forrásokkal
+de: 8 Min. Lesezeit · mit Quellen
+fr: 8 min de lecture · avec sources
+
+[21b514d]
+hu: Egy egyhetes turnus napról napra
+de: Eine Kurswoche, Tag für Tag
+fr: Un séjour d'une semaine, jour après jour
+
+[69b902d]
+hu: Napirend, étkezések, mit hozzon magával, és mit visz haza.
+de: Tagesablauf, Mahlzeiten, was Sie mitbringen und was Sie mit nach Hause nehmen.
+fr: Emploi du temps, repas, ce qu'il faut apporter et ce que vous ramènerez.
+
+[d034d71]
+hu: 5 perc olvasás · Következő időpontok →
+de: 5 Min. Lesezeit · Nächste Termine →
+fr: 5 min de lecture · Prochaines dates →
+
+# ---------- footer ----------
+[e0ef9b4]
+same
+
+[873f69b]
+hu: Európa első akkreditált Gerson-központja, Európa, Ázsia és Afrika érdeklődőinek. Amerikából kérjük, a Health Institute de Tijuanát (Mexikó) keresse.
+de: Das erste akkreditierte Gerson-Zentrum in Europa, für Europa, Asien und Afrika. In Amerika wenden Sie sich bitte an das Health Institute de Tijuana, Mexiko.
+fr: Le premier centre Gerson accrédité en Europe, pour l'Europe, l'Asie et l'Afrique. Aux Amériques, merci de contacter le Health Institute de Tijuana, au Mexique.
+
+[bd93516]
+hu: A terápia
+de: Die Therapie
+fr: La thérapie
+
+[89511a7]
+hu: Mi ez?
+de: Was ist das?
+fr: Qu'est-ce que c'est ?
+
+[7a558eb]
+hu: Dr. Gerson eredeti módszere
+de: Dr. Gersons Originalmethode
+fr: La méthode originale du Dr Gerson
+
+[9fb1092]
+hu: Receptek
+de: Rezepte
+fr: Recettes
+
+[89719e6]
+hu: Velünk
+de: Mit uns
+fr: Avec nous
+
+[03688ba]
+hu: Gyakori kérdések
+de: Häufige Fragen
+fr: Questions fréquentes
+
+[b37456c]
+hu: Kapcsolat
+de: Kontakt
+fr: Contact
+
+[a6496a9]
+same
+
+[655d35f]
+same
+
+[f4b8c2d]
+hu: Hétköznap 10:00–15:00 (közép-európai idő)
+de: Werktags 10:00–15:00 Uhr (MEZ)
+fr: En semaine de 10 h à 15 h (heure d'Europe centrale)
+
+[f97a61b]
+hu: Felelősségkizárás: a Gerson Intézet Európa nem egészségügyi intézmény. Programunk kiegészíti, és soha nem helyettesíti a hagyományos orvosi ellátást. Az oldalon található információk kizárólag tájékoztató jellegűek, és nem helyettesítik orvos vagy más szakember tanácsát. Az eredmények számos tényezőtől függenek, többek között az adott személy egészségi állapotától. · © 2026 Gerson Intézet Európa Kft. · Adatvédelem · Sütik · Impresszum
+de: Haftungsausschluss: Gerson Institute Europe ist keine medizinische Einrichtung. Unser Programm ergänzt die schulmedizinische Versorgung und ersetzt sie niemals. Die Informationen auf dieser Website dienen ausschließlich der Information und ersetzen nicht den Rat einer Ärztin, eines Arztes oder einer anderen Fachperson. Ergebnisse hängen von vielen Faktoren ab, unter anderem vom aktuellen Gesundheitszustand. · © 2026 Gerson Intézet Európa Kft. · Datenschutz · Cookies · Impressum
+fr: Avertissement : Gerson Institute Europe n'est pas un établissement médical. Notre programme complète le suivi médical conventionnel et ne le remplace jamais. Les informations de ce site sont fournies à titre éducatif uniquement et ne remplacent pas l'avis d'un médecin ou d'un autre professionnel qualifié. Les résultats dépendent de nombreux facteurs, notamment de l'état de santé actuel de la personne. · © 2026 Gerson Intézet Európa Kft. · Confidentialité · Cookies · Mentions légales
+
+# ---------- sessions page ----------
+[95d8e1f]
+hu: Egyhetes turnusok · Gerson Intézet Európa
+de: Kurswochen · Gerson Institute Europe
+fr: Séjours d'une semaine · Gerson Institute Europe
+
+[9050cc8]
+hu: Ismerje meg Dr. Max Gerson eredeti módszerét a gyakorlatban egy egyhetes turnuson, utána online tanácsadással. Időpontok, mit tartalmaz, és hogyan érdeklődhet: info@gerson.hu.
+de: Lernen Sie die Originalmethode von Dr. Max Gerson in einer Kurswoche in der Praxis kennen, mit anschließender Online-Begleitung. Termine, Leistungen und Anfrage: info@gerson.hu.
+fr: Découvrez en pratique la méthode originale du Dr Max Gerson lors d'un séjour d'une semaine, suivi d'un accompagnement en ligne. Dates, contenu et demande : info@gerson.hu.
+
+[fb7a2cb]
+hu: A pilisborosjenői ház, ahol a turnusok zajlanak
+de: Das Haus in Pilisborosjenő, in dem die Kurswochen stattfinden
+fr: La maison de Pilisborosjenő où se déroulent les séjours
+
+[34d48d2]
+hu: A csoportnak készített ebéd
+de: Für die Gruppe zubereitetes Mittagessen
+fr: Le déjeuner préparé pour le groupe
+
+[167bb61]
+hu: A kert és a tó
+de: Garten und Teich
+fr: Le jardin et l'étang
+
+[00fbd6a]
+hu: <a href="home.html">Főoldal</a> › Turnusok
+de: <a href="home.html">Startseite</a> › Kurswochen
+fr: <a href="home.html">Accueil</a> › Séjours
+
+[4a99c78]
+hu: Tanulja meg a Gerson-életmódot a gyakorlatban, egy hét alatt.
+de: Den Gerson-Lebensstil in einer Woche praktisch erlernen.
+fr: Apprenez l'hygiène de vie Gerson en pratique, en une semaine.
+
+[567b626]
+hu: Kis csoport, nyugodt környezet és világos napi ritmus. Dr. Gerson eredeti módszerét a gyakorlatban sajátítja el, és úgy tér haza, hogy folytatni tudja, a saját orvosi kezelése mellett.
+de: Eine kleine Gruppe, eine ruhige Umgebung und ein klarer Tagesrhythmus. Sie lernen die Originalmethode von Dr. Gerson, indem Sie sie selbst anwenden, und fahren vorbereitet nach Hause, begleitend zu Ihrer eigenen medizinischen Behandlung.
+fr: Un petit groupe, un cadre calme et un rythme quotidien clair. Vous apprenez la méthode originale du Dr Gerson en la pratiquant, et rentrez chez vous prêt à continuer, en parallèle de votre propre suivi médical.
+
+[2b27952]
+hu: A hét napról napra
+de: Die Woche Tag für Tag
+fr: La semaine jour après jour
+
+[5a3e1b1]
+hu: Érkezéstől távozásig
+de: Von der Anreise bis zur Abreise
+fr: De l'arrivée au départ
+
+[525f61b]
+hu: Helyszín
+de: Ort
+fr: Lieu
+
+[9917b82]
+same
+
+[17d8f50]
+hu: Közvetlenül Budapest mellett
+de: Direkt bei Budapest
+fr: Aux portes de Budapest
+
+[ee1d1bf]
+hu: Továbbiak kérésre
+de: Weitere auf Anfrage
+fr: Autres sur demande
+
+[46d30f0]
+hu: Utána
+de: Danach
+fr: Ensuite
+
+[5c97369]
+hu: Támogatás otthon
+de: Begleitung zu Hause
+fr: Un soutien à la maison
+
+[842b7b5]
+hu: Időpontok
+de: Termine
+fr: Dates
+
+[8cd59c3]
+hu: Következő turnusok <span class="ex">Példa időpontok</span>
+de: Nächste Kurswochen <span class="ex">Beispieltermine</span>
+fr: Prochains séjours <span class="ex">Dates d'exemple</span>
+
+[e14eb54]
+hu: Az új időpontokat azonnal feltesszük, amint véglegesek. Érdeklődjön egy időpontról, és személyesen válaszolunk az info@gerson.hu címről.
+de: Neue Termine erscheinen hier, sobald sie feststehen. Fragen Sie nach einem Termin, wir antworten persönlich von info@gerson.hu.
+fr: Les nouvelles dates sont ajoutées ici dès qu'elles sont confirmées. Renseignez-vous sur une date et nous vous répondrons personnellement depuis info@gerson.hu.
+
+[f7f1997]
+hu: Turnus
+de: Kurswoche
+fr: Séjour
+
+[89b86ab]
+hu: Nyelv
+de: Sprache
+fr: Langue
+
+[0cd3597]
+hu: Helyek
+de: Plätze
+fr: Places
+
+[ea1e440]
+hu: 2027. március
+de: März 2027
+fr: Mars 2027
+
+[80926ac]
+hu: magyar · angol
+de: Ungarisch · Englisch
+fr: hongrois · anglais
+
+[eae69a0]
+hu: Van szabad hely
+de: Plätze frei
+fr: Places disponibles
+
+[5b0d0e0]
+hu: Érdeklődöm erről az időpontról
+de: Nach diesem Termin fragen
+fr: Me renseigner sur cette date
+
+[71ed189]
+hu: 2027. május
+de: Mai 2027
+fr: Mai 2027
+
+[8898772]
+hu: német · angol
+de: Deutsch · Englisch
+fr: allemand · anglais
+
+[5b86bf5]
+hu: Kevés hely maradt
+de: Wenige Plätze frei
+fr: Il reste peu de places
+
+[4bcc62c]
+hu: 2027. szeptember
+de: September 2027
+fr: Septembre 2027
+
+[9af1d43]
+hu: Mit tartalmaz
+de: Leistungen
+fr: Ce qui est inclus
+
+[a56f84a]
+hu: Minden, ami az otthoni kezdéshez kell
+de: Alles, was Sie für den Start zu Hause brauchen
+fr: Tout ce qu'il faut pour commencer à la maison
+
+[e888c56]
+hu: Bevezető beszélgetés érkezés előtt
+de: Ein Vorgespräch vor Ihrer Anreise
+fr: Un entretien préalable avant votre arrivée
+
+[59b8d8d]
+hu: Csapatunk egyénileg áttekinti az esetét
+de: Eine individuelle Fallbesprechung durch unser Team
+fr: Un examen individuel de votre situation par notre équipe
+
+[a507e49]
+hu: Gyakorlati foglalkozások: lékészítés és főzés
+de: Praxiskurse: Saftzubereitung und Kochen
+fr: Ateliers pratiques : jus et cuisine
+
+[a0d9b91]
+hu: A teljes napi rutin, közösen gyakorolva
+de: Der vollständige Tagesablauf, gemeinsam geübt
+fr: La routine quotidienne complète, pratiquée ensemble
+
+[fd10fe7]
+hu: Útmutatás az orvosával való együttműködéshez
+de: Hinweise, wie Sie Ihren Arzt einbeziehen
+fr: Des conseils pour garder votre médecin impliqué
+
+[34232de]
+hu: Egyértelmű, írásos ajánlat foglalás előtt
+de: Ein klares, schriftliches Angebot vor der Buchung
+fr: Un devis clair et écrit avant la réservation
+
+[4773b30]
+hu: Érkezés előtt
+de: Vor der Anreise
+fr: Avant de venir
+
+[0853bbe]
+hu: Bevezető beszélgetés
+de: Vorgespräch
+fr: Entretien préalable
+
+[7d289c9]
+hu: Hogy megbizonyosodjunk róla: a turnus Önnek való
+de: Damit wir prüfen können, ob die Kurswoche für Sie passt
+fr: Pour vérifier que le séjour vous convient
+
+[2f73880]
+hu: Orvosi ellátás
+de: Medizinische Versorgung
+fr: Suivi médical
+
+[0a2fdd3]
+hu: Az orvosa mellett
+de: Begleitend zu Ihrem Arzt
+fr: Aux côtés de votre médecin
+
+[2fc3000]
+hu: Kiegészítő, soha nem helyettesítő
+de: Ergänzend, niemals als Ersatz
+fr: Complémentaire, jamais un remplacement
+
+[0d661f0]
+hu: Világos vendégszobák
+de: Helle Gästezimmer
+fr: Des chambres lumineuses
+
+[c817ee9]
+hu: Minden étkezés és lé
+de: Alle Mahlzeiten und Säfte
+fr: Tous les repas et les jus
+
+[ada7c85]
+hu: Idő a kertben
+de: Zeit im Garten
+fr: Du temps au jardin
+
+[4d2eb7f]
+hu: A hét napról napra
+de: Die Woche Tag für Tag
+fr: La semaine jour après jour
+
+[13564ae]
+hu: Milyen a hét napja? <span class="ex">Példa</span>
+de: So sehen die sieben Tage aus <span class="ex">Beispiel</span>
+fr: À quoi ressemblent les sept jours <span class="ex">Exemple</span>
+
+[6030758]
+hu: Minden nap a módszer saját ritmusát követi, így a hét végére már ismerős. Görgessen tovább, és kibontakozik a hét.
+de: Jeder Tag folgt dem Rhythmus der Methode, sodass er Ihnen am Ende der Woche schon vertraut ist. Scrollen Sie weiter, und die Woche entfaltet sich.
+fr: Chaque jour suit le rythme de la méthode, si bien qu'en fin de semaine il vous est déjà familier. Faites défiler : la semaine se déroule.
+
+[1d3921b]
+hu: 1. nap
+de: Tag 1
+fr: Jour 1
+
+[f6523b0]
+hu: Érkezés és ismerkedés
+de: Anreise &amp; Willkommen
+fr: Arrivée et accueil
+
+[39cb68a]
+hu: Megismeri a csapatot és a csoportot. Az első Gerson-étkezés és -levek.
+de: Sie lernen das Team und die Gruppe kennen. Ihre erste Gerson-Mahlzeit und die ersten Säfte.
+fr: Rencontre avec l'équipe et le groupe. Votre premier repas Gerson et vos premiers jus.
+
+[49e7de6]
+hu: 2. nap
+de: Tag 2
+fr: Jour 2
+
+[b331de6]
+hu: A levek
+de: Die Säfte
+fr: Les jus
+
+[ec12b38]
+hu: Az alapanyagok kiválasztása, a présgép használata, a napi időzítés.
+de: Auswahl der Zutaten, Umgang mit der Saftpresse, Zeitplan über den Tag.
+fr: Choisir les produits, utiliser l'extracteur, organiser les horaires de la journée.
+
+[a44d500]
+hu: 3. nap
+de: Tag 3
+fr: Jour 3
+
+[0939a5f]
+hu: A konyha
+de: Die Küche
+fr: La cuisine
+
+[5c4a426]
+hu: Sómentes főzés, Hippokratész-leves és egy teljes napi menü.
+de: Salzfrei kochen, Hippokrates-Suppe und ein ganzer Tagesplan.
+fr: Cuisine sans sel, soupe d'Hippocrate et un menu complet pour la journée.
+
+[139e38f]
+hu: 4. nap
+de: Tag 4
+fr: Jour 4
+
+[72e833f]
+hu: Napi rutinok
+de: Tägliche Routinen
+fr: Routines quotidiennes
+
+[3174a6c]
+hu: Méregtelenítő rutinok és étrend-kiegészítők, ahogyan Dr. Gerson leírta.
+de: Entgiftungsroutinen und Nahrungsergänzungen, wie Dr. Gerson sie beschrieben hat.
+fr: Routines de détoxification et compléments, tels que décrits par le Dr Gerson.
+
+[3c32bf0]
+hu: 5. nap
+de: Tag 5
+fr: Jour 5
+
+[a960c54]
+hu: Az otthoni berendezkedés
+de: Ihre Einrichtung zu Hause
+fr: L'organisation à la maison
+
+[6e53ca5]
+hu: Eszközök, bevásárlólisták, beszerzési források és heti terv.
+de: Geräte, Einkaufslisten, Bezugsquellen und ein Wochenplan.
+fr: Équipement, listes de courses, fournisseurs et planning de la semaine.
+
+[1e34350]
+hu: 6. nap
+de: Tag 6
+fr: Jour 6
+
+[77b808d]
+hu: Együttműködés az orvosával
+de: Zusammenarbeit mit Ihrem Arzt
+fr: Travailler avec votre médecin
+
+[81c22bf]
+hu: Hogyan ossza meg tervét, és hogyan vonja be orvosi ellátását.
+de: Wie Sie Ihren Plan teilen und Ihre medizinische Versorgung einbeziehen.
+fr: Comment partager votre programme et garder votre suivi médical impliqué.
+
+[05aadd9]
+hu: 7. nap
+de: Tag 7
+fr: Jour 7
+
+[1fc3ca1]
+hu: Összegzés és búcsú
+de: Rückblick &amp; Abreise
+fr: Bilan et départ
+
+[dcbdd8f]
+hu: Kérdések, az utánkövetési terv és az online egyeztetések időpontjai.
+de: Fragen, Ihr Nachsorgeplan und die Termine für Online-Gespräche.
+fr: Questions, votre plan de suivi et les dates des rendez-vous en ligne.
+
+[6935d7c]
+hu: Nem tud utazni, vagy már otthon van?
+de: Sie können nicht reisen oder sind schon zu Hause?
+fr: Vous ne pouvez pas vous déplacer, ou vous êtes déjà rentré ?
+
+[e66317c]
+hu: Az online tanácsadás a turnus után támogatja, vagy segít felkészülni előtte. Személyes, videóhívásban vagy e-mailben, az Ön nyelvén.
+de: Die Online-Begleitung unterstützt Sie nach einer Kurswoche oder hilft bei der Vorbereitung. Persönlich, per Videoanruf oder E-Mail, in Ihrer Sprache.
+fr: L'accompagnement en ligne vous soutient après un séjour, ou vous aide à vous y préparer. Il est personnel, par appel vidéo ou par e-mail, dans votre langue.
+
+[1beb784]
+hu: Érdeklődöm az online tanácsadásról
+de: Nach Online-Begleitung fragen
+fr: Me renseigner sur l'accompagnement en ligne
+
+[5aeacf5]
+hu: Videós egyeztetések
+de: Video-Gespräche
+fr: Rendez-vous vidéo
+
+[52197e0]
+hu: Rendszeres beszélgetések a rutin finomhangolásához.
+de: Regelmäßige Gespräche, um Ihren Ablauf anzupassen.
+fr: Des appels réguliers pour ajuster votre routine.
+
+[1992730]
+hu: Kérdések e-mailben
+de: Fragen per E-Mail
+fr: Questions par e-mail
+
+[1df2ac6]
+hu: Kollégáink válaszolnak az info@gerson.hu címről.
+de: Antworten unserer Kolleginnen über info@gerson.hu.
+fr: Les réponses de nos collègues depuis info@gerson.hu.
+
+[0af5466]
+hu: Receptek és útmutatók
+de: Rezepte &amp; Leitfäden
+fr: Recettes et guides
+
+[d4144d8]
+hu: Nyomtatható anyagok minden szakaszhoz.
+de: Unterlagen zum Ausdrucken für jede Phase.
+fr: Des documents à imprimer pour chaque étape.
+
+[157d6ae]
+hu: Online Gerson-tanfolyam
+de: Online-Gerson-Kurs
+fr: Cours Gerson en ligne
+
+[baad46c]
+hu: A módszer alapjai lépésről lépésre, otthonról.
+de: Die Grundlagen der Methode Schritt für Schritt, von zu Hause aus.
+fr: Les bases de la méthode, pas à pas, depuis chez vous.
+
+[9a1fc17]
+hu: Kérdések
+de: Fragen
+fr: Questions
+
+[f0b40e9]
+hu: Mielőtt megkérdezné
+de: Bevor Sie fragen
+fr: Avant de nous écrire
+
+[37e7130]
+hu: Folytathatom a jelenlegi orvosi kezelésemet?
+de: Kann ich meine aktuelle medizinische Behandlung fortsetzen?
+fr: Puis-je poursuivre mon traitement médical actuel ?
+
+[0257597]
+hu: Igen. Programunk kiegészítő jellegű, soha nem helyettesíti a hagyományos orvosi ellátást. Arra biztatjuk, hogy tartsa tájékoztatva és vonja be orvosait; a turnuson ebben is útmutatást adunk.
+de: Ja. Unser Programm ist ergänzend und ersetzt niemals die schulmedizinische Versorgung. Wir ermutigen Sie, Ihre Ärzte zu informieren und einzubeziehen, und die Kurswoche zeigt Ihnen, wie das gelingt.
+fr: Oui. Notre programme est complémentaire et ne remplace jamais le suivi médical conventionnel. Nous vous encourageons à tenir vos médecins informés et impliqués, et le séjour vous explique comment le faire.
+
+[9406b24]
+hu: Mindenkinek való a turnus?
+de: Ist die Kurswoche für jeden geeignet?
+fr: Le séjour convient-il à tout le monde ?
+
+[20ae147]
+hu: Nem mindig. Minden turnus előtt egyénileg áttekintjük az adott ember helyzetét, és őszintén megmondjuk, ha a turnus vagy a terápia nem javasolt az Ön számára.
+de: Nicht immer. Vor jeder Kurswoche betrachten wir die Situation jedes Menschen individuell und sagen Ihnen ehrlich, wenn die Kurswoche oder die Therapie für Sie möglicherweise nicht geeignet ist.
+fr: Pas toujours. Avant chaque séjour, nous examinons la situation de chaque personne individuellement, et nous vous dirons honnêtement si le séjour ou la thérapie ne vous convient pas.
+
+[6080a43]
+hu: Mennyi ideig kell otthon követni a Gerson-terápiát?
+de: Wie lange wird die Gerson-Therapie zu Hause fortgeführt?
+fr: Combien de temps suit-on la thérapie Gerson à la maison ?
+
+[a0bf3ff]
+hu: Hosszú távú elköteleződés, gyakran két év vagy több, az adott embertől függően. Az egyhetes turnus megtanítja, hogyan folytassa otthon, online tanácsadásunk pedig végig támogatja.
+de: Es ist eine langfristige Verpflichtung, oft zwei Jahre oder länger, je nach Person. Die Kurswoche zeigt Ihnen, wie Sie zu Hause weitermachen, und unsere Online-Begleitung unterstützt Sie dabei.
+fr: C'est un engagement de long terme, souvent deux ans ou plus, selon la personne. Le séjour vous apprend à continuer chez vous, et notre accompagnement en ligne vous soutient tout au long du chemin.
+
+[83c55b5]
+hu: Elkísérhet egy családtag vagy gondozó?
+de: Kann mich ein Angehöriger oder eine Betreuungsperson begleiten?
+fr: Un proche ou un aidant peut-il m'accompagner ?
+
+[0ed48ed]
+hu: Kérdezzen meg minket. Egy családtag, aki érti a napi rutint, sokkal könnyebbé teszi az otthoni életet, ezért szívesen megbeszéljük a lehetőségeket.
+de: Bitte fragen Sie uns. Ein Angehöriger, der den Tagesablauf versteht, erleichtert das Leben zu Hause sehr, daher besprechen wir die Möglichkeiten gern mit Ihnen.
+fr: Demandez-nous. Un proche qui comprend la routine quotidienne facilite beaucoup la vie à la maison ; nous discuterons volontiers des possibilités avec vous.
+
+[d6f2329]
+hu: Kell tudnom magyarul?
+de: Muss ich Ungarisch sprechen?
+fr: Dois-je parler hongrois ?
+
+[8681249]
+hu: Nem. A turnusok magyarul, angolul vagy németül zajlanak, és más nyelvekről is egyeztethetünk.
+de: Nein. Die Kurswochen finden auf Ungarisch, Englisch oder Deutsch statt, und über weitere Sprachen können wir sprechen.
+fr: Non. Les séjours se déroulent en hongrois, en anglais ou en allemand, et d'autres langues sont envisageables.
+
+[3e61c5d]
+hu: Mennyibe kerül egy turnus?
+de: Was kostet eine Kurswoche?
+fr: Combien coûte un séjour ?
+
+[d2709fb]
+hu: Foglalás előtt egyértelmű, írásos ajánlatot küldünk, így pontosan tudja, mit tartalmaz.
+de: Vor der Buchung erhalten Sie ein klares, schriftliches Angebot, damit Sie genau wissen, was enthalten ist.
+fr: Avant toute réservation, nous vous envoyons un devis clair et écrit, pour que vous sachiez exactement ce qui est inclus.
+
+[4071ca0]
+hu: Érdekli egy időpont?
+de: Bereit, nach einem Termin zu fragen?
+fr: Prêt à demander une date ?
+
+[309d5da]
+hu: Minden megkeresésre személyesen válaszolunk az info@gerson.hu címről.
+de: Jede Anfrage wird persönlich von info@gerson.hu beantwortet.
+fr: Chaque demande reçoit une réponse personnelle depuis info@gerson.hu.
+
+[8573677]
+hu: Érdeklődés indítása →
+de: Anfrage starten →
+fr: Faire une demande →
+
+[d3eca82]
+hu: Írjon nekünk
+de: E-Mail schreiben
+fr: Nous écrire
+
+# ---------- article page ----------
+[b643051]
+hu: Csak gyümölcslevekről szól a Gerson-terápia? · Tévhitek és tények · Gerson Intézet Európa
+de: Ist die Gerson-Therapie nur Saftfasten? · Mythen & Fakten · Gerson Institute Europe
+fr: La thérapie Gerson, est-ce seulement des jus ? · Mythes et réalités · Gerson Institute Europe
+
+[34436ce]
+hu: Nem. A friss levek csak egy részét adják Dr. Max Gerson eredeti módszerének, amely teljes napi program: bio, sómentes étkezések, levek, méregtelenítő rutinok, étrend-kiegészítők és pihenés. Forrásokkal magyarázva.
+de: Nein. Frische Säfte sind nur ein Teil der Originalmethode von Dr. Max Gerson, eines vollständigen Tagesprogramms aus salzfreier Biokost, Säften, Entgiftungsroutinen, Nahrungsergänzung und Ruhe. Mit Quellen erklärt.
+fr: Non. Les jus frais ne sont qu'une partie de la méthode originale du Dr Max Gerson, un programme quotidien complet : repas bio sans sel, jus, routines de détoxification, compléments et repos. Expliqué avec sources.
+
+[2209c04]
+hu: Egy tál friss bio saláta
+de: Eine Schüssel frischer Bio-Salat
+fr: Un saladier de salade bio fraîche
+
+[cf6eb7c]
+hu: <a href="home.html">Főoldal</a> › <a href="home.html#myths">Tévhitek és tények</a> › Csak gyümölcslevekről szól a Gerson-terápia?
+de: <a href="home.html">Startseite</a> › <a href="home.html#myths">Mythen &amp; Fakten</a> › Ist die Gerson-Therapie nur Saftfasten?
+fr: <a href="home.html">Accueil</a> › <a href="home.html#myths">Mythes et réalités</a> › La thérapie Gerson, est-ce seulement des jus ?
+
+[5663d3e]
+hu: Tévhitek és tények · A módszer
+de: Mythen &amp; Fakten · Die Methode
+fr: Mythes et réalités · La méthode
+
+[24997ec]
+hu: Csak gyümölcslevekről szól a Gerson-terápia?
+de: Ist die Gerson-Therapie nur Saftfasten?
+fr: La thérapie Gerson, est-ce seulement des jus ?
+
+[edb25e8]
+hu: A friss levek Dr. Max Gerson módszerének legismertebb részei, ezért gyakran az egész terápiát ezekre egyszerűsítik le. Íme, mit írt le valójában.
+de: Frische Säfte sind der bekannteste Teil der Methode von Dr. Max Gerson, deshalb wird die ganze Therapie oft auf sie reduziert. Das hat er tatsächlich beschrieben.
+fr: Les jus frais sont la partie la plus connue de la méthode du Dr Max Gerson, c'est pourquoi on réduit souvent toute la thérapie à eux. Voici ce qu'il a réellement décrit.
+
+[36c4a39]
+hu: Ellenőrizte: a Gerson Intézet Európa csapata
+de: Geprüft vom Team von Gerson Institute Europe
+fr: Relu par l'équipe de Gerson Institute Europe
+
+[155d336]
+hu: Frissítve: 2026. október 8.
+de: Aktualisiert am 8. Oktober 2026
+fr: Mis à jour le 8 octobre 2026
+
+[cf35ebb]
+hu: 6 perc olvasás
+de: 6 Min. Lesezeit
+fr: 6 min de lecture
+
+[45fd348]
+hu: Olvasható még: <b>English</b> · <b>Deutsch</b>
+de: Auch auf <b>Magyar</b> · <b>English</b>
+fr: Aussi en <b>Magyar</b> · <b>English</b>
+
+[cc835fe]
+hu: A rövid válasz
+de: Die kurze Antwort
+fr: La réponse courte
+
+[4a32cfa]
+hu: Nem. A friss levek fontos részei Dr. Gerson eredeti módszerének, de csak egy részét adják. Terápiája teljes napi program: bio, sómentes, növényi alapú étkezések, a nap folyamán frissen préselt levek, méregtelenítő rutinok, meghatározott étrend-kiegészítők és pihenés, szakszerű útmutatással és a hagyományos orvosi ellátás mellett.
+de: Nein. Frische Säfte sind ein wichtiger Teil der Originalmethode von Dr. Gerson, aber nur ein Teil. Seine Therapie ist ein vollständiges Tagesprogramm: salzfreie, pflanzliche Biomahlzeiten, frisch gepresste Säfte über den Tag, Entgiftungsroutinen, bestimmte Nahrungsergänzungen und Ruhe, mit fachkundiger Begleitung und parallel zur schulmedizinischen Versorgung.
+fr: Non. Les jus frais sont une partie importante de la méthode originale du Dr Gerson, mais une partie seulement. Sa thérapie est un programme quotidien complet : repas bio sans sel à base de végétaux, jus fraîchement pressés tout au long de la journée, routines de détoxification, compléments précis et repos, avec un accompagnement qualifié et en parallèle du suivi médical conventionnel.
+
+[1a5ba6a]
+hu: Honnan ered ez a kép?
+de: Woher die Vorstellung kommt
+fr: D'où vient cette idée
+
+[a233fa3]
+hu: A ragyogó sárgarépa- és almalével teli poharak jutnak eszébe a legtöbb embernek a Gerson névről. Az interneten ebből lett a „Gerson-léböjt”: néhány nap gyümölcslé méregtelenítésként. Dr. Gerson azonban nem ezt a módszert dolgozta ki.
+de: Gläser mit leuchtendem Karotten- und Apfelsaft sind das Bild, das die meisten mit dem Namen Gerson verbinden. Im Internet ist daraus das „Gerson-Saftfasten“ geworden: ein paar Tage Saft als Kur. Das ist nicht die Methode, die Dr. Gerson entwickelt hat.
+fr: Des verres de jus de carotte et de pomme éclatants : c'est l'image que la plupart des gens associent au nom Gerson. En ligne, elle est devenue la « cure de jus Gerson » : quelques jours de jus pour se détoxifier. Ce n'est pas la méthode que le Dr Gerson a développée.
+
+[8a142bf]
+hu: Mit írt le valójában Dr. Gerson?
+de: Was Dr. Gerson tatsächlich beschrieben hat
+fr: Ce que le Dr Gerson a réellement décrit
+
+[3e5e85c]
+hu: Dr. Gerson az 1920-as években, Németországban dolgozta ki először étrendi megközelítését.<sup>[2][3]</sup> Az <i>A Cancer Therapy: Results of Fifty Cases</i> (1958) című könyvében olyan, gondosan felépített napi rendet írt le, amelyben a lé csak egy elem a sok közül.<sup>[1]</sup> A fő részek:
+de: Dr. Gerson entwickelte seinen Ernährungsansatz zuerst in den 1920er Jahren in Deutschland.<sup>[2][3]</sup> In <i>A Cancer Therapy: Results of Fifty Cases</i> (1958) beschrieb er einen strukturierten Tagesablauf, in dem Saft nur ein Element unter mehreren ist.<sup>[1]</sup> Die wichtigsten Teile sind:
+fr: Le Dr Gerson a d'abord développé son approche alimentaire en Allemagne dans les années 1920.<sup>[2][3]</sup> Dans <i>A Cancer Therapy: Results of Fifty Cases</i> (1958), il décrit un programme quotidien structuré dans lequel le jus n'est qu'un élément parmi d'autres.<sup>[1]</sup> Les principaux éléments sont :
+
+[16e3b91]
+hu: Bio, sómentes étkezések
+de: Salzfreie Biomahlzeiten
+fr: Des repas bio sans sel
+
+[41f4c2f]
+hu: Napi három növényi alapú, frissen készített étkezés
+de: Drei pflanzliche Mahlzeiten am Tag, frisch zubereitet
+fr: Trois repas végétaux par jour, préparés à la minute
+
+[03cad29]
+hu: A nap folyamán készítve és azonnal elfogyasztva, nem tárolva
+de: Über den Tag zubereitet und sofort getrunken, nicht aufbewahrt
+fr: Préparés tout au long de la journée et bus aussitôt, jamais conservés
+
+[3d8dd99]
+hu: Méregtelenítő rutinok
+de: Entgiftungsroutinen
+fr: Routines de détoxification
+
+[498d0d1]
+hu: Gyakorlati rutinok, amelyek támogatják a szervezet saját kiválasztását
+de: Praktische Routinen, die die körpereigene Ausscheidung unterstützen
+fr: Des routines pratiques qui soutiennent l'élimination naturelle du corps
+
+[48787d6]
+hu: Étrend-kiegészítők és pihenés
+de: Nahrungsergänzung und Ruhe
+fr: Compléments et repos
+
+[2b33550]
+hu: A protokollban leírt étrend-kiegészítők és sok pihenés
+de: Bestimmte Nahrungsergänzungen laut Protokoll und viel Ruhe
+fr: Des compléments précis décrits dans le protocole, et beaucoup de repos
+
+[1677143]
+hu: Minden rész a többire épül. Ha csak a leveket emeljük ki a programból, ami marad, az már nem a Gerson-terápia.
+de: Jeder Teil hängt von den anderen ab. Nimmt man nur die Säfte heraus, bleibt etwas, das nicht mehr die Gerson-Therapie ist.
+fr: Chaque élément dépend des autres. Si l'on ne garde que les jus, ce qui reste n'est plus la thérapie Gerson.
+
+[5a6b263]
+hu: Miért nem „méregtelenítő kúra”?
+de: Warum es keine „Kur“ ist
+fr: Pourquoi ce n'est pas une « cure »
+
+[fdca403]
+hu: A kúra általában rövid, és egyedül végzi az ember. Dr. Gerson módszere hosszú időn át követett életmód, szigorú napi renddel, és megterhelő a beteg és a családja számára is. Ezért tanítjuk a gyakorlatban, egyhetes turnusokon, és ezért támogatjuk az embereket akkor is, amikor már otthon vannak.
+de: Eine Kur ist meist kurz und wird allein gemacht. Dr. Gersons Methode ist ein Lebensstil über einen langen Zeitraum, mit einem strengen Tagesablauf, und sie ist anspruchsvoll für den Menschen und seine Familie. Deshalb vermitteln wir sie praktisch in Kurswochen und begleiten die Menschen auch zu Hause weiter.
+fr: Une cure est généralement courte et se fait seul. La méthode du Dr Gerson est un mode de vie suivi sur une longue période, avec un rythme quotidien strict, et elle est exigeante pour la personne comme pour sa famille. C'est pourquoi nous l'enseignons en pratique, lors de séjours d'une semaine, et continuons d'accompagner les personnes une fois rentrées chez elles.
+
+[0022b51]
+hu: Ha fontolgatja a Gerson-terápiát, kérjük, először beszéljen az orvosával. Programunk a hagyományos orvosi ellátás mellett működik, és arra biztatjuk, hogy orvosait tartsa tájékoztatva és vonja be.
+de: Wenn Sie über die Gerson-Therapie nachdenken, sprechen Sie bitte zuerst mit Ihrem Arzt. Unser Programm läuft parallel zur schulmedizinischen Versorgung, und wir ermutigen Sie, Ihre Ärzte zu informieren und einzubeziehen.
+fr: Si vous envisagez la thérapie Gerson, parlez-en d'abord à votre médecin. Notre programme se déroule en parallèle du suivi médical conventionnel, et nous vous encourageons à tenir vos médecins informés et impliqués.
+
+[afb378f]
+hu: Mit mond a kutatás?
+de: Was die Forschung sagt
+fr: Ce que dit la recherche
+
+[6cac801]
+hu: A Gerson-terápiáról kevés tudományos kutatás áll rendelkezésre, és nagy, kontrollált klinikai vizsgálatokban nem tesztelték.<sup>[3]</sup> Ezt nyíltan kimondjuk, mert úgy gondoljuk, hogy az embereknek világos tájékoztatás jár, nem ígéretek.
+de: Die wissenschaftliche Forschung zur Gerson-Therapie ist begrenzt, und sie wurde nicht in großen kontrollierten klinischen Studien geprüft.<sup>[3]</sup> Wir sagen das offen, weil Menschen klare Informationen verdienen, keine Versprechen.
+fr: La recherche scientifique sur la thérapie Gerson est limitée, et elle n'a pas été évaluée dans de grands essais cliniques contrôlés.<sup>[3]</sup> Nous le disons ouvertement, car nous pensons que chacun mérite une information claire, pas des promesses.
+
+[286ae60]
+hu: Mit jelent ez az Ön számára?
+de: Was das für Sie bedeutet
+fr: Ce que cela signifie pour vous
+
+[ded517f]
+hu: Ha érdekli a Gerson-életmód, a teljes képpel kezdje: hogyan néz ki egy átlagos nap, milyen eszközökre van szüksége, és hogyan illeszkedik orvosi kezeléséhez. Pontosan ezt tanítják egyhetes turnusaink.
+de: Wenn Sie sich für den Gerson-Lebensstil interessieren, beginnen Sie mit dem Gesamtbild: wie ein normaler Tag aussieht, welche Geräte Sie brauchen und wie er zu Ihrer medizinischen Behandlung passt. Genau das vermitteln unsere Kurswochen.
+fr: Si l'hygiène de vie Gerson vous intéresse, commencez par la vue d'ensemble : à quoi ressemble une journée ordinaire, de quel équipement vous avez besoin, et comment cela s'articule avec votre suivi médical. C'est exactement ce que couvrent nos séjours d'une semaine.
+
+[2eb56be]
+hu: Források
+de: Quellen
+fr: Sources
+
+[7f060be]
+same
+
+[46e2667]
+hu: Gerson, M. <i>Meine Diät</i> (4. kiadás, 1930).
+de: Gerson, M. <i>Meine Diät</i> (4. Auflage, 1930).
+fr: Gerson, M. <i>Meine Diät</i> (4e édition, 1930).
+
+[d24a5fb]
+same
+
+[7e439c3]
+hu: Ezen az oldalon
+de: Auf dieser Seite
+fr: Sur cette page
+
+[a630f52]
+hu: Mit írt le Dr. Gerson?
+de: Was Dr. Gerson beschrieben hat
+fr: Ce que le Dr Gerson a décrit
+
+[4244c70]
+hu: Miért nem kúra?
+de: Warum es keine Kur ist
+fr: Pourquoi ce n'est pas une cure
+
+[94505a8]
+hu: A cikkről
+de: Über diesen Artikel
+fr: À propos de cet article
+
+[7cd6a31]
+hu: Ellenőrizte
+de: Geprüft von
+fr: Relu par
+
+[583c9e2]
+hu: Utoljára frissítve
+de: Zuletzt aktualisiert
+fr: Dernière mise à jour
+
+[7074e30]
+hu: 2026. okt. 8.
+de: 8. Okt. 2026
+fr: 8 oct. 2026
+
+[9d7a5c8]
+hu: Hivatkozott források
+de: Zitierte Quellen
+fr: Sources citées
+
+[4474068]
+hu: HU · EN · DE
+de: DE · HU · EN
+fr: FR · HU · EN
+
+[291e5d4]
+hu: Kérdése van a módszerről?
+de: Fragen zur Methode?
+fr: Des questions sur la méthode ?
+
+[db6d72e]
+hu: Kollégáink minden kérdésre személyesen válaszolnak.
+de: Unsere Kolleginnen beantworten jede Frage persönlich.
+fr: Nos collègues répondent personnellement à chaque question.
+
+[0cf15c7]
+hu: vagy írjon az <a href="mailto:info@gerson.hu">info@gerson.hu</a> címre
+de: oder schreiben Sie an <a href="mailto:info@gerson.hu">info@gerson.hu</a>
+fr: ou écrivez à <a href="mailto:info@gerson.hu">info@gerson.hu</a>
+
+[9753f56]
+hu: További olvasnivaló
+de: Weiterlesen
+fr: À lire aussi
+
+[d3dc48a]
+hu: Aki a Gersont választja, lemond az orvosáról?
+de: Bedeutet Gerson, auf den Arzt zu verzichten?
+fr: Choisir Gerson, est-ce renoncer à son médecin ?
+
+[852bdb8]
+hu: Hogyan működik programunk a hagyományos ellátás mellett.
+de: Wie unser Programm die schulmedizinische Versorgung begleitet.
+fr: Comment notre programme accompagne le suivi conventionnel.
+
+[3ae1363]
+hu: 4 perc olvasás · forrásokkal
+de: 4 Min. Lesezeit · mit Quellen
+fr: 4 min de lecture · avec sources

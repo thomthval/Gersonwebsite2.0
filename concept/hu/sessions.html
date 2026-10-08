@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Egyhetes turnusok · Gerson Intézet Európa</title>
+<meta content="Ismerje meg Dr. Max Gerson eredeti módszerét a gyakorlatban egy egyhetes turnuson, utána online tanácsadással. Időpontok, mit tartalmaz, és hogyan érdeklődhet: info@gerson.hu." name="description"/>
+<meta content="noindex, nofollow" name="robots"/>
+<link href="../assets/fonts.css" rel="stylesheet"/>
+<link href="../assets/site.css" rel="stylesheet"/>
+<link href="../assets/motion.css" rel="stylesheet"/>
+<style>
+  .crumbs{font-size:14px;color:var(--muted);padding:28px 0 0}
+  .crumbs a{color:var(--leaf)}
+  .s-hero{padding:30px 0 80px}
+  .s-hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}
+  :lang(de) .s-hero h1,:lang(fr) .s-hero h1{font-size:48px}
+  .s-hero h1{font-size:54px;line-height:1.06;color:var(--leaf-deep);margin:14px 0 20px}
+  .s-hero .lead{font-size:19.5px;color:var(--muted);max-width:540px}
+  .s-hero .ctas{display:flex;gap:14px;margin-top:30px}
+  .s-photo{height:440px;border-radius:30px;overflow:hidden;position:relative;box-shadow:0 30px 60px -34px rgba(60,50,20,.5)}
+  .s-photo img{width:100%;height:100%;object-fit:cover}
+  .s-photo img.lotus{position:absolute;right:22px;top:22px;width:96px;height:auto;background:rgba(255,246,227,.92);border-radius:18px;padding:10px 12px}
+  .quick{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:var(--white);border:1px solid var(--line);border-radius:22px;margin-top:-30px;position:relative}
+  .quick div{padding:22px 26px;border-left:1px solid var(--line)}
+  .quick div:first-child{border:0}
+  .quick small{display:block;font-size:11.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--lotus)}
+  .quick b{display:block;font-size:20px;color:var(--leaf-deep);margin-top:2px}
+  .quick span{font-size:14px;color:var(--muted)}
+  .h2{font-size:40px;line-height:1.1;color:var(--leaf-deep);margin:10px 0 14px}
+  .sub{color:var(--muted);max-width:620px}
+  .dates{margin-top:30px;background:var(--white);border:1px solid var(--line);border-radius:22px;overflow:hidden}
+  .drow{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 190px;align-items:center;padding:18px 26px;border-top:1px solid var(--line);font-size:16px}
+  .drow:first-child{border:0;background:#FBF3E1;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:12px 26px}
+  .drow b{font-family:Fraunces,serif;font-weight:500;font-size:21px;color:var(--leaf-deep)}
+  .pill{display:inline-block;font-size:13px;font-weight:600;padding:4px 10px;border-radius:999px}
+  .pill.ok{background:#E3EFCC;color:#3F6612}.pill.few{background:#FBE3CC;color:#9A4E12}
+  .drow .btn{padding:10px 16px;font-size:14px;justify-content:center}
+  .ex{display:inline-block;font-family:Barlow,sans-serif;font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:#F6DCCB;color:#A3501B;padding:3px 8px;border-radius:6px;margin-left:10px;vertical-align:middle}
+  .inc-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;margin-top:30px}
+  .inc{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+  .inc li{padding:13px 0 13px 34px;position:relative;border-bottom:1px solid var(--line);font-size:16.5px}
+  .inc li:before{content:"✓";position:absolute;left:0;top:13px;width:22px;height:22px;border-radius:50%;background:#EEF5DF;color:var(--leaf);font-size:12px;font-weight:700;display:grid;place-items:center}
+  .adm{display:flex;flex-direction:column;gap:12px}
+  .adm div{background:var(--sand-soft);border:1px solid var(--line);border-radius:18px;padding:16px 20px}
+  .adm small{display:block;font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--lotus)}
+  .adm b{display:block;font-size:18px;color:var(--leaf-deep)}
+  .adm span{font-size:14px;color:var(--muted)}
+  .week{background:var(--sand-soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .days{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;margin-top:34px}
+  .day{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:18px 16px;min-height:200px}
+  .day i{font-style:normal;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--lotus)}
+  .day h4{font-family:Fraunces,serif;font-weight:500;font-size:18px;line-height:1.2;color:var(--leaf-deep);margin:8px 0 8px}
+  .day p{font-size:14px;color:var(--muted);line-height:1.5}
+  .day.on{background:var(--leaf-deep);border-color:var(--leaf-deep)}
+  .day.on h4{color:#fff}.day.on p{color:#C9CFB6}.day.on i{color:var(--leaf-bright)}
+  .online{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+  .ocards{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .ocards div{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:20px}
+  .ocards b{display:block;color:var(--leaf-deep);font-size:17px;margin:10px 0 4px}
+  .ocards p{font-size:14.5px;color:var(--muted)}
+  .faq{max-width:900px;margin:30px auto 0}
+  .q{background:var(--white);border:1px solid var(--line);border-radius:18px;margin-bottom:12px;padding:20px 26px}
+  .q h4{display:flex;justify-content:space-between;font-size:18px;font-weight:600;color:var(--ink)}
+  .q h4 span{color:var(--leaf);font-size:22px;line-height:1}
+  .q p{margin-top:10px;color:var(--muted);font-size:16px;max-width:760px}
+  .inc-photos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
+  .inc-photos figure{margin:0;height:220px;border-radius:22px;overflow:hidden;position:relative}
+  .inc-photos img{width:100%;height:100%;object-fit:cover}
+  .inc-photos figcaption{position:absolute;left:14px;bottom:14px;background:rgba(255,253,248,.92);border-radius:999px;padding:7px 14px;font-size:13px;font-weight:600;color:var(--leaf-deep)}
+  .day{transition:background .6s,border-color .6s,transform .6s}
+  .day.lit{background:var(--leaf-deep);border-color:var(--leaf-deep);transform:translateY(-4px)}
+  .day.lit h4{color:#fff}.day.lit p{color:#C9CFB6}.day.lit i{color:var(--leaf-bright)}
+  .day h4,.day p,.day i{transition:color .6s}
+  details.q summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-size:18px;font-weight:600;color:var(--ink)}
+  details.q summary::-webkit-details-marker{display:none}
+  details.q summary:after{content:"+";color:var(--leaf);font-size:24px;line-height:1;transition:transform .3s}
+  details.q[open] summary:after{content:"−"}
+  details.q[open] p{animation:fadein .5s ease}
+  @keyframes fadein{from{opacity:0;transform:translateY(-6px)}}
+  .cta{margin:0 60px 90px;background:var(--leaf-deep);border-radius:36px;padding:64px 80px;display:flex;justify-content:space-between;align-items:center;color:#D3D9C2}
+  .cta h2{font-size:40px;color:#fff;line-height:1.1;margin-bottom:10px}
+  .cta .btn-ghost{border-color:#D3D9C2;color:#fff}
+  .menu{gap:22px;font-size:15.5px}
+  nav .brand b{font-size:23px}
+  :lang(de) .menu,:lang(fr) .menu{gap:18px}
+  .sw{display:flex;gap:2px;background:var(--white);border:1px solid var(--line);border-radius:999px;padding:3px;margin-right:12px}
+  .sw a{font-size:12.5px;font-weight:700;letter-spacing:.04em;padding:6px 9px;border-radius:999px;color:var(--muted)}
+  .sw a.on{background:var(--leaf-deep);color:#fff}
+  .nav-r{display:flex;align-items:center}
+</style>
+</head>
+<body>
+<div class="progress"></div>
+<div class="topbar"><div class="wrap">
+<div>Európa első akkreditált Gerson-központja · <b>Európa, Ázsia és Afrika</b> érdeklődőinek · <a href="https://gerson.org/health-institute-de-tijuana/" style="text-decoration:underline;text-underline-offset:3px">Amerikában él? Keresse a Health Institute de Tijuanát (Mexikó) →</a></div>
+<div class="langs"><a href="tel:+36306426291">+36 30 642 6291</a>  ·  <a href="mailto:info@gerson.hu">info@gerson.hu</a></div>
+</div></div>
+<nav><div class="wrap">
+<a class="brand" href="home.html"><img alt="" src="../assets/logo.png"/><div><b>Gerson Intézet Európa</b><small>Dr. Max Gerson eredeti módszere</small></div></a>
+<div class="menu"><a href="home.html#therapy">A terápia</a><a class="act" href="sessions.html">Turnusok</a><a href="home.html#team">Csapatunk</a><a href="myths-juice.html">Tévhitek és tények</a><a href="home.html#journal">Magazin</a></div>
+<div class="nav-r"><div class="sw"><a href="../sessions.html">EN</a><a class="on" href="sessions.html">HU</a><a href="../de/sessions.html">DE</a><a href="../fr/sessions.html">FR</a></div><a class="btn btn-primary" href="home.html#inquiry" style="padding:12px 20px">Érdeklődöm</a></div>
+</div></nav>
+<header class="s-hero">
+<div class="wrap"><div class="crumbs" style="grid-column:1/-1;padding:0"><a href="home.html">Főoldal</a> › Turnusok</div></div>
+<div class="wrap" style="margin-top:20px">
+<div>
+<span class="eyebrow" data-reveal="fade">Egyhetes turnusok</span>
+<h1 data-split="">Tanulja meg a Gerson-életmódot a gyakorlatban, egy hét alatt.</h1>
+<p class="lead" data-reveal="" style="--d:450ms">Kis csoport, nyugodt környezet és világos napi ritmus. Dr. Gerson eredeti módszerét a gyakorlatban sajátítja el, és úgy tér haza, hogy folytatni tudja, a saját orvosi kezelése mellett.</p>
+<div class="ctas" data-reveal="" style="--d:600ms"><a class="btn btn-primary" href="#dates">Időpontok érdekelnek →</a><a class="btn btn-ghost" href="#week">A hét napról napra</a></div>
+</div>
+<div class="s-photo kenburns" data-reveal="zoom" style="--d:200ms"><img alt="A pilisborosjenői ház, ahol a turnusok zajlanak" src="../assets/photos/house-front.jpg"/><img alt="" class="lotus" src="../assets/Hezagolo-wbg.png"/></div>
+</div>
+</header>
+<div class="wrap">
+<div class="quick" data-stagger="100">
+<div><small>Időtartam</small><b>7 nap</b><span>Érkezéstől távozásig</span></div>
+<div><small>Helyszín</small><b>Pilisborosjenő</b><span>Közvetlenül Budapest mellett</span></div>
+<div><small>Nyelvek</small><b>HU · EN · DE</b><span>Továbbiak kérésre</span></div>
+<div><small>Utána</small><b>Online tanácsadás</b><span>Támogatás otthon</span></div>
+</div>
+</div>
+<section id="dates"><div class="wrap">
+<div data-reveal=""><span class="eyebrow">Időpontok</span>
+<h2 class="h2">Következő turnusok <span class="ex">Példa időpontok</span></h2>
+<p class="sub">Az új időpontokat azonnal feltesszük, amint véglegesek. Érdeklődjön egy időpontról, és személyesen válaszolunk az info@gerson.hu címről.</p></div>
+<div class="dates" data-stagger="110">
+<div class="drow"><span>Turnus</span><span>Időtartam</span><span>Nyelv</span><span>Helyek</span><span></span></div>
+<div class="drow"><b>2027. március</b><span>7 nap</span><span>magyar · angol</span><span><span class="pill ok">Van szabad hely</span></span><a class="btn btn-primary" href="home.html#inquiry">Érdeklődöm erről az időpontról</a></div>
+<div class="drow"><b>2027. május</b><span>7 nap</span><span>német · angol</span><span><span class="pill few">Kevés hely maradt</span></span><a class="btn btn-primary" href="home.html#inquiry">Érdeklődöm erről az időpontról</a></div>
+<div class="drow"><b>2027. szeptember</b><span>7 nap</span><span>magyar · angol</span><span><span class="pill ok">Van szabad hely</span></span><a class="btn btn-primary" href="home.html#inquiry">Érdeklődöm erről az időpontról</a></div>
+</div>
+</div></section>
+<section style="padding-top:0"><div class="wrap">
+<div data-reveal=""><span class="eyebrow">Mit tartalmaz</span>
+<h2 class="h2">Minden, ami az otthoni kezdéshez kell</h2></div>
+<div class="inc-grid">
+<ul class="inc" data-stagger="60">
+<li>Bevezető beszélgetés érkezés előtt</li>
+<li>Csapatunk egyénileg áttekinti az esetét</li>
+<li>Személyre szabott terv, az Ön egészségi hátteréhez igazítva</li>
+<li>Minden Gerson-étkezés és friss lé a hét során</li>
+<li>Gyakorlati foglalkozások: lékészítés és főzés</li>
+<li>A teljes napi rutin, közösen gyakorolva</li>
+<li>Az otthoni berendezkedés: eszközök, bevásárlás, napirend</li>
+<li>Útmutatás az orvosával való együttműködéshez</li>
+<li>Hazavihető anyagok, az Ön nyelvén</li>
+<li>Online utánkövetés a turnus után</li>
+</ul>
+<div class="adm" data-stagger="120">
+<div><small>Ár</small><b>Kérésre</b><span>Egyértelmű, írásos ajánlat foglalás előtt</span></div>
+<div><small>Érkezés előtt</small><b>Bevezető beszélgetés</b><span>Hogy megbizonyosodjunk róla: a turnus Önnek való</span></div>
+<div><small>Orvosi ellátás</small><b>Az orvosa mellett</b><span>Kiegészítő, soha nem helyettesítő</span></div>
+</div>
+</div>
+<div class="inc-photos" data-stagger="120">
+<figure class="zoom"><img alt="Egy vendégszoba" src="../assets/photos/room-4.jpg"/><figcaption>Világos vendégszobák</figcaption></figure>
+<figure class="zoom"><img alt="A csoportnak készített ebéd" src="../assets/photos/salad-bowls.jpg"/><figcaption>Minden étkezés és lé</figcaption></figure>
+<figure class="zoom"><img alt="A kert és a tó" src="../assets/photos/garden-pond.jpg"/><figcaption>Idő a kertben</figcaption></figure>
+</div>
+</div></section>
+<section class="week" id="week"><div class="wrap">
+<div data-reveal=""><span class="eyebrow">A hét napról napra</span>
+<h2 class="h2">Milyen a hét napja? <span class="ex">Példa</span></h2>
+<p class="sub">Minden nap a módszer saját ritmusát követi, így a hét végére már ismerős. Görgessen tovább, és kibontakozik a hét.</p></div>
+<div class="days" data-fill="">
+<div class="day on" data-step=""><i>1. nap</i><h4>Érkezés és ismerkedés</h4><p>Megismeri a csapatot és a csoportot. Az első Gerson-étkezés és -levek.</p></div>
+<div class="day" data-step=""><i>2. nap</i><h4>A levek</h4><p>Az alapanyagok kiválasztása, a présgép használata, a napi időzítés.</p></div>
+<div class="day" data-step=""><i>3. nap</i><h4>A konyha</h4><p>Sómentes főzés, Hippokratész-leves és egy teljes napi menü.</p></div>
+<div class="day" data-step=""><i>4. nap</i><h4>Napi rutinok</h4><p>Méregtelenítő rutinok és étrend-kiegészítők, ahogyan Dr. Gerson leírta.</p></div>
+<div class="day" data-step=""><i>5. nap</i><h4>Az otthoni berendezkedés</h4><p>Eszközök, bevásárlólisták, beszerzési források és heti terv.</p></div>
+<div class="day" data-step=""><i>6. nap</i><h4>Együttműködés az orvosával</h4><p>Hogyan ossza meg tervét, és hogyan vonja be orvosi ellátását.</p></div>
+<div class="day" data-step=""><i>7. nap</i><h4>Összegzés és búcsú</h4><p>Kérdések, az utánkövetési terv és az online egyeztetések időpontjai.</p></div>
+</div>
+</div></section>
+<section id="online"><div class="wrap online">
+<div data-reveal="left"><span class="eyebrow">Online tanácsadás</span><h2 class="h2">Nem tud utazni, vagy már otthon van?</h2><p class="sub">Az online tanácsadás a turnus után támogatja, vagy segít felkészülni előtte. Személyes, videóhívásban vagy e-mailben, az Ön nyelvén.</p><div style="margin-top:26px"><a class="btn btn-ghost" href="home.html#inquiry">Érdeklődöm az online tanácsadásról</a></div></div>
+<div class="ocards" data-stagger="110">
+<div><span class="ic"><svg viewbox="0 0 24 24"><rect height="13" rx="2" width="20" x="2" y="4"></rect><path d="M8 21h8M12 17v4"></path></svg></span><b>Videós egyeztetések</b><p>Rendszeres beszélgetések a rutin finomhangolásához.</p></div>
+<div><span class="ic"><svg viewbox="0 0 24 24"><path d="M4 4h16v16H4z"></path><path d="m4 4 8 8 8-8"></path></svg></span><b>Kérdések e-mailben</b><p>Kollégáink válaszolnak az info@gerson.hu címről.</p></div>
+<div><span class="ic"><svg viewbox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"></path></svg></span><b>Receptek és útmutatók</b><p>Nyomtatható anyagok minden szakaszhoz.</p></div>
+<div><span class="ic"><svg viewbox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c3 2 9 2 12 0v-5"></path></svg></span><b>Online Gerson-tanfolyam</b><p>A módszer alapjai lépésről lépésre, otthonról.</p></div>
+</div>
+</div></section>
+<section id="faq" style="padding-top:0"><div class="wrap">
+<div data-reveal="" style="text-align:center"><span class="eyebrow">Kérdések</span><h2 class="h2">Mielőtt megkérdezné</h2></div>
+<div class="faq" data-stagger="80">
+<details class="q" open=""><summary>Folytathatom a jelenlegi orvosi kezelésemet?</summary><p>Igen. Programunk kiegészítő jellegű, soha nem helyettesíti a hagyományos orvosi ellátást. Arra biztatjuk, hogy tartsa tájékoztatva és vonja be orvosait; a turnuson ebben is útmutatást adunk.</p></details>
+<details class="q"><summary>Mindenkinek való a turnus?</summary><p>Nem mindig. Minden turnus előtt egyénileg áttekintjük az adott ember helyzetét, és őszintén megmondjuk, ha a turnus vagy a terápia nem javasolt az Ön számára.</p></details>
+<details class="q"><summary>Mennyi ideig kell otthon követni a Gerson-terápiát?</summary><p>Hosszú távú elköteleződés, gyakran két év vagy több, az adott embertől függően. Az egyhetes turnus megtanítja, hogyan folytassa otthon, online tanácsadásunk pedig végig támogatja.</p></details>
+<details class="q"><summary>Elkísérhet egy családtag vagy gondozó?</summary><p>Kérdezzen meg minket. Egy családtag, aki érti a napi rutint, sokkal könnyebbé teszi az otthoni életet, ezért szívesen megbeszéljük a lehetőségeket.</p></details>
+<details class="q"><summary>Kell tudnom magyarul?</summary><p>Nem. A turnusok magyarul, angolul vagy németül zajlanak, és más nyelvekről is egyeztethetünk.</p></details>
+<details class="q"><summary>Mennyibe kerül egy turnus?</summary><p>Foglalás előtt egyértelmű, írásos ajánlatot küldünk, így pontosan tudja, mit tartalmaz.</p></details>
+</div>
+</div></section>
+<div class="cta" data-reveal="zoom">
+<div><h2>Érdekli egy időpont?</h2><p>Minden megkeresésre személyesen válaszolunk az info@gerson.hu címről.</p></div>
+<div style="display:flex;gap:14px"><a class="btn btn-primary" href="home.html#inquiry">Érdeklődés indítása →</a><a class="btn btn-ghost" href="mailto:info@gerson.hu">Írjon nekünk</a></div>
+</div>
+<footer><div class="wrap">
+<div class="grid">
+<div><div class="brand"><img alt="" src="../assets/logo.png" style="background:#FFF6E3;border-radius:50%;padding:4px"/><div><b style="color:#fff;font-size:22px">Gerson Intézet Európa</b><small style="color:#A9B296">Gerson Intézet Európa Kft.</small></div></div><p style="margin-top:18px;max-width:320px">Európa első akkreditált Gerson-központja, Európa, Ázsia és Afrika érdeklődőinek. Amerikából kérjük, a Health Institute de Tijuanát (Mexikó) keresse.</p></div>
+<div><h5>A terápia</h5><ul><li><a href="home.html#therapy">Mi ez?</a></li><li><a href="home.html#approach">Dr. Gerson eredeti módszere</a></li><li><a href="myths-juice.html">Tévhitek és tények</a></li><li><a href="home.html#journal">Receptek</a></li></ul></div>
+<div><h5>Velünk</h5><ul><li><a href="sessions.html">Egyhetes turnusok</a></li><li><a href="sessions.html#online">Online tanácsadás</a></li><li><a href="home.html#team">Csapatunk</a></li><li><a href="sessions.html#faq">Gyakori kérdések</a></li></ul></div>
+<div><h5>Kapcsolat</h5><ul><li><a href="mailto:info@gerson.hu">info@gerson.hu</a></li><li><a href="tel:+36306426291">+36 30 642 6291</a></li><li>1022 Budapest, Bogár utca 22/C</li><li>Hétköznap 10:00–15:00 (közép-európai idő)</li></ul></div>
+</div>
+<div class="disc">Felelősségkizárás: a Gerson Intézet Európa nem egészségügyi intézmény. Programunk kiegészíti, és soha nem helyettesíti a hagyományos orvosi ellátást. Az oldalon található információk kizárólag tájékoztató jellegűek, és nem helyettesítik orvos vagy más szakember tanácsát. Az eredmények számos tényezőtől függenek, többek között az adott személy egészségi állapotától. · © 2026 Gerson Intézet Európa Kft. · Adatvédelem · Sütik · Impresszum</div>
+</div></footer>
+<script src="../assets/motion.js"></script>
+</body>
+</html>
